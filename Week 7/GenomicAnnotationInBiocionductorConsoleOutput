@@ -1,0 +1,1199 @@
+>   install.packages("BiocManager")
+Error in install.packages : Updating loaded packages
+
+Restarting R session...
+
+Loading required package: AnnotationHub
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames, dirname, do.call, duplicated, eval, evalq,
+    Filter, Find, get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget, order, paste, pmax,
+    pmax.int, pmin, pmin.int, Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply, union,
+    unique, unsplit, which.max, which.min
+
+Loading required package: BiocFileCache
+Loading required package: dbplyr
+Loading required package: ensembldb
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: S4Vectors
+
+Attaching package: 'S4Vectors'
+
+The following objects are masked from 'package:base':
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with 'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: 'Biobase'
+
+The following object is masked from 'package:AnnotationHub':
+
+    cache
+
+Loading required package: AnnotationFilter
+
+Attaching package: 'ensembldb'
+
+The following object is masked from 'package:stats':
+
+    filter
+
+Loading required package: GSEABase
+Loading required package: annotate
+Loading required package: XML
+Loading required package: graph
+
+Attaching package: 'graph'
+
+The following object is masked from 'package:XML':
+
+    addNode
+
+Loading required package: rols
+
+This is 'rols' version 2.22.0 
+
+> BiocManager::install("bioconductor")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'bioconductor'
+Warning message:
+In .inet_warning(msg) :
+  package 'bioconductor' is not available for Bioconductor version '3.14'
+
+A version of this package for your version of R might be available elsewhere,
+see the ideas at
+https://cran.r-project.org/doc/manuals/r-patched/R-admin.html#Installing-packages
+> BiocManager::install("BSgenome")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install: 'BSgenome' 
+> # Bioconductor’s collection of annotation packages brings all elements of this hierarchy into a programmable environment.
+> # Reference genomic sequences are managed using the infrastructure of the Biostrings and BSgenome packages, 
+> # and the available.genomes function lists the reference genome build for humans and various model organisms now available.
+> library(Biostrings)
+Loading required package: XVector
+
+Attaching package: 'Biostrings'
+
+The following object is masked from 'package:graph':
+
+    complement
+
+The following object is masked from 'package:base':
+
+    strsplit
+
+> library(bioconductor)
+Error in library(bioconductor) : 
+  there is no package called 'bioconductor'
+> library(BSgenome)
+Loading required package: rtracklayer
+
+Attaching package: 'rtracklayer'
+
+The following object is masked from 'package:AnnotationHub':
+
+    hubUrl
+
+> ag = available.genomes()
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+> length(ag)
+[1] 106
+> # we can see there is 106 genomes available 
+> # lets display the first couple using head()
+> head(ag)
+[1] "BSgenome.Alyrata.JGI.v1"                 "BSgenome.Amellifera.BeeBase.assembly4"  
+[3] "BSgenome.Amellifera.NCBI.AmelHAv3.1"     "BSgenome.Amellifera.UCSC.apiMel2"       
+[5] "BSgenome.Amellifera.UCSC.apiMel2.masked" "BSgenome.Aofficinalis.NCBI.V1"          
+> # A reference genomic sequence for H. sapiens
+> # The reference sequence for Homo sapiens is acquired by installing and attaching a single package. 
+> # This is in contrast to downloading and parsing FASTA files. 
+> # The package defines an object Hsapiens that is the source of chromosomal sequence, but when evaluated on its own provides a report of the origins of the sequence data that it contains.
+> BiocManager::install("BSgenome.Hsapiens.UCSC.hg19")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install:
+  'BSgenome.Hsapiens.UCSC.hg19' 
+> library(BSgenome.Hsapiens.UCSC.hg19)
+> Hsapiens
+Human genome:
+# organism: Homo sapiens (Human)
+# genome: hg19
+# provider: UCSC
+# release date: June 2013
+# 298 sequences:
+#   chr1                  chr2                  chr3                  chr4                 
+#   chr5                  chr6                  chr7                  chr8                 
+#   chr9                  chr10                 chr11                 chr12                
+#   chr13                 chr14                 chr15                 chr16                
+#   chr17                 chr18                 chr19                 chr20                
+#   ...                   ...                   ...                   ...                  
+#   chr19_gl383575_alt    chr19_gl383576_alt    chr19_gl949746_alt    chr19_gl949747_alt   
+#   chr19_gl949748_alt    chr19_gl949749_alt    chr19_gl949750_alt    chr19_gl949751_alt   
+#   chr19_gl949752_alt    chr19_gl949753_alt    chr20_gl383577_alt    chr21_gl383578_alt   
+#   chr21_gl383579_alt    chr21_gl383580_alt    chr21_gl383581_alt    chr22_gl383582_alt   
+#   chr22_gl383583_alt    chr22_kb663609_alt                                               
+# (use 'seqnames()' to see all the sequence names, use the '$' or '[[' operator to access a given
+# sequence)
+> head(genome(Hsapiens))
+  chr1   chr2   chr3   chr4   chr5   chr6 
+"hg19" "hg19" "hg19" "hg19" "hg19" "hg19" 
+> # Get the chromosome's sequence using the $ operator 
+> Hsapiens$chr17
+81195210-letter DNAString object
+seq: AAGCTTCTCACCCTGTTCCTGCATAGATAATTGCATGACAATTGCCTTG...GTGGGTGTGGGTGTGGGTGTGGGTGTGGTGTGTGGGTGTGGGTGTGGT
+> # UCSC annotation
+> # The TxDb family of packages and data objects manages information on transcripts and gene models. 
+> # We consider those derived from annotation tables prepared for the UCSC genome browser.
+> BiocManager::install("TxDb.Hsapiens.UCSC.hg19.knownGene")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install:
+  'TxDb.Hsapiens.UCSC.hg19.knownGene' 
+> library(TxDb.Hsapiens.UCSC.hg19.knownGene)
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with 'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+> # abbreviate
+> txdb = TxDb.Hsapiens.UCSC.hg19.knownGene 
+> txdb
+TxDb object:
+# Db type: TxDb
+# Supporting package: GenomicFeatures
+# Data source: UCSC
+# Genome: hg19
+# Organism: Homo sapiens
+# Taxonomy ID: 9606
+# UCSC Table: knownGene
+# Resource URL: http://genome.ucsc.edu/
+# Type of Gene ID: Entrez Gene ID
+# Full dataset: yes
+# miRBase build ID: GRCh37
+# transcript_nrow: 82960
+# exon_nrow: 289969
+# cds_nrow: 237533
+# Db created by: GenomicFeatures package from Bioconductor
+# Creation time: 2015-10-07 18:11:28 +0000 (Wed, 07 Oct 2015)
+# GenomicFeatures version at creation time: 1.21.30
+# RSQLite version at creation time: 1.0.0
+# DBSCHEMAVERSION: 1.1
+> # We can use genes() to get the addresses of genes using Entrez Gene IDs.
+> ghs = genes(txdb)
+  403 genes were dropped because they have exons located on both strands of the same reference sequence or on more
+  than one reference sequence, so cannot be represented by a single genomic range.
+  Use 'single.strand.genes.only=FALSE' to get all the genes in a GRangesList object, or use suppressMessages() to
+  suppress this message.
+> ag = available.genomes()
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+> ghs
+GRanges object with 23056 ranges and 1 metadata column:
+        seqnames              ranges strand |     gene_id
+           <Rle>           <IRanges>  <Rle> | <character>
+      1    chr19   58858172-58874214      - |           1
+     10     chr8   18248755-18258723      + |          10
+    100    chr20   43248163-43280376      - |         100
+   1000    chr18   25530930-25757445      - |        1000
+  10000     chr1 243651535-244006886      - |       10000
+    ...      ...                 ...    ... .         ...
+   9991     chr9 114979995-115095944      - |        9991
+   9992    chr21   35736323-35743440      + |        9992
+   9993    chr22   19023795-19109967      - |        9993
+   9994     chr6   90539619-90584155      + |        9994
+   9997    chr22   50961997-50964905      - |        9997
+  -------
+  seqinfo: 93 sequences (1 circular) from hg19 genome
+> # Filtering is permitted, with suitable identifiers. 
+> # Here we select all exons identified for two different genes, identified by their Entrez Gene ids:
+> exons(txdb, columns=c("EXONID", "TXNAME", "GENEID"),
++       filter=list(gene_id=c(100, 101)))
+GRanges object with 39 ranges and 3 metadata columns:
+       seqnames              ranges strand |    EXONID                           TXNAME          GENEID
+          <Rle>           <IRanges>  <Rle> | <integer>                  <CharacterList> <CharacterList>
+   [1]    chr10 135075920-135076737      - |    144421 uc009ybi.3,uc010qva.2,uc021qbe.1             101
+   [2]    chr10 135077192-135077269      - |    144422            uc009ybi.3,uc021qbe.1             101
+   [3]    chr10 135080856-135080921      - |    144423 uc009ybi.3,uc010qva.2,uc021qbe.1             101
+   [4]    chr10 135081433-135081570      - |    144424                       uc009ybi.3             101
+   [5]    chr10 135081433-135081622      - |    144425            uc010qva.2,uc021qbe.1             101
+   ...      ...                 ...    ... .       ...                              ...             ...
+  [35]    chr20   43254210-43254325      - |    256371                       uc002xmj.3             100
+  [36]    chr20   43255097-43255240      - |    256372                       uc002xmj.3             100
+  [37]    chr20   43257688-43257810      - |    256373                       uc002xmj.3             100
+  [38]    chr20   43264868-43264929      - |    256374                       uc002xmj.3             100
+  [39]    chr20   43280216-43280376      - |    256375                       uc002xmj.3             100
+  -------
+  seqinfo: 93 sequences (1 circular) from hg19 genome
+> # ENSEMBL annotation
+> # Ensembl creates, integrates and distributes reference datasets and analysis tools that enable genomics
+> # The ensembldb package provides functions to create and use transcript centric annotation databases/packages.
+> # The functionality and data is similar to that of the TxDb packages from the GenomicFeatures package, but, 
+> # in addition to retrieve all gene/transcript models and annotations from the database, 
+> # the ensembldb package provides also a filter framework allowing to retrieve annotations for specific entries like genes encoded on a chromosome region or transcript models of lincRNA genes. 
+> library(ensembldb)
+Error in library(ensembldb) : there is no package called ‘ensembldb’
+> # ENSEMBL annotation
+> # Ensembl creates, integrates and distributes reference datasets and analysis tools that enable genomics
+> # The ensembldb package provides functions to create and use transcript centric annotation databases/packages.
+> # The functionality and data is similar to that of the TxDb packages from the GenomicFeatures package, but, 
+> # in addition to retrieve all gene/transcript models and annotations from the database, 
+> # the ensembldb package provides also a filter framework allowing to retrieve annotations for specific entries like genes encoded on a chromosome region or transcript models of lincRNA genes. 
+> BiocManager::install("ensembldb")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'ensembldb'
+also installing the dependencies ‘AnnotationFilter’, ‘ProtGenerics’
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/AnnotationFilter_1.18.0.tgz'
+Content type 'application/x-gzip' length 517214 bytes (505 KB)
+==================================================
+downloaded 505 KB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/ProtGenerics_1.26.0.tgz'
+Content type 'application/x-gzip' length 215058 bytes (210 KB)
+==================================================
+downloaded 210 KB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/ensembldb_2.18.3.tgz'
+Content type 'application/x-gzip' length 3574188 bytes (3.4 MB)
+==================================================
+downloaded 3.4 MB
+
+
+The downloaded binary packages are in
+	/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T//RtmpXRJlGD/downloaded_packages
+> BiocManager::install("EnsDb.Hsapiens.v75")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'EnsDb.Hsapiens.v75'
+installing the source package ‘EnsDb.Hsapiens.v75’
+
+trying URL 'https://bioconductor.org/packages/3.14/data/annotation/src/contrib/EnsDb.Hsapiens.v75_2.99.0.tar.gz'
+Content type 'application/x-gzip' length 79029669 bytes (75.4 MB)
+==================================================
+downloaded 75.4 MB
+
+* installing *source* package ‘EnsDb.Hsapiens.v75’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (EnsDb.Hsapiens.v75)
+
+The downloaded source packages are in
+	‘/private/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T/RtmpXRJlGD/downloaded_packages’
+> library(ensembldb)
+Loading required package: AnnotationFilter
+
+Attaching package: 'ensembldb'
+
+The following object is masked from 'package:stats':
+
+    filter
+
+> library(EnsDb.Hsapiens.v75)
+> names(listTables(EnsDb.Hsapiens.v75))
+ [1] "gene"           "tx"             "tx2exon"        "exon"           "chromosome"     "protein"        "uniprot"       
+ [8] "protein_domain" "entrezgene"     "metadata"      
+> edb = EnsDb.Hsapiens.v75  # abbreviate
+> txs <- transcripts(edb, filter = GenenameFilter("ZBTB16"),
++                    columns = c("protein_id", "uniprot_id", "tx_biotype"))
+Warning message:
+'GenenameFilter' is deprecated.
+Use 'GeneNameFilter' instead.
+See help("Deprecated") 
+> txs <- transcripts(edb, filter = GeneNameFilter("ZBTB16"),
++                    columns = c("protein_id", "uniprot_id", "tx_biotype"))
+> txs
+GRanges object with 20 ranges and 5 metadata columns:
+                  seqnames              ranges strand |      protein_id   uniprot_id             tx_biotype           tx_id
+                     <Rle>           <IRanges>  <Rle> |     <character>  <character>            <character>     <character>
+  ENST00000335953       11 113930315-114121398      + | ENSP00000338157  ZBT16_HUMAN         protein_coding ENST00000335953
+  ENST00000335953       11 113930315-114121398      + | ENSP00000338157 Q71UL7_HUMAN         protein_coding ENST00000335953
+  ENST00000335953       11 113930315-114121398      + | ENSP00000338157 Q71UL6_HUMAN         protein_coding ENST00000335953
+  ENST00000335953       11 113930315-114121398      + | ENSP00000338157 Q71UL5_HUMAN         protein_coding ENST00000335953
+  ENST00000335953       11 113930315-114121398      + | ENSP00000338157 F5H6C3_HUMAN         protein_coding ENST00000335953
+              ...      ...                 ...    ... .             ...          ...                    ...             ...
+  ENST00000392996       11 113931229-114121374      + | ENSP00000376721 F5H5Y7_HUMAN         protein_coding ENST00000392996
+  ENST00000539918       11 113935134-114118066      + | ENSP00000445047         <NA> nonsense_mediated_de.. ENST00000539918
+  ENST00000545851       11 114051488-114118018      + |            <NA>         <NA>   processed_transcript ENST00000545851
+  ENST00000535379       11 114107929-114121279      + |            <NA>         <NA>   processed_transcript ENST00000535379
+  ENST00000535509       11 114117512-114121198      + |            <NA>         <NA>        retained_intron ENST00000535509
+                    gene_name
+                  <character>
+  ENST00000335953      ZBTB16
+  ENST00000335953      ZBTB16
+  ENST00000335953      ZBTB16
+  ENST00000335953      ZBTB16
+  ENST00000335953      ZBTB16
+              ...         ...
+  ENST00000392996      ZBTB16
+  ENST00000539918      ZBTB16
+  ENST00000545851      ZBTB16
+  ENST00000535379      ZBTB16
+  ENST00000535509      ZBTB16
+  -------
+  seqinfo: 1 sequence from GRCh37 genome
+> # import/export
+> # Your data will be someone else’s annotation
+> # As an example, we consider estrogen receptor (ER) binding data, published by ENCODE as narrowPeak files. 
+> # This is ascii text at its base, so can be imported as a set of textual lines with no difficulty. 
+> # If there is sufficient regularity to the record fields, the file could be imported as a table.
+> # We want to go beyond this, so that the import is usable as a computable object as rapidly as possible. 
+> # Recognizing the connection between the narrowPeak and bedGraph formats, we can import immediately to a GRanges.
+> # To illustrate this, we find the path to the narrowPeak raw data file in the ERBS package.
+> f1 = dir(system.file("extdata",package="ERBS"), full=TRUE)[1]
+> readLines(f1, 4) # look at a few lines
+Error in file(con, "r") : invalid 'description' argument
+> # import command
+> BiocManager::install("rtracklayer")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install: 'rtracklayer' 
+> library(rtracklayer)
+> imp = import(f1, format="bedGraph")
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'con' in selecting a method for function 'import': 'path' must be a single string or a connection object
+> # Annotation hub
+> # The AnnotationHub package can be used to obtain GRanges or other suitably designed containers for institutionally curated annotation.
+> library(AnnotationHub)
+Error in library(AnnotationHub) : 
+  there is no package called 'AnnotationHub'
+> # Annotation hub
+> # The AnnotationHub package can be used to obtain GRanges or other suitably designed containers for institutionally curated annotation.
+> BiocManager::install("AnnotationHub")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'AnnotationHub'
+also installing the dependencies 'sass', 'httpuv', 'xtable', 'fontawesome', 'sourcetools', 'bslib', 'shiny', 'interactiveDisplayBase'
+
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/sass_0.4.0.tgz'
+Content type 'application/x-gzip' length 2388256 bytes (2.3 MB)
+==================================================
+downloaded 2.3 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/httpuv_1.6.5.tgz'
+Content type 'application/x-gzip' length 2746719 bytes (2.6 MB)
+===========
+downloaded 607 KB
+
+Error in download.file(url, destfile, method, mode = "wb", ...) : 
+  download from 'https://cran.rstudio.com/bin/macosx/contrib/4.1/httpuv_1.6.5.tgz' failed
+In addition: Warning messages:
+1: In .inet_warning(msg) :
+  downloaded length 621627 != reported length 2746719
+2: In .inet_warning(msg) :
+  URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/httpuv_1.6.5.tgz': Timeout of 300 seconds was reached
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/xtable_1.8-4.tgz'
+Content type 'application/x-gzip' length 701448 bytes (685 KB)
+==================================================
+downloaded 685 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/fontawesome_0.2.2.tgz'
+Content type 'application/x-gzip' length 1530165 bytes (1.5 MB)
+==================================================
+downloaded 1.5 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/sourcetools_0.1.7.tgz'
+Content type 'application/x-gzip' length 138851 bytes (135 KB)
+==================================================
+downloaded 135 KB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/bslib_0.3.1.tgz'
+Content type 'application/x-gzip' length 4780706 bytes (4.6 MB)
+==================================================
+downloaded 4.6 MB
+
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/shiny_1.7.1.tgz'
+Content type 'application/x-gzip' length 4174652 bytes (4.0 MB)
+==================================================
+downloaded 4.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/interactiveDisplayBase_1.32.0.tgz'
+Content type 'application/x-gzip' length 32715 bytes (31 KB)
+==================================================
+downloaded 31 KB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/AnnotationHub_3.2.1.tgz'
+Content type 'application/x-gzip' length 1316894 bytes (1.3 MB)
+==================================================
+downloaded 1.3 MB
+
+
+The downloaded binary packages are in
+	/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T//RtmpXRJlGD/downloaded_packages
+Warning message:
+In .inet_warning(msg) : download of package 'httpuv' failed
+> library(AnnotationHub)
+Loading required package: BiocFileCache
+Loading required package: dbplyr
+Error: package or namespace load failed for 'AnnotationHub' in loadNamespace(i, c(lib.loc, .libPaths()), versionCheck = vI[[i]]):
+ there is no package called 'httpuv'
+> install.packages("httpuv")
+trying URL 'https://cran.rstudio.com/bin/macosx/contrib/4.1/httpuv_1.6.5.tgz'
+Content type 'application/x-gzip' length 2746719 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+
+The downloaded binary packages are in
+	/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T//RtmpXRJlGD/downloaded_packages
+> library(AnnotationHub)
+
+Attaching package: 'AnnotationHub'
+
+The following object is masked from 'package:Biobase':
+
+    cache
+
+The following object is masked from 'package:rtracklayer':
+
+    hubUrl
+
+> ah = AnnotationHub()
+/Users/natalieburkhard/Library/Caches/org.R-project.R/R/AnnotationHub
+  does not exist, create directory? (yes/no): ah
+/Users/natalieburkhard/Library/Caches/org.R-project.R/R/AnnotationHub
+  does not exist, create directory? (yes/no): 
+> ah = AnnotationHub()
+/Users/natalieburkhard/Library/Caches/org.R-project.R/R/AnnotationHub
+  does not exist, create directory? (yes/no): yes
+  |============                                                                                                           |  10%Warning message:
+download failed
+  web resource path: 'https://annotationhub.bioconductor.org/metadata/annotationhub.sqlite3'
+  local file path: '/Users/natalieburkhard/Library/Caches/org.R-project.R/R/AnnotationHub/cfc43ee31197_annotationhub.sqlite3'
+  reason: Operation was aborted by an application callback 
+> ah = AnnotationHub()
+  |=======================================================================================================================| 100%
+
+snapshotDate(): 2021-10-20
+> ah
+AnnotationHub with 62386 records
+# snapshotDate(): 2021-10-20
+# $dataprovider: Ensembl, BroadInstitute, UCSC, ftp://ftp.ncbi.nlm.nih.gov/gene/DATA/, Haemcode, FungiDB, Inparanoid8, FANTOM...
+# $species: Homo sapiens, Mus musculus, Drosophila melanogaster, Bos taurus, Rattus norvegicus, Pan troglodytes, Danio rerio,...
+# $rdataclass: GRanges, TwoBitFile, BigWigFile, EnsDb, Rle, OrgDb, ChainFile, TxDb, SQLiteFile, Inparanoid8Db
+# additional mcols(): taxonomyid, genome, description, coordinate_1_based, maintainer, rdatadateadded,
+#   preparerclass, tags, rdatapath, sourceurl, sourcetype 
+# retrieve records with, e.g., 'object[["AH5012"]]' 
+
+             title                                                         
+  AH5012   | Chromosome Band                                               
+  AH5013   | STS Markers                                                   
+  AH5014   | FISH Clones                                                   
+  AH5015   | Recomb Rate                                                   
+  AH5016   | ENCODE Pilot                                                  
+  ...        ...                                                           
+  AH100299 | Zonotrichia_albicollis.Zonotrichia_albicollis-1.0.1.ncrna.2bit
+  AH100300 | Zosterops_lateralis_melanops.ASM128173v1.cdna.all.2bit        
+  AH100301 | Zosterops_lateralis_melanops.ASM128173v1.dna_rm.toplevel.2bit 
+  AH100302 | Zosterops_lateralis_melanops.ASM128173v1.dna_sm.toplevel.2bit 
+  AH100303 | Zosterops_lateralis_melanops.ASM128173v1.ncrna.2bit           
+> # There are a number of experimental data objects related to the HepG2 cell line available through AnnotationHub.
+> query(ah, "HepG2")
+AnnotationHub with 440 records
+# snapshotDate(): 2021-10-20
+# $dataprovider: UCSC, BroadInstitute, Pazar
+# $species: Homo sapiens, NA
+# $rdataclass: GRanges, BigWigFile
+# additional mcols(): taxonomyid, genome, description, coordinate_1_based, maintainer, rdatadateadded,
+#   preparerclass, tags, rdatapath, sourceurl, sourcetype 
+# retrieve records with, e.g., 'object[["AH22246"]]' 
+
+            title                                                                 
+  AH22246 | pazar_CEBPA_HEPG2_Schmidt_20120522.csv                                
+  AH22249 | pazar_CTCF_HEPG2_Schmidt_20120522.csv                                 
+  AH22273 | pazar_HNF4A_HEPG2_Schmidt_20120522.csv                                
+  AH22309 | pazar_STAG1_HEPG2_Schmidt_20120522.csv                                
+  AH22348 | wgEncodeAffyRnaChipFiltTransfragsHepg2CytosolLongnonpolya.broadPeak.gz
+  ...       ...                                                                   
+  AH41564 | E118-H4K5ac.imputed.pval.signal.bigwig                                
+  AH41691 | E118-H4K8ac.imputed.pval.signal.bigwig                                
+  AH41818 | E118-H4K91ac.imputed.pval.signal.bigwig                               
+  AH46971 | E118_15_coreMarks_mnemonics.bed.gz                                    
+  AH49484 | E118_RRBS_FractionalMethylation.bigwig                                
+> # The query method can take a vector of filtering strings. To limit response to annotation resources addressing the histone H4K5, simply add that tag:
+> query(ah, c("HepG2", "H4K5"))
+AnnotationHub with 1 record
+# snapshotDate(): 2021-10-20
+# names(): AH41564
+# $dataprovider: BroadInstitute
+# $species: Homo sapiens
+# $rdataclass: BigWigFile
+# $rdatadateadded: 2015-05-08
+# $title: E118-H4K5ac.imputed.pval.signal.bigwig
+# $description: Bigwig File containing -log10(p-value) signal tracks from EpigenomeRoadMap Project
+# $taxonomyid: 9606
+# $genome: hg19
+# $sourcetype: BigWig
+# $sourceurl: http://egg2.wustl.edu/roadmap/data/byFileType/signal/consolidatedImputed/H4K5ac/E118-H4K5ac.imputed.pval.signal...
+# $sourcesize: 226630905
+# $tags: c("EpigenomeRoadMap", "signal", "consolidatedImputed", "H4K5ac", "E118", "ENCODE2012", "LIV.HEPG2.CNCR",
+#   "HepG2 Hepatocellular Carcinoma Cell Line") 
+# retrieve record with 'object[["AH41564"]]' 
+> # The OrgDb Gene annotation maps
+> # Packages named org.*.eg.db collect information at the gene level with links to location, protein product identifiers, KEGG pathway and GO terms, PMIDs of papers mentioning genes, and to identifiers for other annotation resources.
+> BiocManager::install("org.Hs.eg.db")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'org.Hs.eg.db'
+installing the source package 'org.Hs.eg.db'
+
+trying URL 'https://bioconductor.org/packages/3.14/data/annotation/src/contrib/org.Hs.eg.db_3.14.0.tar.gz'
+Content type 'application/x-gzip' length 82195112 bytes (78.4 MB)
+==================================================
+downloaded 78.4 MB
+
+* installing *source* package ‘org.Hs.eg.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (org.Hs.eg.db)
+
+The downloaded source packages are in
+	'/private/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T/RtmpXRJlGD/downloaded_packages'
+> library(org.Hs.eg.db)
+
+> keytypes(org.Hs.eg.db) # columns() gives same answer
+ [1] "ACCNUM"       "ALIAS"        "ENSEMBL"      "ENSEMBLPROT"  "ENSEMBLTRANS" "ENTREZID"     "ENZYME"       "EVIDENCE"    
+ [9] "EVIDENCEALL"  "GENENAME"     "GENETYPE"     "GO"           "GOALL"        "IPI"          "MAP"          "OMIM"        
+[17] "ONTOLOGY"     "ONTOLOGYALL"  "PATH"         "PFAM"         "PMID"         "PROSITE"      "REFSEQ"       "SYMBOL"      
+[25] "UCSCKG"       "UNIPROT"     
+> head(select(org.Hs.eg.db, keys="ORMDL3", keytype="SYMBOL", 
++             columns="PMID"))
+'select()' returned 1:many mapping between keys and columns
+  SYMBOL     PMID
+1 ORMDL3 11042152
+2 ORMDL3 12093374
+3 ORMDL3 12477932
+4 ORMDL3 14702039
+5 ORMDL3 15489334
+6 ORMDL3 16169070
+> library(GO.db)
+Error in library(GO.db) : there is no package called 'GO.db'
+> # Resources for gene sets and pathways
+> # Gene Ontology (GO) is a widely used structured vocabulary that organizes terms relevant to the roles of genes and gene products in
+> #   biological processes,
+> #   molecular functions, and
+> #   cellular components. 
+> # The vocabulary itself is intended to be relevant for all organisms. It takes the form of a directed acyclic graph, with terms as nodes and ‘is-a’ and ‘part-of’ relationships comprising most of the links.
+> # The annotation that links organism-specific genes to terms in gene ontology is separate from the vocabulary itself, and involves different types of evidence. These are recorded in Bioconductor annotation packages.
+> # We have immediate access to the GO vocabulary with the GO.db package.
+> BiocManager::install("GO.db")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'GO.db'
+installing the source package 'GO.db'
+
+trying URL 'https://bioconductor.org/packages/3.14/data/annotation/src/contrib/GO.db_3.14.0.tar.gz'
+Content type 'application/x-gzip' length 30254515 bytes (28.9 MB)
+==================================================
+downloaded 28.9 MB
+
+* installing *source* package ‘GO.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (GO.db)
+
+The downloaded source packages are in
+	'/private/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T/RtmpXRJlGD/downloaded_packages'
+> library(GO.db)
+
+> GO.db # metadata
+GODb object:
+| GOSOURCENAME: Gene Ontology
+| GOSOURCEURL: http://current.geneontology.org/ontology/go-basic.obo
+| GOSOURCEDATE: 2021-09-01
+| Db type: GODb
+| package: AnnotationDbi
+| DBSCHEMA: GO_DB
+| GOEGSOURCEDATE: 2021-Sep13
+| GOEGSOURCENAME: Entrez Gene
+| GOEGSOURCEURL: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA
+| DBSCHEMAVERSION: 2.1
+
+Please see: help('select') for usage information
+> # The keys/columns/select functionality of AnnotationDbi is easy to use for mappings between ids, terms and definitions.
+> k5 = keys(GO.db)[1:5]
+> cgo = columns(GO.db)
+> select(GO.db, keys=k5, columns=cgo[1:3])
+'select()' returned 1:1 mapping between keys and columns
+        GOID
+1 GO:0000001
+2 GO:0000002
+3 GO:0000003
+4 GO:0000006
+5 GO:0000007
+                                                                                                                                                                                                                                                                                     DEFINITION
+1                                                                                                       The distribution of mitochondria, including the mitochondrial genome, into daughter cells after mitosis or meiosis, mediated by interactions between mitochondria and the cytoskeleton.
+2                                                                                                                                             The maintenance of the structure and integrity of the mitochondrial genome; includes replication and segregation of the mitochondrial chromosome.
+3                                                                                                                                                                  The production of new individuals that contain some portion of genetic material inherited from one or more parent organisms.
+4                                      Enables the transfer of zinc ions (Zn2+) from one side of a membrane to the other, probably powered by proton motive force. In high-affinity transport the transporter is able to bind the solute even if it is only present at very low concentrations.
+5 Enables the transfer of a solute or solutes from one side of a membrane to the other according to the reaction: Zn2+ = Zn2+, probably powered by proton motive force. In low-affinity transport the transporter is able to bind the solute only if it is present at very high concentrations.
+  ONTOLOGY
+1       BP
+2       BP
+3       BP
+4       MF
+5       MF
+> # The graphical structure of the vocabulary is encoded in tables in a SQLite database. We can query this using the RSQLite interface.
+> con = GO_dbconn()
+> dbListTables(con)
+Error in dbListTables(con) : could not find function "dbListTables"
+> # The graphical structure of the vocabulary is encoded in tables in a SQLite database. We can query this using the RSQLite interface.
+> install.packages("DBI")
+Error in install.packages : Updating loaded packages
+
+Restarting R session...
+
+Loading required package: AnnotationHub
+Loading required package: BiocGenerics
+
+Attaching package: 'BiocGenerics'
+
+The following objects are masked from 'package:stats':
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from 'package:base':
+
+    anyDuplicated, append, as.data.frame, basename, cbind, colnames, dirname, do.call, duplicated, eval, evalq,
+    Filter, Find, get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply, match, mget, order, paste, pmax,
+    pmax.int, pmin, pmin.int, Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort, table, tapply, union,
+    unique, unsplit, which.max, which.min
+
+Loading required package: BiocFileCache
+Loading required package: dbplyr
+Loading required package: ensembldb
+Loading required package: GenomicRanges
+Loading required package: stats4
+Loading required package: S4Vectors
+
+Attaching package: 'S4Vectors'
+
+The following objects are masked from 'package:base':
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+Loading required package: GenomicFeatures
+Loading required package: AnnotationDbi
+Loading required package: Biobase
+Welcome to Bioconductor
+
+    Vignettes contain introductory material; view with 'browseVignettes()'. To cite Bioconductor, see
+    'citation("Biobase")', and for packages 'citation("pkgname")'.
+
+
+Attaching package: 'Biobase'
+
+The following object is masked from 'package:AnnotationHub':
+
+    cache
+
+Loading required package: AnnotationFilter
+
+Attaching package: 'ensembldb'
+
+The following object is masked from 'package:stats':
+
+    filter
+
+> library(DBI)
+> con = GO_dbconn()
+Error in GO_dbconn() : could not find function "GO_dbconn"
+> library(GO.db)
+
+> con = GO_dbconn()
+> dbListTables(con)
+ [1] "go_bp_offspring" "go_bp_parents"   "go_cc_offspring" "go_cc_parents"   "go_mf_offspring" "go_mf_parents"  
+ [7] "go_obsolete"     "go_ontology"     "go_synonym"      "go_term"         "map_counts"      "map_metadata"   
+[13] "metadata"        "sqlite_stat1"   
+> # The following query reveals some internal identifiers:
+> dbGetQuery(con, "select _id, go_id, term from go_term limit 5")
+  _id      go_id                                                     term
+1   2 GO:0000001                                mitochondrion inheritance
+2   3 GO:0000002                         mitochondrial genome maintenance
+3   4 GO:0000003                                             reproduction
+4   6 GO:0000006    high-affinity zinc transmembrane transporter activity
+5   7 GO:0000007 low-affinity zinc ion transmembrane transporter activity
+> # We can trace the mitochondrion inheritance term to parent and grandparent terms:
+> dbGetQuery(con, "select * from go_bp_parents where _id=30")
+[1] _id               _parent_id        relationship_type
+<0 rows> (or 0-length row.names)
+> dbGetQuery(con, "select _id, go_id, term from go_term where _id=26616")
+    _id      go_id                          term
+1 26616 GO:0050401 xylonate dehydratase activity
+> dbGetQuery(con, "select * from go_bp_parents where _id=26616")
+[1] _id               _parent_id        relationship_type
+<0 rows> (or 0-length row.names)
+> dbGetQuery(con, "select _id, go_id, term from go_term where _id=5932")
+   _id      go_id                                                     term
+1 5932 GO:0007546 somatic processes downstream of sex determination signal
+> # KEGG: Kyoto Encyclopedia of Genes and Genomes
+> # The KEGG annotation system has been available in Bioconductor since the latter’s inception, but licensing of the database has changed. When we attach KEGG.db we see
+> library(KEGG.db)
+Error in library(KEGG.db) : there is no package called 'KEGG.db'
+> # Therefore we focus on KEGGREST, which requires active internet connection. A very useful query resolution facility is based on Entrez identifiers. The Entrez ID for BRCA2 is 675. We’ll perform a general query.
+> BiocManager::install("KEGGREST")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install: 'KEGGREST' 
+> library(KEGGREST)
+> brca2K = keggGet("hsa:675")
+> names(brca2K[[1]])
+ [1] "ENTRY"     "SYMBOL"    "NAME"      "ORTHOLOGY" "ORGANISM"  "PATHWAY"   "DISEASE"   "BRITE"     "POSITION"  "MOTIF"    
+[11] "DBLINKS"   "STRUCTURE" "AASEQ"     "NTSEQ"    
+> # The list of genes making up a pathway model can be obtained with another keggGet:
+> brpat = keggGet("path:hsa05212")
+> names(brpat[[1]])
+ [1] "ENTRY"       "NAME"        "DESCRIPTION" "CLASS"       "PATHWAY_MAP" "NETWORK"     "DISEASE"     "DRUG"       
+ [9] "ORGANISM"    "GENE"        "COMPOUND"    "REL_PATHWAY" "KO_PATHWAY"  "REFERENCE"  
+> brpat[[1]]$GENE[seq(1,132,2)] # entrez gene ids
+ [1] "3845"  "5290"  "5293"  "5291"  "5295"  "5296"  "8503"  "9459"  "5879"  "5880"  "5881"  "4790"  "5970"  "207"   "208"  
+[16] "10000" "1147"  "3551"  "8517"  "572"   "598"   "842"   "369"   "673"   "5894"  "5604"  "5594"  "5595"  "5599"  "5602" 
+[31] "5601"  "5900"  "5898"  "5899"  "10928" "998"   "5337"  "5338"  "7039"  "1950"  "1956"  "2064"  "2475"  "6198"  "6199" 
+[46] "3716"  "6774"  "6772"  "7422"  "1029"  "1019"  "1021"  "595"   "5925"  "1869"  "1870"  "1871"  "7157"  "1026"  "1647" 
+[61] "4616"  "10912" "581"   "578"   "1643"  "51426"
+> # we can acquire a static image of the (human) pancreatic cancer pathway in which BRCA2 is implicated.
+> BiocManager::install("png")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install: 'png' 
+> BiocManager::install("grid")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Warning message:
+package(s) not installed when version(s) same as current; use `force = TRUE` to re-install: 'grid' 
+> library(png)
+> library(grid)
+> brpng = keggGet("hsa05212", "image")
+> grid.raster(brpng)
+> # The rols package interfaces to the EMBL-EBI Ontology Lookup Service.
+> BiocManager::install("rols")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'rols'
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/rols_2.22.0.tgz'
+Content type 'application/x-gzip' length 667097 bytes (651 KB)
+==================================================
+downloaded 651 KB
+
+
+The downloaded binary packages are in
+	/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T//RtmpHPKIT9/downloaded_packages
+> vlibrary(rols)
+Error in vlibrary(rols) : could not find function "vlibrary"
+> library(rols)
+
+This is 'rols' version 2.22.0 
+
+> oo = Ontologies()
+> oo
+Object of class 'Ontologies' with 273 entries
+   AEO, AFO ... ZFA, EPIO 
+> oo
+Object of class 'Ontologies' with 273 entries
+   AEO, AFO ... ZFA, EPIO 
+> oo[[1]]
+Ontology: Anatomical Entity Ontology (aeo)  
+  AEO is an ontology of anatomical structures that expands CARO, the Common Anatomy Reference Ontology
+   Loaded: 2021-08-04 Updated: 2022-02-21 Version: 2014-12-05 
+   250 terms  26 properties  0 individuals
+> # To control the amount of network traffic involved in query retrieval, there are stages of search.
+> glis = OlsSearch("glioblastoma")
+> glis
+Object of class 'OlsSearch':
+  query: glioblastoma 
+  requested: 20 (out of 874)
+  response(s): 0 
+> res = olsSearch(glis)
+> dim(res)
+NULL
+> resdf = as(res, "data.frame") # get content
+> resdf[1:4,1:4]
+                                                        id                                          iri    short_form
+1     ncit:class:http://purl.obolibrary.org/obo/NCIT_C3058    http://purl.obolibrary.org/obo/NCIT_C3058    NCIT_C3058
+2 mondo:class:http://purl.obolibrary.org/obo/MONDO_0018177 http://purl.obolibrary.org/obo/MONDO_0018177 MONDO_0018177
+3       ms:class:http://purl.obolibrary.org/obo/NCIT_C3058    http://purl.obolibrary.org/obo/NCIT_C3058    NCIT_C3058
+4   omit:class:http://purl.obolibrary.org/obo/OMIT_0007102  http://purl.obolibrary.org/obo/OMIT_0007102  OMIT_0007102
+         obo_id
+1    NCIT:C3058
+2 MONDO:0018177
+3    NCIT:C3058
+4  OMIT:0007102
+> resdf[1,5]  # full description for one instance
+[1] "Glioblastoma"
+> # The GSEABase package has excellent infrastructure for managing gene sets and collections thereof. 
+> #We illustrate by importing a glioblastoma-related gene set from MSigDb.
+> BiocManager::install("GSEABase")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'GSEABase'
+also installing the dependencies 'annotate', 'graph'
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/annotate_1.72.0.tgz'
+Content type 'application/x-gzip' length 2081366 bytes (2.0 MB)
+==================================================
+downloaded 2.0 MB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/graph_1.72.0.tgz'
+Content type 'application/x-gzip' length 1625877 bytes (1.6 MB)
+==================================================
+downloaded 1.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/GSEABase_1.56.0.tgz'
+Content type 'application/x-gzip' length 974581 bytes (951 KB)
+==================================================
+downloaded 951 KB
+
+
+The downloaded binary packages are in
+	/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T//RtmpHPKIT9/downloaded_packages
+> library(GSEABase)
+Loading required package: annotate
+Loading required package: XML
+Loading required package: graph
+
+Attaching package: 'graph'
+
+The following object is masked from 'package:XML':
+
+    addNode
+
+> glioG = getGmt(system.file("gmt/glioSets.gmt", package="ph525x"))
+Warning message:
+In file(con, "r") :
+  file("") only supports open = "w+" and open = "w+b": using the former
+> glioG
+GeneSetCollection
+  names:  (0 total)
+  unique identifiers:  (0 total)
+  types in collection:
+    geneIdType:  (0 total)
+    collectionType:  (0 total)
+> head(geneIds(glioG[[1]]))
+Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'x' in selecting a method for function 'head': error in evaluating the argument 'object' in selecting a method for function 'geneIds': subscript out of bounds
+> # The OrganismDb packages simplify access to annotation. Queries that succeed against TxDb, and org.[Nn].eg.db can be directed at the OrganismDb object.
+> BiocManager::install("Homo.sapiens")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'Homo.sapiens'
+also installing the dependencies 'RBGL', 'OrganismDbi'
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/RBGL_1.70.0.tgz'
+Content type 'application/x-gzip' length 2759302 bytes (2.6 MB)
+==================================================
+downloaded 2.6 MB
+
+trying URL 'https://bioconductor.org/packages/3.14/bioc/bin/macosx/contrib/4.1/OrganismDbi_1.36.0.tgz'
+Content type 'application/x-gzip' length 679378 bytes (663 KB)
+==================================================
+downloaded 663 KB
+
+
+The downloaded binary packages are in
+	/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T//RtmpHPKIT9/downloaded_packages
+installing the source package 'Homo.sapiens'
+
+trying URL 'https://bioconductor.org/packages/3.14/data/annotation/src/contrib/Homo.sapiens_1.3.1.tar.gz'
+Content type 'application/x-gzip' length 1617 bytes
+==================================================
+downloaded 1617 bytes
+
+* installing *source* package ‘Homo.sapiens’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (Homo.sapiens)
+
+The downloaded source packages are in
+	'/private/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T/RtmpHPKIT9/downloaded_packages'
+> oo = Ontologies()
+> library(Homo.sapiens)
+Loading required package: OrganismDbi
+Loading required package: org.Hs.eg.db
+
+Loading required package: TxDb.Hsapiens.UCSC.hg19.knownGene
+> class(Homo.sapiens)
+[1] "OrganismDb"
+attr(,"package")
+[1] "OrganismDbi"
+> Homo.sapiens
+OrganismDb Object:
+# Includes GODb Object:  GO.db 
+# With data about:  Gene Ontology 
+# Includes OrgDb Object:  org.Hs.eg.db 
+# Gene data about:  Homo sapiens 
+# Taxonomy Id:  9606 
+# Includes TxDb Object:  TxDb.Hsapiens.UCSC.hg19.knownGene 
+# Transcriptome data about:  Homo sapiens 
+# Based on genome:  hg19 
+# The OrgDb gene id ENTREZID is mapped to the TxDb gene id GENEID .
+> tx = transcripts(Homo.sapiens)
+'select()' returned 1:1 mapping between keys and columns
+> keytypes(Homo.sapiens)
+ [1] "ACCNUM"       "ALIAS"        "CDSID"        "CDSNAME"      "DEFINITION"   "ENSEMBL"      "ENSEMBLPROT"  "ENSEMBLTRANS"
+ [9] "ENTREZID"     "ENZYME"       "EVIDENCE"     "EVIDENCEALL"  "EXONID"       "EXONNAME"     "GENEID"       "GENENAME"    
+[17] "GENETYPE"     "GO"           "GOALL"        "GOID"         "IPI"          "MAP"          "OMIM"         "ONTOLOGY"    
+[25] "ONTOLOGYALL"  "PATH"         "PFAM"         "PMID"         "PROSITE"      "REFSEQ"       "SYMBOL"       "TERM"        
+[33] "TXID"         "TXNAME"       "UCSCKG"       "UNIPROT"     
+> columns(Homo.sapiens)
+ [1] "ACCNUM"       "ALIAS"        "CDSCHROM"     "CDSEND"       "CDSID"        "CDSNAME"      "CDSSTART"     "CDSSTRAND"   
+ [9] "DEFINITION"   "ENSEMBL"      "ENSEMBLPROT"  "ENSEMBLTRANS" "ENTREZID"     "ENZYME"       "EVIDENCE"     "EVIDENCEALL" 
+[17] "EXONCHROM"    "EXONEND"      "EXONID"       "EXONNAME"     "EXONRANK"     "EXONSTART"    "EXONSTRAND"   "GENEID"      
+[25] "GENENAME"     "GENETYPE"     "GO"           "GOALL"        "GOID"         "IPI"          "MAP"          "OMIM"        
+[33] "ONTOLOGY"     "ONTOLOGYALL"  "PATH"         "PFAM"         "PMID"         "PROSITE"      "REFSEQ"       "SYMBOL"      
+[41] "TERM"         "TXCHROM"      "TXEND"        "TXID"         "TXNAME"       "TXSTART"      "TXSTRAND"     "TXTYPE"      
+[49] "UCSCKG"       "UNIPROT"     
+> # By sorting information on the GPL information page at NCBI GEO, we see that the most commonly use oligonucleotide array platform (with 4760 series in the archive) is the Affy Human Genome U133 plus 2.0 array (GPL 570). 
+> # We can work with the annotation for this array with the hgu133plus2.db package.
+> BiocManager::install("hgu133plus2.db")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'hgu133plus2.db'
+installing the source package 'hgu133plus2.db'
+
+trying URL 'https://bioconductor.org/packages/3.14/data/annotation/src/contrib/hgu133plus2.db_3.13.0.tar.gz'
+Content type 'application/x-gzip' length 2240377 bytes (2.1 MB)
+==================================================
+downloaded 2.1 MB
+
+* installing *source* package ‘hgu133plus2.db’ ...
+** using staged installation
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (hgu133plus2.db)
+
+The downloaded source packages are in
+	'/private/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T/RtmpHPKIT9/downloaded_packages'
+> library(hgu133plus2.db)
+
+> hgu133plus2.db
+ChipDb object:
+| DBSCHEMAVERSION: 2.1
+| Db type: ChipDb
+| Supporting package: AnnotationDbi
+| DBSCHEMA: HUMANCHIP_DB
+| ORGANISM: Homo sapiens
+| SPECIES: Human
+| MANUFACTURER: Affymetrix
+| CHIPNAME: Affymetrix HG-U133_Plus_2 Array
+| MANUFACTURERURL: http://www.affymetrix.com
+| EGSOURCEDATE: 2021-Apr14
+| EGSOURCENAME: Entrez Gene
+| EGSOURCEURL: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA
+| CENTRALID: ENTREZID
+| TAXID: 9606
+| GOSOURCENAME: Gene Ontology
+| GOSOURCEURL: http://current.geneontology.org/ontology/go-basic.obo
+| GOSOURCEDATE: 2021-02-01
+| GOEGSOURCEDATE: 2021-Apr14
+| GOEGSOURCENAME: Entrez Gene
+| GOEGSOURCEURL: ftp://ftp.ncbi.nlm.nih.gov/gene/DATA
+| KEGGSOURCENAME: KEGG GENOME
+| KEGGSOURCEURL: ftp://ftp.genome.jp/pub/kegg/genomes
+| KEGGSOURCEDATE: 2011-Mar15
+| GPSOURCENAME: UCSC Genome Bioinformatics (Homo sapiens)
+| GPSOURCEURL: 
+| GPSOURCEDATE: 2021-Feb16
+| ENSOURCEDATE: 2021-Feb16
+| ENSOURCENAME: Ensembl
+| ENSOURCEURL: ftp://ftp.ensembl.org/pub/current_fasta
+| UPSOURCENAME: Uniprot
+| UPSOURCEURL: http://www.UniProt.org/
+| UPSOURCEDATE: Mon Apr 26 21:53:12 2021
+
+Please see: help('select') for usage information
+> # The basic purpose of this resource (and of all the instances of the ChipDb class) is to map between probeset identifiers and higher-level genomic annotation.
+> # The detailed information on probes, the constituents of probe sets, is given in packages with names ending in ‘probe’.
+> BiocManager::install("hgu133plus2probe")
+'getOption("repos")' replaces Bioconductor standard repositories, see '?repositories' for details
+
+replacement repositories:
+    CRAN: https://cran.rstudio.com/
+
+Bioconductor version 3.14 (BiocManager 1.30.16), R 4.1.2 (2021-11-01)
+Installing package(s) 'hgu133plus2probe'
+installing the source package 'hgu133plus2probe'
+
+trying URL 'https://bioconductor.org/packages/3.14/data/annotation/src/contrib/hgu133plus2probe_2.18.0.tar.gz'
+Content type 'application/x-gzip' length 8505171 bytes (8.1 MB)
+==================================================
+downloaded 8.1 MB
+
+* installing *source* package ‘hgu133plus2probe’ ...
+** using staged installation
+** R
+** data
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (hgu133plus2probe)
+
+The downloaded source packages are in
+	'/private/var/folders/g1/crj7_y452fb042gk51w7hhs00000gn/T/RtmpHPKIT9/downloaded_packages'
+> library(hgu133plus2probe)
+> head(hgu133plus2probe)
+                   sequence    x   y Probe.Set.Name Probe.Interrogation.Position Target.Strandedness
+1 CACCCAGCTGGTCCTGTGGATGGGA  718 317      1007_s_at                         3330           Antisense
+2 GCCCCACTGGACAACACTGATTCCT 1105 483      1007_s_at                         3443           Antisense
+3 TGGACCCCACTGGCTGAGAATCTGG  584 901      1007_s_at                         3512           Antisense
+4 AAATGTTTCCTTGTGCCTGCTCCTG  192 205      1007_s_at                         3563           Antisense
+5 TCCTTGTGCCTGCTCCTGTACTTGT  844 979      1007_s_at                         3570           Antisense
+6 TGCCTGCTCCTGTACTTGTCCTCAG  537 971      1007_s_at                         3576           Antisense
+> dim(hgu133plus2probe)
+[1] 604258      6
+> # Mapping out a probe set identifier to gene-level information can reveal some interesting ambiguities:
+> select(hgu133plus2.db, keytype="PROBEID", 
++        columns=c("SYMBOL", "GENENAME", "PATH", "MAP"), keys="1007_s_at")
+'select()' returned 1:1 mapping between keys and columns
+    PROBEID SYMBOL                                    GENENAME PATH     MAP
+1 1007_s_at   DDR1 discoidin domain receptor tyrosine kinase 1 <NA> 6p21.33
+> 
