@@ -1,0 +1,18 @@
+RAREFACTION
+https://www.frontiersin.org/articles/10.3389/fmicb.2019.02407/full
+  Alpha diversity metrics summarize the structure of an ecological community with respect to its richness (number of taxonomic groups), evenness (distribution of abundances of the groups), or both.
+  In microbial ecology, analyzing the alpha diversity of amplicon sequencing data is a common first approach to assessing differences between environments.
+  You are likely to observe higher numbers of different OTU's in the sample with more microbial reads. The library sizes can dominate the biology in determining the result of the diversity analysis
+  Rarefaction is a method that adjusts for differences in library sizes across samples to aid comparisons of alpha diversity. 
+  rarefaction involves selecting a specified number of samples that is equal to or less than the number of samples in the smallest sample, and then randomly discarding reads from larger samples until the number of remaining samples is equal to this threshold
+  Based on these subsamples of equal size, diversity metrics can be calculated that can contrast ecosystems “fairly,” independent of differences in sample sizes
+https://www.sciencedirect.com/topics/earth-and-planetary-sciences/rarefaction
+  Calculated rarefaction is represented by line graph. The rarefaction curve not only deals with the sample coverage but also depicts whether the sampling depth was sufficient or not to estimate the diversity
+  A curve indicates sufficient sampling depth reaches saturation, while an ascending graph implies insufficient sampling depth. 
+https://www.cd-genomics.com/microbioseq/rarefaction-curve-a-measure-of-species-richness-and-diversity.html
+  The calculation of species richness for a given number of samples is based on the rarefaction curve. The rarefaction curve is a plot of the number of species against the number of samples. 
+  This curve is created by randomly re-sampling the pool of N samples several times and then plotting the average number of species found on each sample. Generally, it initially grows rapidly (as the most common species are found) and then slightly flattens (as the rarest species remain to be sampled).
+ALPHA DIVERSITY
+  Alpha diversity is the average species diversity in a particular area or habitat and is also termed as local diversity. It is a measure of microbiome diversity applicable to a single sample. 
+  Alpha diversity gives an overview of the structure of an ecological community with respect to its species richness, species evenness, or both. In microbial ecology, a common initial approach to assess the difference between environments is through the analysis of alpha diversity of amplicon sequencing data. 
+  Can have the same diversity level but different OTU's 
