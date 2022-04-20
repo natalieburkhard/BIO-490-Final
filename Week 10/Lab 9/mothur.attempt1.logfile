@@ -1,0 +1,547 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > Unable to open stability.files. Trying MOTHUR_FILES directory /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files.
+/*****************************************************************************/
+Unable to open Unable to open stability.files. Trying MOTHUR_FILES directory /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files.. Trying MOTHUR_FILES directory mothur/stability.files..
+Unable to open mothur/stability.files.. Trying mothur's executable directory stability.files..
+Unable to open stability.files..
+[ERROR]: unable to open stability.files. batch file, please correct.
+/*****************************************************************************/
+
+mothur > Unable to open /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files. Trying mothur's executable directory /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files.
+/*****************************************************************************/
+Unable to open Unable to open /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files. Trying mothurs executable directory /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files.. Trying MOTHUR_FILES directory mothur/stability.files..
+Unable to open mothur/stability.files.. Trying mothur's executable directory stability.files..
+Unable to open stability.files..
+[ERROR]: unable to open stability.files. batch file, please correct.
+/*****************************************************************************/
+
+mothur > Unable to open /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files.
+/*****************************************************************************/
+Unable to open Unable to open /Users/natalieburkhard/bio-490/independentStudy/Week9/mothur/stability.files.. Trying MOTHUR_FILES directory mothur/stability.files..
+Unable to open mothur/stability.files.. Trying mothur's executable directory stability.files..
+Unable to open stability.files..
+[ERROR]: unable to open stability.files. batch file, please correct.
+/*****************************************************************************/
+
+mothur > Unable to open stability.files
+/*****************************************************************************/
+Unable to open Unable to open stability.files. Trying MOTHUR_FILES directory mothur/Unable to open stability.files.
+Unable to open mothur/Unable to open stability.files. Trying mothur's executable directory Unable to open stability.files.
+Unable to open Unable to open stability.files.
+[ERROR]: unable to open Unable to open stability.files batch file, please correct.
+/*****************************************************************************/
+
+mothur > 
+
+
+It took 0 seconds to run 0 commands from Unable to open stability.files batch file.
+
+
+
+It took 0 seconds to run 0 commands from stability.files. batch file.
+
+
+
+It took 0 seconds to run 0 commands from stability.files. batch file.
+
+
+
+It took 0 seconds to run 0 commands from stability.files. batch file.
+
+[ERROR]: You are missing (
+[ERROR]: Invalid.
+
+mothur > Using 8 processors.
+/*****************************************************************************/
+Unable to open Using 8 processors.. Trying MOTHUR_FILES directory mothur/Using 8 processors..
+Unable to open mothur/Using 8 processors.. Trying mothur's executable directory Using 8 processors..
+Unable to open Using 8 processors..
+[ERROR]: unable to open Using 8 processors. batch file, please correct.
+/*****************************************************************************/
+
+mothur > [ERROR]: did not complete make.contigs.
+/*****************************************************************************/
+Unable to open [ERROR]: did not complete make.contigs.. Trying MOTHUR_FILES directory mothur/[ERROR]: did not complete make.contigs..
+Unable to open mothur/[ERROR]: did not complete make.contigs.. Trying mothur's executable directory [ERROR]: did not complete make.contigs..
+Unable to open [ERROR]: did not complete make.contigs..
+[ERROR]: unable to open [ERROR]: did not complete make.contigs. batch file, please correct.
+/*****************************************************************************/
+
+mothur > 
+
+
+It took 0 seconds to run 0 commands from [ERROR]: did not complete make.contigs. batch file.
+
+
+
+It took 0 seconds to run 0 commands from Using 8 processors. batch file.
+
+[ERROR]: You are missing (
+[ERROR]: Invalid.
+
+mothur > make.contigs(file=stability.files)
+
+Using 8 processors.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 1)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+Group count: 
+F3D0	7793
+
+Total of all groups is 7793
+
+It took 1 secs to process 7793 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	249	249	0	3	1
+2.5%-tile:	1	252	252	0	4	195
+25%-tile:	1	252	252	0	4	1949
+Median: 	1	252	252	0	4	3897
+75%-tile:	1	253	253	0	5	5845
+97.5%-tile:	1	253	253	5	6	7599
+Maximum:	1	502	502	241	188	7793
+Mean:	1	252	252	0	4
+# of Seqs:	7793
+
+It took 0 secs to summarize 7793 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.fasta, maxambig=0, maxlength=275)
+
+Using 8 processors.
+
+It took 0 secs to screen 7793 sequences, removed 1155.
+
+
+Output File Names:
+stability.trim.contigs.good.fasta
+stability.trim.contigs.bad.accnos
+
+
+It took 0 secs to screen 7793 sequences.
+
+mothur > get.current()
+
+Current RAM usage: 0.131039 Gigabytes. Total Ram: 8 Gigabytes.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.bad.accnos
+fasta=stability.trim.contigs.good.fasta
+contigsreport=stability.contigs_report
+count=stability.contigs.count_table
+processors=8
+summary=stability.trim.contigs.summary
+
+Current default directories saved by mothur:
+	mothur/
+
+
+Current working directory: /Users/natalieburkhard/bio-490/independentStudy/Week9/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.fasta)
+6638	1533
+
+Output File Names: 
+stability.trim.contigs.good.unique.fasta
+stability.trim.contigs.good.count_table
+
+
+mothur > count.seqs(name=stability.trim.contigs.good.names)
+Unable to open stability.trim.contigs.good.names. Trying MOTHUR_FILES directory mothur/stability.trim.contigs.good.names.
+Unable to open mothur/stability.trim.contigs.good.names. Trying mothur's executable directory stability.trim.contigs.good.names.
+Unable to open stability.trim.contigs.good.names.
+Unable to open stability.trim.contigs.good.names
+You have no current namefile or sharedfile and the name or shared parameter is required, unless inflating or deflating an existing count file.
+[ERROR]: did not complete count.seqs.
+
+mothur > get_current()
+[ERROR]: Invalid command.
+[ERROR]: did not complete get_current.
+
+mothur > get.current()
+
+Current RAM usage: 0.131039 Gigabytes. Total Ram: 8 Gigabytes.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.bad.accnos
+fasta=stability.trim.contigs.good.unique.fasta
+contigsreport=stability.contigs_report
+count=stability.trim.contigs.good.count_table
+processors=8
+summary=stability.trim.contigs.summary
+
+Current default directories saved by mothur:
+	mothur/
+
+
+Current working directory: /Users/natalieburkhard/bio-490/independentStudy/Week9/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > summary.seqs(count=stability.trim.contigs.good.count_table)
+Using stability.trim.contigs.good.unique.fasta as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	250	250	0	3	1
+2.5%-tile:	1	252	252	0	4	166
+25%-tile:	1	252	252	0	4	1660
+Median: 	1	252	252	0	4	3320
+75%-tile:	1	253	253	0	5	4979
+97.5%-tile:	1	253	253	0	6	6473
+Maximum:	1	255	255	0	8	6638
+Mean:	1	252	252	0	4
+# of unique seqs:	1533
+total # of seqs:	6638
+
+It took 0 secs to summarize 6638 sequences.
+
+Output File Names:
+stability.trim.contigs.good.unique.summary
+
+
+mothur > pcr.seqs(fasta=silva.bacteria.fasta, start=11894, end=25319, keepdots=F)
+
+Using 8 processors.
+[NOTE]: no sequences were bad, removing silva.bacteria.bad.accnos
+
+It took 8 secs to screen 14956 sequences.
+
+Output File Names: 
+silva.bacteria.pcr.fasta
+
+
+
+mothur > system(mv silva.bacteria.pcr.fasta silva.v4.fasta)
+
+
+mothur > summary.seqs(fasta=silva.v4.fasta)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	2	13425	270	0	3	1
+2.5%-tile:	2	13426	292	0	4	374
+25%-tile:	2	13426	293	0	4	3740
+Median: 	2	13426	293	0	4	7479
+75%-tile:	2	13426	293	0	5	11218
+97.5%-tile:	2	13426	294	1	6	14583
+Maximum:	4	13426	351	5	9	14956
+Mean:	2	13425	292	0	4
+# of Seqs:	14956
+
+It took 2 secs to summarize 14956 sequences.
+
+Output File Names:
+silva.v4.summary
+
+
+mothur > align.seqs(fasta=stability.trim.contigs.good.unique.fasta, reference=silva.v4.fasta)
+
+Using 8 processors.
+
+Reading in the silva.v4.fasta template sequences...	DONE.
+It took 4 to read  14956 sequences.
+
+Aligning sequences from stability.trim.contigs.good.unique.fasta ...
+It took 0 secs to align 1533 sequences.
+
+
+It took 1 seconds to align 1533 sequences.
+
+Output File Names: 
+stability.trim.contigs.good.unique.align
+stability.trim.contigs.good.unique.align_report
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.good.unique.align, count=stability.trim.contigs.good.count_table)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1968	11550	250	0	3	1
+2.5%-tile:	1969	11551	252	0	4	166
+25%-tile:	1969	11551	252	0	4	1660
+Median: 	1969	11551	252	0	4	3320
+75%-tile:	1969	11551	253	0	5	4979
+97.5%-tile:	1969	11551	253	0	6	6473
+Maximum:	1969	11553	255	0	8	6638
+Mean:	1968	11550	252	0	4
+# of unique seqs:	1533
+total # of seqs:	6638
+
+It took 0 secs to summarize 6638 sequences.
+
+Output File Names:
+stability.trim.contigs.good.unique.summary
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.good.unique.align, count=stability.trim.contigs.good.count_table, summary=stability.trim.contigs.good.unique.summary, start=1968, end=11550, maxhomop=8)
+
+Using 8 processors.
+
+It took 0 secs to screen 1533 sequences, removed 1532.
+
+/******************************************/
+Running command: remove.seqs(accnos=stability.trim.contigs.good.unique.bad.accnos.temp, count=stability.trim.contigs.good.count_table)
+Removed 6637 sequences from stability.trim.contigs.good.count_table.
+
+Output File Names:
+stability.trim.contigs.good.pick.count_table
+
+/******************************************/
+
+Output File Names:
+stability.trim.contigs.good.unique.good.summary
+stability.trim.contigs.good.unique.good.align
+stability.trim.contigs.good.unique.bad.accnos
+stability.trim.contigs.good.good.count_table
+
+
+It took 0 secs to screen 1533 sequences.
+
+mothur > summary.seqs(fasta=current, count=current)
+Using stability.trim.contigs.good.good.count_table as input file for the count parameter.
+Using stability.trim.contigs.good.unique.good.align as input file for the fasta parameter.
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1968	11553	252	0	5	1
+2.5%-tile:	1968	11553	252	0	5	1
+25%-tile:	1968	11553	252	0	5	1
+Median: 	1968	11553	252	0	5	1
+75%-tile:	1968	11553	252	0	5	1
+97.5%-tile:	1968	11553	252	0	5	1
+Maximum:	1968	11553	252	0	5	1
+Mean:	1968	11553	252	0	5
+# of unique seqs:	1
+total # of seqs:	1
+
+It took 0 secs to summarize 1 sequences.
+
+Output File Names:
+stability.trim.contigs.good.unique.good.summary
+
+
+mothur > filter.seqs(fasta=stability.trim.contigs.good.unique.good.align, vertical=T, trump=.)
+
+Using 8 processors.
+Creating Filter...
+It took 0 secs to create filter for 1 sequences.
+
+
+Running Filter...
+It took 0 secs to filter 1 sequences.
+
+
+
+Length of filtered alignment: 252
+Number of columns removed: 13174
+Length of the original alignment: 13426
+Number of sequences used to construct filter: 1
+
+Output File Names: 
+stability.filter
+stability.trim.contigs.good.unique.good.filter.fasta
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.unique.good.filter.fasta, count=stability.trim.contigs.good.good.count_table)
+1	1
+
+Output File Names: 
+stability.trim.contigs.good.unique.good.filter.unique.fasta
+stability.trim.contigs.good.unique.good.filter.count_table
+
+
+mothur > pre.cluster(fasta=stability.trim.contigs.good.unique.good.filter.unique.fasta, count=stability.trim.contigs.good.unique.good.filter.count_table, diffs=2)
+
+Using 8 processors.
+When using running without group information mothur can only use 1 processor, continuing.
+1	1	0
+Total number of sequences before precluster was 1.
+pre.cluster removed 0 sequences.
+
+/******************************************/
+Running command: get.seqs(fasta=stability.trim.contigs.good.unique.good.filter.unique.fasta, accnos=stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta.temp)
+Selected 1 sequences from stability.trim.contigs.good.unique.good.filter.unique.fasta.
+
+Output File Names:
+stability.trim.contigs.good.unique.good.filter.unique.pick.fasta
+
+/******************************************/
+Done.
+It took 0 secs to cluster 1 sequences.
+
+Using 8 processors.
+
+Output File Names: 
+stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta
+stability.trim.contigs.good.unique.good.filter.unique.precluster.count_table
+stability.trim.contigs.good.unique.good.filter.unique.precluster.map
+
+
+mothur > chimera.vsearch(fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta, count=stability.trim.contigs.good.unique.good.filter.unique.precluster.count_table, dereplicate=t)
+
+Using 8 processors.
+Unable to open vsearch. Trying MOTHUR_FILES directory mothur/vsearch.
+Checking sequences from stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta ...
+When using template=self, mothur can only use 1 processor, continuing.
+Error in reading your fastafile, at position -1. Blank name.
+
+mothur > chimera.vsearch(fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta, count=stability.trim.contigs.good.unique.good.filter.unique.precluster.count_table, dereplicate=t)
+
+Using 8 processors.
+Unable to open vsearch. Trying MOTHUR_FILES directory mothur/vsearch.
+Using vsearch version v2.16.0.
+Checking sequences from stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta ...
+When using template=self, mothur can only use 1 processor, continuing.
+
+It took 0 secs to check your sequences. 0 chimeras were found.
+
+No chimeras found, skipping remove.seqs.
+
+Output File Names:
+stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.chimeras
+stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.accnos
+
+
+mothur > remove.seqs(fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta, accnos=stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.accnos)
+Removed 0 sequences from stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta.
+
+Output File Names:
+stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta
+
+
+mothur > classify.seqs(fasta=stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta, count=stability.trim.contigs.good.unique.good.filter.unique.precluster.count_table, reference=trainset9_032012.pds/trainset9_032012.pds.fasta, taxonomy=trainset9_032012.pds/trainset9_032012.pds.tax, cutoff=80)
+
+Using 8 processors.
+Generating search database...    DONE.
+It took 8 seconds generate search database.
+
+Reading in the trainset9_032012.pds/trainset9_032012.pds.tax taxonomy...	DONE.
+Calculating template taxonomy tree...     DONE.
+Calculating template probabilities...     DONE.
+It took 16 seconds get probabilities.
+Classifying sequences from stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta ...
+
+It took 0 secs to classify 1 sequences.
+
+
+It took 0 secs to create the summary file for 1 sequences.
+
+
+Output File Names: 
+stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pds.wang.taxonomy
+stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pds.wang.tax.summary
+
+
+mothur > current.system(ls)
+[ERROR]: Invalid command.
+[ERROR]: did not complete current.system.
+
+mothur > system(0ls
+[ERROR]: You are missing )
+[ERROR]: Invalid.
+
+mothur > system(ls)
+F3D0_S188_L001_R1_001.fastq
+F3D0_S188_L001_R2_001.fastq
+MiSeq_SOP
+README.md
+commandScreen.output
+current_files.summary
+independentStudy.Rproj
+mothur
+mothur.1647394025.logfile
+silva.bacteria
+silva.bacteria.fasta
+silva.v4.8mer
+silva.v4.fasta
+silva.v4.summary
+stability.contigs.count_table
+stability.contigs_report
+stability.files
+stability.filter
+stability.scrap.contigs.fasta
+stability.trim.contigs.bad.accnos
+stability.trim.contigs.fasta
+stability.trim.contigs.good.count_table
+stability.trim.contigs.good.fasta
+stability.trim.contigs.good.good.count_table
+stability.trim.contigs.good.unique.align
+stability.trim.contigs.good.unique.align_report
+stability.trim.contigs.good.unique.bad.accnos
+stability.trim.contigs.good.unique.fasta
+stability.trim.contigs.good.unique.good.align
+stability.trim.contigs.good.unique.good.filter.count_table
+stability.trim.contigs.good.unique.good.filter.fasta
+stability.trim.contigs.good.unique.good.filter.unique.fasta
+stability.trim.contigs.good.unique.good.filter.unique.precluster.count_table
+stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.accnos
+stability.trim.contigs.good.unique.good.filter.unique.precluster.denovo.vsearch.chimeras
+stability.trim.contigs.good.unique.good.filter.unique.precluster.fasta
+stability.trim.contigs.good.unique.good.filter.unique.precluster.map
+stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.fasta
+stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pds.wang.tax.summary
+stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pds.wang.taxonomy
+stability.trim.contigs.good.unique.good.summary
+stability.trim.contigs.good.unique.summary
+stability.trim.contigs.summary
+trainset9_032012.pds
+

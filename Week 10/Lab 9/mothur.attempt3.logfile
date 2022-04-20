@@ -1,0 +1,129 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > make.contigs(file=stability.files)
+
+Using 8 processors.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 1)	<<<<<
+Making contigs...
+Done.
+
+It took 2 secs to assemble 7793 reads.
+
+
+Group count: 
+FD30	7793
+
+Total of all groups is 7793
+
+It took 2 secs to process 7793 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	249	249	0	3	1
+2.5%-tile:	1	252	252	0	4	195
+25%-tile:	1	252	252	0	4	1949
+Median: 	1	252	252	0	4	3897
+75%-tile:	1	253	253	0	5	5845
+97.5%-tile:	1	253	253	5	6	7599
+Maximum:	1	502	502	241	188	7793
+Mean:	1	252	252	0	4
+# of Seqs:	7793
+
+It took 0 secs to summarize 7793 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.fasta, maxambig=0, maxlength=275)
+
+Using 8 processors.
+
+It took 0 secs to screen 7793 sequences, removed 1155.
+
+
+Output File Names:
+stability.trim.contigs.good.fasta
+stability.trim.contigs.bad.accnos
+
+
+It took 0 secs to screen 7793 sequences.
+
+mothur > get.current()
+
+Current RAM usage: 0.130989 Gigabytes. Total Ram: 8 Gigabytes.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.bad.accnos
+fasta=stability.trim.contigs.good.fasta
+contigsreport=stability.contigs_report
+count=stability.contigs.count_table
+processors=8
+summary=stability.trim.contigs.summary
+
+Current default directories saved by mothur:
+	mothur/
+
+
+Current working directory: /Users/natalieburkhard/bio-490/independentStudy/Lab9.2/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.fasta)
+6638	1533
+
+Output File Names: 
+stability.trim.contigs.good.unique.fasta
+stability.trim.contigs.good.count_table
+
+
+mothur > count.seqs(name=stability.trim.contigs.good.count_table)
+
+It took 0 secs to create a table for 1534 sequences.
+
+Total number of sequences: 1534
+
+Output File Names: 
+stability.trim.contigs.good.count_table
+

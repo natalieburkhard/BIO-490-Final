@@ -1,0 +1,170 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > make.contigs(file=stability.files, processors=16)
+Unable to open stability.files. Trying MOTHUR_FILES directory mothur/stability.files.
+Unable to open mothur/stability.files. Trying mothur's executable directory mothur/stability.files.
+Unable to open mothur/stability.files.
+Unable to open stability.files
+
+Using 16 processors.
+[ERROR]: did not complete make.contigs.
+
+mothur > make.contigs(file=/Users/natalieburkhard/bio-490/independentStudy/MiSeqSOP/MiSeq_SOP/stability.files, processors=16)
+
+Using 16 processors.
+Unable to open F3D0_S188_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D0_S188_L001_R1_001.fastq.
+Unable to open mothur/F3D0_S188_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D0_S188_L001_R1_001.fastq.
+Unable to open mothur/F3D0_S188_L001_R1_001.fastq.
+[WARNING]: can't find mothur/F3D0_S188_L001_R1_001.fastq, ignoring pair.
+Unable to open F3D0_S188_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D0_S188_L001_R2_001.fastq.
+Unable to open mothur/F3D0_S188_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D0_S188_L001_R2_001.fastq.
+Unable to open mothur/F3D0_S188_L001_R2_001.fastq.
+[WARNING]: can't find mothur/F3D0_S188_L001_R2_001.fastq, ignoring pair.
+Unable to open F3D141_S207_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D141_S207_L001_R1_001.fastq.
+Unable to open mothur/F3D141_S207_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D141_S207_L001_R1_001.fastq.
+Unable to open mothur/F3D141_S207_L001_R1_001.fastq.
+[WARNING]: can't find mothur/F3D141_S207_L001_R1_001.fastq, ignoring pair.
+Unable to open F3D141_S207_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D141_S207_L001_R2_001.fastq.
+Unable to open mothur/F3D141_S207_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D141_S207_L001_R2_001.fastq.
+Unable to open mothur/F3D141_S207_L001_R2_001.fastq.
+[WARNING]: can't find mothur/F3D141_S207_L001_R2_001.fastq, ignoring pair.
+Unable to open F3D142_S208_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D142_S208_L001_R1_001.fastq.
+Unable to open mothur/F3D142_S208_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D142_S208_L001_R1_001.fastq.
+Unable to open mothur/F3D142_S208_L001_R1_001.fastq.
+[WARNING]: can't find mothur/F3D142_S208_L001_R1_001.fastq, ignoring pair.
+Unable to open F3D142_S208_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D142_S208_L001_R2_001.fastq.
+Unable to open mothur/F3D142_S208_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D142_S208_L001_R2_001.fastq.
+Unable to open mothur/F3D142_S208_L001_R2_001.fastq.
+[WARNING]: can't find mothur/F3D142_S208_L001_R2_001.fastq, ignoring pair.
+Unable to open F3D143_S209_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D143_S209_L001_R1_001.fastq.
+Unable to open mothur/F3D143_S209_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D143_S209_L001_R1_001.fastq.
+Unable to open mothur/F3D143_S209_L001_R1_001.fastq.
+[WARNING]: can't find mothur/F3D143_S209_L001_R1_001.fastq, ignoring pair.
+Unable to open F3D143_S209_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D143_S209_L001_R2_001.fastq.
+Unable to open mothur/F3D143_S209_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D143_S209_L001_R2_001.fastq.
+Unable to open mothur/F3D143_S209_L001_R2_001.fastq.
+[WARNING]: can't find mothur/F3D143_S209_L001_R2_001.fastq, ignoring pair.
+Unable to open F3D144_S210_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D144_S210_L001_R1_001.fastq.
+Unable to open mothur/F3D144_S210_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D144_S210_L001_R1_001.fastq.
+Unable to open mothur/F3D144_S210_L001_R1_001.fastq.
+[WARNING]: can't find mothur/F3D144_S210_L001_R1_001.fastq, ignoring pair.
+Unable to open F3D144_S210_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D144_S210_L001_R2_001.fastq.
+Unable to open mothur/F3D144_S210_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D144_S210_L001_R2_001.fastq.
+Unable to open mothur/F3D144_S210_L001_R2_001.fastq.
+[WARNING]: can't find mothur/F3D144_S210_L001_R2_001.fastq, ignoring pair.
+Unable to open F3D145_S211_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D145_S211_L001_R1_001.fastq.
+Unable to open mothur/F3D145_S211_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D145_S211_L001_R1_001.fastq.
+Unable to open mothur/F3D145_S211_L001_R1_001.fastq.
+Unable to open F3D145_S211_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D145_S211_L001_R2_001.fastq.
+Unable to open mothur/F3D145_S211_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D145_S211_L001_R2_001.fastq.
+Unable to open mothur/F3D145_S211_L001_R2_001.fastq.
+Unable to open F3D146_S212_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D146_S212_L001_R1_001.fastq.
+Unable to open mothur/F3D146_S212_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D146_S212_L001_R1_001.fastq.
+Unable to open mothur/F3D146_S212_L001_R1_001.fastq.
+Unable to open F3D146_S212_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D146_S212_L001_R2_001.fastq.
+Unable to open mothur/F3D146_S212_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D146_S212_L001_R2_001.fastq.
+Unable to open mothur/F3D146_S212_L001_R2_001.fastq.
+Unable to open F3D147_S213_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D147_S213_L001_R1_001.fastq.
+Unable to open mothur/F3D147_S213_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D147_S213_L001_R1_001.fastq.
+Unable to open mothur/F3D147_S213_L001_R1_001.fastq.
+Unable to open F3D147_S213_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D147_S213_L001_R2_001.fastq.
+Unable to open mothur/F3D147_S213_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D147_S213_L001_R2_001.fastq.
+Unable to open mothur/F3D147_S213_L001_R2_001.fastq.
+Unable to open F3D148_S214_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D148_S214_L001_R1_001.fastq.
+Unable to open mothur/F3D148_S214_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D148_S214_L001_R1_001.fastq.
+Unable to open mothur/F3D148_S214_L001_R1_001.fastq.
+Unable to open F3D148_S214_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D148_S214_L001_R2_001.fastq.
+Unable to open mothur/F3D148_S214_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D148_S214_L001_R2_001.fastq.
+Unable to open mothur/F3D148_S214_L001_R2_001.fastq.
+Unable to open F3D149_S215_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D149_S215_L001_R1_001.fastq.
+Unable to open mothur/F3D149_S215_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D149_S215_L001_R1_001.fastq.
+Unable to open mothur/F3D149_S215_L001_R1_001.fastq.
+Unable to open F3D149_S215_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D149_S215_L001_R2_001.fastq.
+Unable to open mothur/F3D149_S215_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D149_S215_L001_R2_001.fastq.
+Unable to open mothur/F3D149_S215_L001_R2_001.fastq.
+Unable to open F3D150_S216_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D150_S216_L001_R1_001.fastq.
+Unable to open mothur/F3D150_S216_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D150_S216_L001_R1_001.fastq.
+Unable to open mothur/F3D150_S216_L001_R1_001.fastq.
+Unable to open F3D150_S216_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D150_S216_L001_R2_001.fastq.
+Unable to open mothur/F3D150_S216_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D150_S216_L001_R2_001.fastq.
+Unable to open mothur/F3D150_S216_L001_R2_001.fastq.
+Unable to open F3D1_S189_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D1_S189_L001_R1_001.fastq.
+Unable to open mothur/F3D1_S189_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D1_S189_L001_R1_001.fastq.
+Unable to open mothur/F3D1_S189_L001_R1_001.fastq.
+Unable to open F3D1_S189_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D1_S189_L001_R2_001.fastq.
+Unable to open mothur/F3D1_S189_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D1_S189_L001_R2_001.fastq.
+Unable to open mothur/F3D1_S189_L001_R2_001.fastq.
+Unable to open F3D2_S190_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D2_S190_L001_R1_001.fastq.
+Unable to open mothur/F3D2_S190_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D2_S190_L001_R1_001.fastq.
+Unable to open mothur/F3D2_S190_L001_R1_001.fastq.
+Unable to open F3D2_S190_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D2_S190_L001_R2_001.fastq.
+Unable to open mothur/F3D2_S190_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D2_S190_L001_R2_001.fastq.
+Unable to open mothur/F3D2_S190_L001_R2_001.fastq.
+Unable to open F3D3_S191_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D3_S191_L001_R1_001.fastq.
+Unable to open mothur/F3D3_S191_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D3_S191_L001_R1_001.fastq.
+Unable to open mothur/F3D3_S191_L001_R1_001.fastq.
+Unable to open F3D3_S191_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D3_S191_L001_R2_001.fastq.
+Unable to open mothur/F3D3_S191_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D3_S191_L001_R2_001.fastq.
+Unable to open mothur/F3D3_S191_L001_R2_001.fastq.
+Unable to open F3D5_S193_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D5_S193_L001_R1_001.fastq.
+Unable to open mothur/F3D5_S193_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D5_S193_L001_R1_001.fastq.
+Unable to open mothur/F3D5_S193_L001_R1_001.fastq.
+Unable to open F3D5_S193_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D5_S193_L001_R2_001.fastq.
+Unable to open mothur/F3D5_S193_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D5_S193_L001_R2_001.fastq.
+Unable to open mothur/F3D5_S193_L001_R2_001.fastq.
+Unable to open F3D6_S194_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D6_S194_L001_R1_001.fastq.
+Unable to open mothur/F3D6_S194_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D6_S194_L001_R1_001.fastq.
+Unable to open mothur/F3D6_S194_L001_R1_001.fastq.
+Unable to open F3D6_S194_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D6_S194_L001_R2_001.fastq.
+Unable to open mothur/F3D6_S194_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D6_S194_L001_R2_001.fastq.
+Unable to open mothur/F3D6_S194_L001_R2_001.fastq.
+Unable to open F3D7_S195_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D7_S195_L001_R1_001.fastq.
+Unable to open mothur/F3D7_S195_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D7_S195_L001_R1_001.fastq.
+Unable to open mothur/F3D7_S195_L001_R1_001.fastq.
+Unable to open F3D7_S195_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D7_S195_L001_R2_001.fastq.
+Unable to open mothur/F3D7_S195_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D7_S195_L001_R2_001.fastq.
+Unable to open mothur/F3D7_S195_L001_R2_001.fastq.
+Unable to open F3D8_S196_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D8_S196_L001_R1_001.fastq.
+Unable to open mothur/F3D8_S196_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D8_S196_L001_R1_001.fastq.
+Unable to open mothur/F3D8_S196_L001_R1_001.fastq.
+Unable to open F3D8_S196_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D8_S196_L001_R2_001.fastq.
+Unable to open mothur/F3D8_S196_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D8_S196_L001_R2_001.fastq.
+Unable to open mothur/F3D8_S196_L001_R2_001.fastq.
+Unable to open F3D9_S197_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D9_S197_L001_R1_001.fastq.
+Unable to open mothur/F3D9_S197_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D9_S197_L001_R1_001.fastq.
+Unable to open mothur/F3D9_S197_L001_R1_001.fastq.
+Unable to open F3D9_S197_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/F3D9_S197_L001_R2_001.fastq.
+Unable to open mothur/F3D9_S197_L001_R2_001.fastq. Trying mothur's executable directory mothur/F3D9_S197_L001_R2_001.fastq.
+Unable to open mothur/F3D9_S197_L001_R2_001.fastq.
+Unable to open Mock_S280_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/Mock_S280_L001_R1_001.fastq.
+Unable to open mothur/Mock_S280_L001_R1_001.fastq. Trying mothur's executable directory mothur/Mock_S280_L001_R1_001.fastq.
+Unable to open mothur/Mock_S280_L001_R1_001.fastq.
+Unable to open M

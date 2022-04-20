@@ -1,0 +1,190 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > make.contigs(file=stability.files)
+
+Using 8 processors.
+Unable to open Mock_S280_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/Mock_S280_L001_R1_001.fastq.
+Unable to open mothur/Mock_S280_L001_R1_001.fastq. Trying mothur's executable directory mothur/Mock_S280_L001_R1_001.fastq.
+Unable to open mothur/Mock_S280_L001_R1_001.fastq.
+[WARNING]: can't find mothur/Mock_S280_L001_R1_001.fastq, ignoring pair.
+Unable to open Mock_S280_L001_R2_001.fastq. Trying MOTHUR_FILES directory mothur/Mock_S280_L001_R2_001.fastq.
+Unable to open mothur/Mock_S280_L001_R2_001.fastq. Trying mothur's executable directory mothur/Mock_S280_L001_R2_001.fastq.
+Unable to open mothur/Mock_S280_L001_R2_001.fastq.
+[WARNING]: can't find mothur/Mock_S280_L001_R2_001.fastq, ignoring pair.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 3)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+>>>>>	Processing file pair F3D144_S210_L001_R1_001.fastq - F3D144_S210_L001_R2_001.fastq (files 2 of 3)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 4827 reads.
+
+
+>>>>>	Processing file pair F3D7_S195_L001_R1_001.fastq - F3D7_S195_L001_R2_001.fastq (files 3 of 3)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 5129 reads.
+
+
+Group count: 
+F3D0	7793
+F3D144	4827
+F3D7	5129
+
+Total of all groups is 17749
+
+It took 3 secs to process 17749 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta)
+
+Using 8 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	249	249	0	3	1
+2.5%-tile:	1	252	252	0	3	444
+25%-tile:	1	252	252	0	4	4438
+Median: 	1	252	252	0	4	8875
+75%-tile:	1	253	253	0	5	13312
+97.5%-tile:	1	253	253	6	6	17306
+Maximum:	1	502	502	246	243	17749
+Mean:	1	252	252	0	4
+# of Seqs:	17749
+
+It took 0 secs to summarize 17749 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > get.current()
+
+Current RAM usage: 0.138233 Gigabytes. Total Ram: 8 Gigabytes.
+
+Current files saved by mothur:
+fasta=stability.trim.contigs.fasta
+contigsreport=stability.contigs_report
+count=stability.contigs.count_table
+processors=8
+summary=stability.trim.contigs.summary
+
+Current default directories saved by mothur:
+	mothur/
+
+
+Current working directory: /Users/natalieburkhard/bio-490/independentStudy/Lab10.3/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.fasta, maxambig=0, maxlength=275)
+
+Using 8 processors.
+
+It took 0 secs to screen 17749 sequences, removed 2871.
+
+
+Output File Names:
+stability.trim.contigs.good.fasta
+stability.trim.contigs.bad.accnos
+
+
+It took 0 secs to screen 17749 sequences.
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.fasta)
+14878	2831
+
+Output File Names: 
+stability.trim.contigs.good.unique.fasta
+stability.trim.contigs.good.count_table
+
+
+mothur > count.seqs(name=stability.trim.contigs.good.unique.fasta)
+[ERROR]: Your count table contains more than 1 sequence named ee=0.161021, sequence names must be unique. Please correct.
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.fasta)
+14878	2831
+
+Output File Names: 
+stability.trim.contigs.good.unique.fasta
+stability.trim.contigs.good.count_table
+
+
+mothur > count.seqs(name=stability.trim.contigs.good.unique.fasta)
+[ERROR]: Your count table contains more than 1 sequence named ee=0.161021, sequence names must be unique. Please correct.
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.count_table)
+[WARNING]: We found more than 25% of the bases in sequence epresentative_Sequence to be ambiguous. Mothur is not setup to process protein sequences.
+1	1
+
+Output File Names: 
+stability.trim.contigs.good.unique.count_table
+stability.trim.contigs.good.count_table
+
+
+mothur > count.seqs(name=stability.trim.contigs.good.unique.fasta)
+[ERROR]: Your count table contains more than 1 sequence named ee=0.161021, sequence names must be unique. Please correct.
+
+mothur > quit
+Logfile : mothur.1647429255.logfile
+
+
+
+************************************************************
+************************************************************
+************************************************************
+Detected 3 [ERROR] messages, please review.
+************************************************************
+************************************************************
+************************************************************
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected 3 [WARNING] messages, please review.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

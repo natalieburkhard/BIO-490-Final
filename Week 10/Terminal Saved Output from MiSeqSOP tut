@@ -1,0 +1,6137 @@
+Last login: Sat Mar 19 19:45:10 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Natalies-MacBook-Pro:MiSeq_SOP natalieburkhard$ mothur/mothur
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > make.contigs(file=stability.files, processors=16)
+
+Using 16 processors.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 20)	<<<<<
+Making contigs...
+487
+487
+487
+487
+488
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+>>>>>	Processing file pair F3D141_S207_L001_R1_001.fastq - F3D141_S207_L001_R2_001.fastq (files 2 of 20)	<<<<<
+Making contigs...
+372
+373
+372
+372
+373
+372
+373
+372
+372
+373
+372
+372
+372
+373
+372
+373
+Done.
+
+It took 1 secs to assemble 5958 reads.
+
+
+>>>>>	Processing file pair F3D142_S208_L001_R1_001.fastq - F3D142_S208_L001_R2_001.fastq (files 3 of 20)	<<<<<
+Making contigs...
+198
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+Done.
+
+It took 1 secs to assemble 3183 reads.
+
+
+>>>>>	Processing file pair F3D143_S209_L001_R1_001.fastq - F3D143_S209_L001_R2_001.fastq (files 4 of 20)	<<<<<
+Making contigs...
+198
+199
+199
+199
+198
+199
+199
+198
+198
+199
+198
+199
+199
+198
+199
+199
+Done.
+
+It took 0 secs to assemble 3178 reads.
+
+
+>>>>>	Processing file pair F3D144_S210_L001_R1_001.fastq - F3D144_S210_L001_R2_001.fastq (files 5 of 20)	<<<<<
+Making contigs...
+302
+302
+302
+302
+301
+302
+302
+301
+302
+302
+302
+301
+301
+302
+301
+302
+Done.
+
+It took 1 secs to assemble 4827 reads.
+
+
+>>>>>	Processing file pair F3D145_S211_L001_R1_001.fastq - F3D145_S211_L001_R2_001.fastq (files 6 of 20)	<<<<<
+Making contigs...
+461
+461
+461
+461
+461
+461
+461
+461
+461
+461
+460
+461
+461
+461
+462
+462
+Done.
+
+It took 2 secs to assemble 7377 reads.
+
+
+>>>>>	Processing file pair F3D146_S212_L001_R1_001.fastq - F3D146_S212_L001_R2_001.fastq (files 7 of 20)	<<<<<
+Making contigs...
+314
+314
+314
+314
+314
+313
+313
+314
+314
+313
+314
+314
+314
+314
+314
+314
+Done.
+
+It took 0 secs to assemble 5021 reads.
+
+
+>>>>>	Processing file pair F3D147_S213_L001_R1_001.fastq - F3D147_S213_L001_R2_001.fastq (files 8 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1066
+1000
+1066
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+Done.
+
+It took 3 secs to assemble 17070 reads.
+
+
+>>>>>	Processing file pair F3D148_S214_L001_R1_001.fastq - F3D148_S214_L001_R2_001.fastq (files 9 of 20)	<<<<<
+Making contigs...
+775
+775
+775
+776
+775
+775
+775
+776
+775
+776
+775
+775
+776
+775
+775
+776
+Done.
+
+It took 3 secs to assemble 12405 reads.
+
+
+>>>>>	Processing file pair F3D149_S215_L001_R1_001.fastq - F3D149_S215_L001_R2_001.fastq (files 10 of 20)	<<<<<
+Making contigs...
+817
+817
+818
+818
+817
+818
+818
+818
+817
+818
+817
+818
+818
+818
+818
+818
+Done.
+
+It took 3 secs to assemble 13083 reads.
+
+
+>>>>>	Processing file pair F3D150_S216_L001_R1_001.fastq - F3D150_S216_L001_R2_001.fastq (files 11 of 20)	<<<<<
+Making contigs...
+344
+344
+345
+344
+345
+344
+344
+344
+344
+344
+344
+344
+345
+345
+344
+345
+Done.
+
+It took 1 secs to assemble 5509 reads.
+
+
+>>>>>	Processing file pair F3D1_S189_L001_R1_001.fastq - F3D1_S189_L001_R2_001.fastq (files 12 of 20)	<<<<<
+Making contigs...
+366
+366
+367
+367
+367
+367
+367
+367
+367
+367
+367
+367
+367
+366
+367
+367
+Done.
+
+It took 1 secs to assemble 5869 reads.
+
+
+>>>>>	Processing file pair F3D2_S190_L001_R1_001.fastq - F3D2_S190_L001_R2_001.fastq (files 13 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1226
+1226
+1226
+1227
+1226
+1226
+1226
+1227
+1226
+1226
+1226
+1226
+1226
+1226
+1227
+1227
+Done.
+
+It took 4 secs to assemble 19620 reads.
+
+
+>>>>>	Processing file pair F3D3_S191_L001_R1_001.fastq - F3D3_S191_L001_R2_001.fastq (files 14 of 20)	<<<<<
+Making contigs...
+422
+422
+423
+422
+422
+423
+422
+423
+422
+423
+422
+422
+422
+423
+422
+423
+Done.
+
+It took 1 secs to assemble 6758 reads.
+
+
+>>>>>	Processing file pair F3D5_S193_L001_R1_001.fastq - F3D5_S193_L001_R2_001.fastq (files 15 of 20)	<<<<<
+Making contigs...
+277
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+279
+Done.
+
+It took 1 secs to assemble 4448 reads.
+
+
+>>>>>	Processing file pair F3D6_S194_L001_R1_001.fastq - F3D6_S194_L001_R2_001.fastq (files 16 of 20)	<<<<<
+Making contigs...
+499
+499
+499
+499
+500
+499
+499
+499
+499
+500
+499
+500
+499
+499
+500
+500
+Done.
+
+It took 2 secs to assemble 7989 reads.
+
+
+>>>>>	Processing file pair F3D7_S195_L001_R1_001.fastq - F3D7_S195_L001_R2_001.fastq (files 17 of 20)	<<<<<
+Making contigs...
+320
+321
+320
+320
+320
+321
+321
+321
+321
+321
+320
+320
+321
+321
+320
+321
+Done.
+
+It took 1 secs to assemble 5129 reads.
+
+
+>>>>>	Processing file pair F3D8_S196_L001_R1_001.fastq - F3D8_S196_L001_R2_001.fastq (files 18 of 20)	<<<<<
+Making contigs...
+330
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+330
+331
+331
+331
+Done.
+
+It took 1 secs to assemble 5294 reads.
+
+
+>>>>>	Processing file pair F3D9_S197_L001_R1_001.fastq - F3D9_S197_L001_R2_001.fastq (files 19 of 20)	<<<<<
+Making contigs...
+442
+442
+442
+442
+441
+442
+442
+442
+442
+442
+442
+441
+442
+442
+442
+442
+Done.
+
+It took 1 secs to assemble 7070 reads.
+
+
+>>>>>	Processing file pair Mock_S280_L001_R1_001.fastq - Mock_S280_L001_R2_001.fastq (files 20 of 20)	<<<<<
+Making contigs...
+298
+298
+299
+298
+298
+299
+299
+299
+299
+298
+299
+299
+299
+299
+299
+299
+Done.
+
+It took 1 secs to assemble 4779 reads.
+
+
+Group count: 
+F3D0	7793
+F3D1	5869
+F3D141	5958
+F3D142	3183
+F3D143	3178
+F3D144	4827
+F3D145	7377
+F3D146	5021
+F3D147	17070
+F3D148	12405
+F3D149	13083
+F3D150	5509
+F3D2	19620
+F3D3	6758
+F3D5	4448
+F3D6	7989
+F3D7	5129
+F3D8	5294
+F3D9	7070
+Mock	4779
+
+Total of all groups is 152360
+
+It took 30 secs to process 152360 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table)
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	248	248	0	3	1
+2.5%-tile:	1	252	252	0	3	3810
+25%-tile:	1	252	252	0	4	38091
+Median: 	1	252	252	0	4	76181
+75%-tile:	1	253	253	0	5	114271
+97.5%-tile:	1	253	253	6	6	148552
+Maximum:	1	502	502	249	243	152360
+Mean:	1	252	252	0	4
+# of unique seqs:	152360
+total # of seqs:	152360
+
+It took 3 secs to summarize 152360 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table, maxambig=0, maxlength=275, maxhomop=8)
+
+Using 16 processors.
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+5000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+6000
+7000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+8000
+7000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9524
+9000
+9532
+8000
+9526
+9521
+9525
+9519
+9523
+9526
+9515
+9508
+9527
+9527
+9523
+9520
+9524
+9000
+9520
+
+It took 1 secs to screen 152360 sequences, removed 23495.
+
+/******************************************/
+Running command: remove.seqs(accnos=stability.trim.contigs.bad.accnos.temp, count=stability.contigs.count_table)
+Removed 23495 sequences from stability.contigs.count_table.
+
+Output File Names:
+stability.contigs.pick.count_table
+
+/******************************************/
+
+Output File Names:
+stability.trim.contigs.good.fasta
+stability.trim.contigs.bad.accnos
+stability.contigs.good.count_table
+
+
+It took 3 secs to screen 152360 sequences.
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table)
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	248	248	0	3	1
+2.5%-tile:	1	252	252	0	3	3810
+25%-tile:	1	252	252	0	4	38091
+Median: 	1	252	252	0	4	76181
+75%-tile:	1	253	253	0	5	114271
+97.5%-tile:	1	253	253	6	6	148552
+Maximum:	1	502	502	249	243	152360
+Mean:	1	252	252	0	4
+# of unique seqs:	152360
+total # of seqs:	152360
+
+It took 2 secs to summarize 152360 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > get.cureent()
+[ERROR]: Invalid command.
+Valid commands are: align.check, align.seqs, amova, anosim, bin.seqs, biom.info, chimera.bellerophon, chimera.ccode, chimera.check, chimera.perseus, chimera.pintail, chimera.slayer, chimera.uchime, chimera.vsearch, chop.seqs, classify.otu, classify.seqs, classify.svm, classify.tree, clearcut, cluster, cluster.classic, cluster.fit, cluster.fragments, cluster.split, collect.shared, collect.single, consensus.seqs, cooccurrence, corr.axes, count.groups, count.seqs, create.database, degap.seqs, deunique.seqs, deunique.tree, dist.seqs, dist.shared, estimator.single, fastq.info, filter.seqs, filter.shared, get.communitytype, get.coremicrobiome, get.current, get.dists, get.group, get.groups, get.label, get.lineage, get.mimarkspackage, get.otulabels, get.otulist, get.oturep, get.otus, get.rabund, get.relabund, get.sabund, get.seqs, get.sharedseqs, heatmap.bin, heatmap.sim, help, homova, indicator, kruskal.wallis, lefse, libshuff, list.otulabels, list.otus, list.seqs, make.biom, make.clr, make.contigs, make.fastq, make.file, make.group, make.lefse, make.lookup, make.shared, make.sra, make.table, mantel, merge.count, merge.files, merge.groups, merge.otus, merge.sfffiles, merge.taxsummary, metastats, mgcluster, mimarks.attributes, nmds, normalize.shared, otu.association, otu.hierarchy, pairwise.seqs, parsimony, pca, pcoa, pcr.seqs, phylo.diversity, phylotype, pre.cluster, primer.design, quit, rarefaction.shared, rarefaction.single, remove.dists, remove.groups, remove.lineage, remove.otulabels, remove.otus, remove.rare, remove.seqs, rename.file, rename.seqs, reverse.seqs, screen.seqs, sens.spec, seq.error, set.current, set.dir, set.logfile, set.seed, sff.multiple, sffinfo, shhh.flows, shhh.seqs, sort.seqs, sparcc, split.abund, split.groups, sra.info, sub.sample, summary.qual, summary.seqs, summary.shared, summary.single, summary.tax, system, tree.shared, trim.flows, trim.seqs, unifrac.unweighted, unifrac.weighted, unique.seqs, venn.
+[ERROR]: did not complete get.cureent.
+
+mothur > get.current()
+
+Current RAM usage: 0.400822 Gigabytes. Total Ram: 8 Gigabytes.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.bad.accnos
+fasta=stability.trim.contigs.fasta
+contigsreport=stability.contigs_report
+count=stability.contigs.count_table
+processors=16
+summary=stability.trim.contigs.summary
+
+Current default directories saved by mothur:
+	mothur/
+
+
+Current working directory: /Users/natalieburkhard/bio-490/independentStudy/MiSeqSOP/MiSeq_SOP/
+
+Output File Names: 
+current_files.summary
+
+
+mothur > make.contigs(file=stability.files, maxambig=0, maxlength=275, maxhomop=8)
+
+Using 16 processors.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 20)	<<<<<
+Making contigs...
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+488
+487
+487
+487
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+>>>>>	Processing file pair F3D141_S207_L001_R1_001.fastq - F3D141_S207_L001_R2_001.fastq (files 2 of 20)	<<<<<
+Making contigs...
+373
+373
+372
+373
+373
+372
+372
+372
+372
+372
+372
+373
+372
+372
+372
+373
+Done.
+
+It took 1 secs to assemble 5958 reads.
+
+
+>>>>>	Processing file pair F3D142_S208_L001_R1_001.fastq - F3D142_S208_L001_R2_001.fastq (files 3 of 20)	<<<<<
+Making contigs...
+199
+199
+199
+199
+199
+199
+198
+199
+199
+199
+199
+199
+199
+199
+199
+199
+Done.
+
+It took 1 secs to assemble 3183 reads.
+
+
+>>>>>	Processing file pair F3D143_S209_L001_R1_001.fastq - F3D143_S209_L001_R2_001.fastq (files 4 of 20)	<<<<<
+Making contigs...
+198
+199
+199
+199
+199
+198
+198
+198
+199
+198
+199
+199
+199
+198
+199
+199
+Done.
+
+It took 0 secs to assemble 3178 reads.
+
+
+>>>>>	Processing file pair F3D144_S210_L001_R1_001.fastq - F3D144_S210_L001_R2_001.fastq (files 5 of 20)	<<<<<
+Making contigs...
+302
+302
+301
+302
+302
+302
+302
+301
+302
+301
+302
+301
+301
+302
+302
+302
+Done.
+
+It took 1 secs to assemble 4827 reads.
+
+
+>>>>>	Processing file pair F3D145_S211_L001_R1_001.fastq - F3D145_S211_L001_R2_001.fastq (files 6 of 20)	<<<<<
+Making contigs...
+461
+461
+461
+461
+461
+461
+460
+461
+461
+462
+461
+461
+461
+461
+461
+462
+Done.
+
+It took 1 secs to assemble 7377 reads.
+
+
+>>>>>	Processing file pair F3D146_S212_L001_R1_001.fastq - F3D146_S212_L001_R2_001.fastq (files 7 of 20)	<<<<<
+Making contigs...
+313
+314
+313
+314
+314
+314
+314
+314
+314
+314
+314
+314
+313
+314
+314
+314
+Done.
+
+It took 1 secs to assemble 5021 reads.
+
+
+>>>>>	Processing file pair F3D147_S213_L001_R1_001.fastq - F3D147_S213_L001_R2_001.fastq (files 8 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1066
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1066
+1067
+1067
+Done.
+
+It took 3 secs to assemble 17070 reads.
+
+
+>>>>>	Processing file pair F3D148_S214_L001_R1_001.fastq - F3D148_S214_L001_R2_001.fastq (files 9 of 20)	<<<<<
+Making contigs...
+776
+775
+775
+776
+775
+775
+775
+775
+775
+775
+776
+775
+775
+776
+775
+776
+Done.
+
+It took 3 secs to assemble 12405 reads.
+
+
+>>>>>	Processing file pair F3D149_S215_L001_R1_001.fastq - F3D149_S215_L001_R2_001.fastq (files 10 of 20)	<<<<<
+Making contigs...
+817
+818
+818
+818
+817
+818
+818
+818
+817
+817
+817
+818
+818
+818
+818
+818
+Done.
+
+It took 2 secs to assemble 13083 reads.
+
+
+>>>>>	Processing file pair F3D150_S216_L001_R1_001.fastq - F3D150_S216_L001_R2_001.fastq (files 11 of 20)	<<<<<
+Making contigs...
+344
+344
+344
+344
+344
+345
+344
+344
+345
+344
+344
+345
+345
+344
+344
+345
+Done.
+
+It took 1 secs to assemble 5509 reads.
+
+
+>>>>>	Processing file pair F3D1_S189_L001_R1_001.fastq - F3D1_S189_L001_R2_001.fastq (files 12 of 20)	<<<<<
+Making contigs...
+366
+366
+367
+367
+367
+367
+367
+366
+367
+367
+367
+367
+367
+367
+367
+367
+Done.
+
+It took 1 secs to assemble 5869 reads.
+
+
+>>>>>	Processing file pair F3D2_S190_L001_R1_001.fastq - F3D2_S190_L001_R2_001.fastq (files 13 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1226
+1226
+1226
+1226
+1226
+1226
+1226
+1227
+1226
+1227
+1226
+1226
+1227
+1226
+1226
+1227
+Done.
+
+It took 4 secs to assemble 19620 reads.
+
+
+>>>>>	Processing file pair F3D3_S191_L001_R1_001.fastq - F3D3_S191_L001_R2_001.fastq (files 14 of 20)	<<<<<
+Making contigs...
+422
+423
+422
+423
+422
+423
+422
+422
+422
+422
+422
+423
+422
+423
+422
+423
+Done.
+
+It took 1 secs to assemble 6758 reads.
+
+
+>>>>>	Processing file pair F3D5_S193_L001_R1_001.fastq - F3D5_S193_L001_R2_001.fastq (files 15 of 20)	<<<<<
+Making contigs...
+277
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+279
+Done.
+
+It took 1 secs to assemble 4448 reads.
+
+
+>>>>>	Processing file pair F3D6_S194_L001_R1_001.fastq - F3D6_S194_L001_R2_001.fastq (files 16 of 20)	<<<<<
+Making contigs...
+499
+499
+499
+500
+499
+500
+499
+499
+500
+499
+499
+499
+499
+500
+499
+500
+Done.
+
+It took 1 secs to assemble 7989 reads.
+
+
+>>>>>	Processing file pair F3D7_S195_L001_R1_001.fastq - F3D7_S195_L001_R2_001.fastq (files 17 of 20)	<<<<<
+Making contigs...
+320
+320
+321
+320
+321
+320
+321
+320
+321
+321
+321
+321
+321
+320
+320
+321
+Done.
+
+It took 1 secs to assemble 5129 reads.
+
+
+>>>>>	Processing file pair F3D8_S196_L001_R1_001.fastq - F3D8_S196_L001_R2_001.fastq (files 18 of 20)	<<<<<
+Making contigs...
+330
+330
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+Done.
+
+It took 1 secs to assemble 5294 reads.
+
+
+>>>>>	Processing file pair F3D9_S197_L001_R1_001.fastq - F3D9_S197_L001_R2_001.fastq (files 19 of 20)	<<<<<
+Making contigs...
+441
+441
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+Done.
+
+It took 2 secs to assemble 7070 reads.
+
+
+>>>>>	Processing file pair Mock_S280_L001_R1_001.fastq - Mock_S280_L001_R2_001.fastq (files 20 of 20)	<<<<<
+Making contigs...
+298
+299
+299
+299
+298
+299
+299
+298
+299
+298
+299
+299
+299
+299
+298
+299
+Done.
+
+It took 1 secs to assemble 4779 reads.
+
+
+Group count: 
+F3D0	6638
+F3D1	4968
+F3D141	5075
+F3D142	2670
+F3D143	2672
+F3D144	3875
+F3D145	6114
+F3D146	4301
+F3D147	14170
+F3D148	10524
+F3D149	11091
+F3D150	4605
+F3D2	16792
+F3D3	5678
+F3D5	3715
+F3D6	6838
+F3D7	4365
+F3D8	4522
+F3D9	6119
+Mock	4133
+
+Total of all groups is 128865
+
+It took 29 secs to process 152360 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table)
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	250	250	0	3	1
+2.5%-tile:	1	252	252	0	3	3222
+25%-tile:	1	252	252	0	4	32217
+Median: 	1	252	252	0	4	64433
+75%-tile:	1	253	253	0	5	96649
+97.5%-tile:	1	253	253	0	6	125644
+Maximum:	1	270	270	0	8	128865
+Mean:	1	252	252	0	4
+# of unique seqs:	128865
+total # of seqs:	128865
+
+It took 2 secs to summarize 128865 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table)
+1000	349
+2000	583
+3000	812
+4000	1016
+5000	1198
+6000	1401
+7000	1607
+8000	1780
+9000	1938
+10000	2107
+11000	2274
+12000	2434
+13000	2609
+14000	2758
+15000	2934
+16000	3093
+17000	3262
+18000	3424
+19000	3565
+20000	3718
+21000	3861
+22000	4012
+23000	4152
+24000	4276
+25000	4402
+26000	4538
+27000	4662
+28000	4820
+29000	4984
+30000	5125
+31000	5272
+32000	5413
+33000	5577
+34000	5714
+35000	5829
+36000	5945
+37000	6079
+38000	6215
+39000	6327
+40000	6473
+41000	6614
+42000	6730
+43000	6862
+44000	7010
+45000	7152
+46000	7280
+47000	7407
+48000	7553
+49000	7653
+50000	7755
+51000	7873
+52000	8002
+53000	8117
+54000	8233
+55000	8354
+56000	8477
+57000	8621
+58000	8753
+59000	8857
+60000	8972
+61000	9095
+62000	9213
+63000	9348
+64000	9461
+65000	9569
+66000	9695
+67000	9816
+68000	9921
+69000	10068
+70000	10223
+71000	10360
+72000	10511
+73000	10658
+74000	10803
+75000	10958
+76000	11102
+77000	11222
+78000	11320
+79000	11415
+80000	11525
+81000	11623
+82000	11729
+83000	11832
+84000	11942
+85000	12047
+86000	12143
+87000	12243
+88000	12344
+89000	12447
+90000	12550
+91000	12639
+92000	12753
+93000	12852
+94000	12956
+95000	13032
+96000	13122
+97000	13212
+98000	13299
+99000	13373
+100000	13476
+101000	13595
+102000	13699
+103000	13816
+104000	13917
+105000	14024
+106000	14127
+107000	14222
+108000	14324
+109000	14406
+110000	14491
+111000	14571
+112000	14650
+113000	14731
+114000	14786
+115000	14889
+116000	14984
+117000	15086
+118000	15198
+119000	15301
+120000	15418
+121000	15519
+122000	15628
+123000	15731
+124000	15827
+125000	15966
+126000	16097
+127000	16200
+128000	16318
+128865	16421
+
+Output File Names: 
+stability.trim.contigs.unique.fasta
+stability.trim.contigs.count_table
+
+
+mothur > summary.seqs(count=stability.trim.contigs.count_table)
+Using stability.trim.contigs.unique.fasta as input file for the fasta parameter.
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	250	250	0	3	1
+2.5%-tile:	1	252	252	0	3	3222
+25%-tile:	1	252	252	0	4	32217
+Median: 	1	252	252	0	4	64433
+75%-tile:	1	253	253	0	5	96649
+97.5%-tile:	1	253	253	0	6	125644
+Maximum:	1	270	270	0	8	128865
+Mean:	1	252	252	0	4
+# of unique seqs:	16421
+total # of seqs:	128865
+
+It took 0 secs to summarize 128865 sequences.
+
+Output File Names:
+stability.trim.contigs.unique.summary
+
+
+mothur > pcr.seqs(fasta=silva.bacteria.fasta, start=11894, end=25319, keepdots=F)
+Unable to open silva.bacteria.fasta. Trying MOTHUR_FILES directory mothur/silva.bacteria.fasta.
+Unable to open mothur/silva.bacteria.fasta. Trying mothur's executable directory mothur/silva.bacteria.fasta.
+Unable to open mothur/silva.bacteria.fasta.
+Unable to open silva.bacteria.fasta
+
+Using 16 processors.
+[ERROR]: did not complete pcr.seqs.
+
+mothur > pcr.seqs(fasta=silva.bacteria.fasta, start=11894, end=25319, keepdots=F)
+Unable to open silva.bacteria.fasta. Trying MOTHUR_FILES directory mothur/silva.bacteria.fasta.
+Unable to open mothur/silva.bacteria.fasta. Trying mothur's executable directory mothur/silva.bacteria.fasta.
+Unable to open mothur/silva.bacteria.fasta.
+Unable to open silva.bacteria.fasta
+
+Using 16 processors.
+[ERROR]: did not complete pcr.seqs.
+
+mothur > pcr.seqs(fasta=silva.bacteria.fasta, start=11894, end=25319, keepdots=F)
+Unable to open silva.bacteria.fasta. Trying MOTHUR_FILES directory mothur/silva.bacteria.fasta.
+Unable to open mothur/silva.bacteria.fasta. Trying mothur's executable directory mothur/silva.bacteria.fasta.
+Unable to open mothur/silva.bacteria.fasta.
+Unable to open silva.bacteria.fasta
+
+Using 16 processors.
+[ERROR]: did not complete pcr.seqs.
+
+mothur > exit
+/*****************************************************************************/
+Unable to open exit. Trying MOTHUR_FILES directory mothur/exit.
+Unable to open mothur/exit. Trying mothur's executable directory exit.
+Unable to open exit.
+[ERROR]: unable to open exit batch file, please correct.
+/*****************************************************************************/
+
+mothur > exit()
+
+
+It took 7 seconds to run 0 commands from exit batch file.
+
+[ERROR]: Invalid command.
+Valid commands are: align.check, align.seqs, amova, anosim, bin.seqs, biom.info, chimera.bellerophon, chimera.ccode, chimera.check, chimera.perseus, chimera.pintail, chimera.slayer, chimera.uchime, chimera.vsearch, chop.seqs, classify.otu, classify.seqs, classify.svm, classify.tree, clearcut, cluster, cluster.classic, cluster.fit, cluster.fragments, cluster.split, collect.shared, collect.single, consensus.seqs, cooccurrence, corr.axes, count.groups, count.seqs, create.database, degap.seqs, deunique.seqs, deunique.tree, dist.seqs, dist.shared, estimator.single, fastq.info, filter.seqs, filter.shared, get.communitytype, get.coremicrobiome, get.current, get.dists, get.group, get.groups, get.label, get.lineage, get.mimarkspackage, get.otulabels, get.otulist, get.oturep, get.otus, get.rabund, get.relabund, get.sabund, get.seqs, get.sharedseqs, heatmap.bin, heatmap.sim, help, homova, indicator, kruskal.wallis, lefse, libshuff, list.otulabels, list.otus, list.seqs, make.biom, make.clr, make.contigs, make.fastq, make.file, make.group, make.lefse, make.lookup, make.shared, make.sra, make.table, mantel, merge.count, merge.files, merge.groups, merge.otus, merge.sfffiles, merge.taxsummary, metastats, mgcluster, mimarks.attributes, nmds, normalize.shared, otu.association, otu.hierarchy, pairwise.seqs, parsimony, pca, pcoa, pcr.seqs, phylo.diversity, phylotype, pre.cluster, primer.design, quit, rarefaction.shared, rarefaction.single, remove.dists, remove.groups, remove.lineage, remove.otulabels, remove.otus, remove.rare, remove.seqs, rename.file, rename.seqs, reverse.seqs, screen.seqs, sens.spec, seq.error, set.current, set.dir, set.logfile, set.seed, sff.multiple, sffinfo, shhh.flows, shhh.seqs, sort.seqs, sparcc, split.abund, split.groups, sra.info, sub.sample, summary.qual, summary.seqs, summary.shared, summary.single, summary.tax, system, tree.shared, trim.flows, trim.seqs, unifrac.unweighted, unifrac.weighted, unique.seqs, venn.
+[ERROR]: did not complete exit.
+
+mothur > quit
+Logfile : mothur.1647733579.logfile
+
+
+
+************************************************************
+************************************************************
+************************************************************
+Detected 8 [ERROR] messages, please review.
+************************************************************
+************************************************************
+************************************************************
+(base) Natalies-MacBook-Pro:MiSeq_SOP natalieburkhard$ quit()
+> 
+> 
+(base) Natalies-MacBook-Pro:MiSeq_SOP natalieburkhard$ ln silva.bacteria/silva.bacteria.fasta ./ 
+(base) Natalies-MacBook-Pro:MiSeq_SOP natalieburkhard$ mothur/mothur
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > make.contigs(file=stability.files, processors=16)
+
+Using 16 processors.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 20)	<<<<<
+Making contigs...
+487
+487
+487
+487
+487
+487
+487
+487
+487
+488
+487
+487
+487
+487
+487
+487
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+>>>>>	Processing file pair F3D141_S207_L001_R1_001.fastq - F3D141_S207_L001_R2_001.fastq (files 2 of 20)	<<<<<
+Making contigs...
+373
+372
+372
+372
+372
+373
+372
+372
+372
+372
+372
+372
+373
+373
+373
+373
+Done.
+
+It took 1 secs to assemble 5958 reads.
+
+
+>>>>>	Processing file pair F3D142_S208_L001_R1_001.fastq - F3D142_S208_L001_R2_001.fastq (files 3 of 20)	<<<<<
+Making contigs...
+199
+199
+199
+198
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+Done.
+
+It took 1 secs to assemble 3183 reads.
+
+
+>>>>>	Processing file pair F3D143_S209_L001_R1_001.fastq - F3D143_S209_L001_R2_001.fastq (files 4 of 20)	<<<<<
+Making contigs...
+198
+198
+198
+198
+198
+199
+199
+199
+198
+199
+199
+199
+199
+199
+199
+199
+Done.
+
+It took 0 secs to assemble 3178 reads.
+
+
+>>>>>	Processing file pair F3D144_S210_L001_R1_001.fastq - F3D144_S210_L001_R2_001.fastq (files 5 of 20)	<<<<<
+Making contigs...
+302
+302
+301
+301
+301
+302
+302
+302
+302
+302
+302
+302
+302
+301
+301
+302
+Done.
+
+It took 1 secs to assemble 4827 reads.
+
+
+>>>>>	Processing file pair F3D145_S211_L001_R1_001.fastq - F3D145_S211_L001_R2_001.fastq (files 6 of 20)	<<<<<
+Making contigs...
+461
+461
+461
+461
+461
+461
+461
+461
+461
+460
+461
+461
+461
+462
+461
+462
+Done.
+
+It took 1 secs to assemble 7377 reads.
+
+
+>>>>>	Processing file pair F3D146_S212_L001_R1_001.fastq - F3D146_S212_L001_R2_001.fastq (files 7 of 20)	<<<<<
+Making contigs...
+314
+314
+314
+314
+314
+314
+314
+314
+314
+314
+313
+313
+313
+314
+314
+314
+Done.
+
+It took 1 secs to assemble 5021 reads.
+
+
+>>>>>	Processing file pair F3D147_S213_L001_R1_001.fastq - F3D147_S213_L001_R2_001.fastq (files 8 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1066
+1000
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1066
+1067
+1067
+1067
+1067
+Done.
+
+It took 3 secs to assemble 17070 reads.
+
+
+>>>>>	Processing file pair F3D148_S214_L001_R1_001.fastq - F3D148_S214_L001_R2_001.fastq (files 9 of 20)	<<<<<
+Making contigs...
+776
+775
+776
+775
+775
+775
+775
+776
+775
+776
+775
+775
+775
+775
+775
+776
+Done.
+
+It took 3 secs to assemble 12405 reads.
+
+
+>>>>>	Processing file pair F3D149_S215_L001_R1_001.fastq - F3D149_S215_L001_R2_001.fastq (files 10 of 20)	<<<<<
+Making contigs...
+817
+818
+818
+817
+817
+817
+818
+818
+818
+818
+817
+818
+818
+818
+818
+818
+Done.
+
+It took 2 secs to assemble 13083 reads.
+
+
+>>>>>	Processing file pair F3D150_S216_L001_R1_001.fastq - F3D150_S216_L001_R2_001.fastq (files 11 of 20)	<<<<<
+Making contigs...
+344
+344
+344
+344
+345
+344
+344
+345
+344
+344
+345
+344
+344
+345
+344
+345
+Done.
+
+It took 1 secs to assemble 5509 reads.
+
+
+>>>>>	Processing file pair F3D1_S189_L001_R1_001.fastq - F3D1_S189_L001_R2_001.fastq (files 12 of 20)	<<<<<
+Making contigs...
+366
+367
+367
+367
+367
+366
+367
+367
+367
+367
+367
+366
+367
+367
+367
+367
+Done.
+
+It took 1 secs to assemble 5869 reads.
+
+
+>>>>>	Processing file pair F3D2_S190_L001_R1_001.fastq - F3D2_S190_L001_R2_001.fastq (files 13 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1226
+1226
+1226
+1226
+1226
+1226
+1226
+1226
+1227
+1226
+1226
+1226
+1227
+1226
+1227
+1227
+Done.
+
+It took 4 secs to assemble 19620 reads.
+
+
+>>>>>	Processing file pair F3D3_S191_L001_R1_001.fastq - F3D3_S191_L001_R2_001.fastq (files 14 of 20)	<<<<<
+Making contigs...
+422
+422
+422
+422
+422
+422
+423
+422
+423
+423
+422
+422
+423
+422
+423
+423
+Done.
+
+It took 1 secs to assemble 6758 reads.
+
+
+>>>>>	Processing file pair F3D5_S193_L001_R1_001.fastq - F3D5_S193_L001_R2_001.fastq (files 15 of 20)	<<<<<
+Making contigs...
+277
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+279
+Done.
+
+It took 1 secs to assemble 4448 reads.
+
+
+>>>>>	Processing file pair F3D6_S194_L001_R1_001.fastq - F3D6_S194_L001_R2_001.fastq (files 16 of 20)	<<<<<
+Making contigs...
+499
+500
+500
+499
+499
+499
+499
+499
+500
+499
+499
+499
+499
+499
+500
+500
+Done.
+
+It took 1 secs to assemble 7989 reads.
+
+
+>>>>>	Processing file pair F3D7_S195_L001_R1_001.fastq - F3D7_S195_L001_R2_001.fastq (files 17 of 20)	<<<<<
+Making contigs...
+321
+321
+320
+320
+321
+321
+320
+320
+320
+321
+321
+321
+320
+321
+320
+321
+Done.
+
+It took 1 secs to assemble 5129 reads.
+
+
+>>>>>	Processing file pair F3D8_S196_L001_R1_001.fastq - F3D8_S196_L001_R2_001.fastq (files 18 of 20)	<<<<<
+Making contigs...
+330
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+330
+331
+331
+331
+Done.
+
+It took 1 secs to assemble 5294 reads.
+
+
+>>>>>	Processing file pair F3D9_S197_L001_R1_001.fastq - F3D9_S197_L001_R2_001.fastq (files 19 of 20)	<<<<<
+Making contigs...
+441
+442
+442
+442
+442
+442
+441
+442
+442
+442
+442
+442
+442
+442
+442
+442
+Done.
+
+It took 2 secs to assemble 7070 reads.
+
+
+>>>>>	Processing file pair Mock_S280_L001_R1_001.fastq - Mock_S280_L001_R2_001.fastq (files 20 of 20)	<<<<<
+Making contigs...
+298
+299
+299
+299
+298
+298
+299
+299
+298
+299
+299
+298
+299
+299
+299
+299
+Done.
+
+It took 1 secs to assemble 4779 reads.
+
+
+Group count: 
+F3D0	7793
+F3D1	5869
+F3D141	5958
+F3D142	3183
+F3D143	3178
+F3D144	4827
+F3D145	7377
+F3D146	5021
+F3D147	17070
+F3D148	12405
+F3D149	13083
+F3D150	5509
+F3D2	19620
+F3D3	6758
+F3D5	4448
+F3D6	7989
+F3D7	5129
+F3D8	5294
+F3D9	7070
+Mock	4779
+
+Total of all groups is 152360
+
+It took 29 secs to process 152360 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > make.contigs(file=stability.files, maxambig=0, maxlength=275, maxhomop=8)
+
+Using 16 processors.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 20)	<<<<<
+Making contigs...
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+487
+488
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+>>>>>	Processing file pair F3D141_S207_L001_R1_001.fastq - F3D141_S207_L001_R2_001.fastq (files 2 of 20)	<<<<<
+Making contigs...
+372
+373
+372
+372
+372
+372
+372
+373
+373
+372
+372
+372
+373
+373
+372
+373
+Done.
+
+It took 1 secs to assemble 5958 reads.
+
+
+>>>>>	Processing file pair F3D142_S208_L001_R1_001.fastq - F3D142_S208_L001_R2_001.fastq (files 3 of 20)	<<<<<
+Making contigs...
+198
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+199
+Done.
+
+It took 1 secs to assemble 3183 reads.
+
+
+>>>>>	Processing file pair F3D143_S209_L001_R1_001.fastq - F3D143_S209_L001_R2_001.fastq (files 4 of 20)	<<<<<
+Making contigs...
+199
+198
+199
+199
+198
+199
+198
+199
+199
+198
+198
+199
+199
+198
+199
+199
+Done.
+
+It took 0 secs to assemble 3178 reads.
+
+
+>>>>>	Processing file pair F3D144_S210_L001_R1_001.fastq - F3D144_S210_L001_R2_001.fastq (files 5 of 20)	<<<<<
+Making contigs...
+301
+302
+302
+302
+302
+302
+301
+302
+302
+302
+302
+301
+301
+301
+302
+302
+Done.
+
+It took 1 secs to assemble 4827 reads.
+
+
+>>>>>	Processing file pair F3D145_S211_L001_R1_001.fastq - F3D145_S211_L001_R2_001.fastq (files 6 of 20)	<<<<<
+Making contigs...
+461
+461
+461
+461
+461
+461
+461
+461
+461
+461
+461
+461
+462
+460
+461
+462
+Done.
+
+It took 1 secs to assemble 7377 reads.
+
+
+>>>>>	Processing file pair F3D146_S212_L001_R1_001.fastq - F3D146_S212_L001_R2_001.fastq (files 7 of 20)	<<<<<
+Making contigs...
+314
+314
+314
+314
+313
+314
+313
+313
+314
+314
+314
+314
+314
+314
+314
+314
+Done.
+
+It took 1 secs to assemble 5021 reads.
+
+
+>>>>>	Processing file pair F3D147_S213_L001_R1_001.fastq - F3D147_S213_L001_R2_001.fastq (files 8 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1067
+1000
+1066
+1067
+1067
+1067
+1067
+1067
+1067
+1067
+1066
+1067
+1067
+1067
+1067
+1067
+1067
+Done.
+
+It took 4 secs to assemble 17070 reads.
+
+
+>>>>>	Processing file pair F3D148_S214_L001_R1_001.fastq - F3D148_S214_L001_R2_001.fastq (files 9 of 20)	<<<<<
+Making contigs...
+776
+775
+775
+775
+775
+776
+776
+775
+775
+775
+775
+775
+775
+776
+775
+776
+Done.
+
+It took 2 secs to assemble 12405 reads.
+
+
+>>>>>	Processing file pair F3D149_S215_L001_R1_001.fastq - F3D149_S215_L001_R2_001.fastq (files 10 of 20)	<<<<<
+Making contigs...
+817
+818
+818
+817
+818
+818
+818
+817
+818
+817
+818
+818
+818
+818
+817
+818
+Done.
+
+It took 3 secs to assemble 13083 reads.
+
+
+>>>>>	Processing file pair F3D150_S216_L001_R1_001.fastq - F3D150_S216_L001_R2_001.fastq (files 11 of 20)	<<<<<
+Making contigs...
+345
+344
+344
+344
+344
+344
+345
+344
+345
+344
+344
+344
+344
+344
+345
+345
+Done.
+
+It took 1 secs to assemble 5509 reads.
+
+
+>>>>>	Processing file pair F3D1_S189_L001_R1_001.fastq - F3D1_S189_L001_R2_001.fastq (files 12 of 20)	<<<<<
+Making contigs...
+366
+367
+367
+367
+367
+367
+366
+367
+367
+366
+367
+367
+367
+367
+367
+367
+Done.
+
+It took 1 secs to assemble 5869 reads.
+
+
+>>>>>	Processing file pair F3D2_S190_L001_R1_001.fastq - F3D2_S190_L001_R2_001.fastq (files 13 of 20)	<<<<<
+Making contigs...
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1226
+1226
+1227
+1226
+1226
+1227
+1226
+1226
+1226
+1226
+1226
+1226
+1226
+1227
+1227
+1226
+Done.
+
+It took 4 secs to assemble 19620 reads.
+
+
+>>>>>	Processing file pair F3D3_S191_L001_R1_001.fastq - F3D3_S191_L001_R2_001.fastq (files 14 of 20)	<<<<<
+Making contigs...
+422
+422
+423
+422
+423
+423
+422
+422
+423
+422
+422
+422
+423
+422
+422
+423
+Done.
+
+It took 1 secs to assemble 6758 reads.
+
+
+>>>>>	Processing file pair F3D5_S193_L001_R1_001.fastq - F3D5_S193_L001_R2_001.fastq (files 15 of 20)	<<<<<
+Making contigs...
+277
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+278
+279
+Done.
+
+It took 1 secs to assemble 4448 reads.
+
+
+>>>>>	Processing file pair F3D6_S194_L001_R1_001.fastq - F3D6_S194_L001_R2_001.fastq (files 16 of 20)	<<<<<
+Making contigs...
+500
+499
+499
+499
+499
+500
+499
+499
+500
+499
+499
+500
+499
+499
+499
+500
+Done.
+
+It took 2 secs to assemble 7989 reads.
+
+
+>>>>>	Processing file pair F3D7_S195_L001_R1_001.fastq - F3D7_S195_L001_R2_001.fastq (files 17 of 20)	<<<<<
+Making contigs...
+320
+321
+321
+320
+320
+321
+321
+320
+321
+321
+320
+320
+321
+320
+321
+321
+Done.
+
+It took 1 secs to assemble 5129 reads.
+
+
+>>>>>	Processing file pair F3D8_S196_L001_R1_001.fastq - F3D8_S196_L001_R2_001.fastq (files 18 of 20)	<<<<<
+Making contigs...
+330
+331
+331
+331
+331
+331
+331
+331
+331
+331
+331
+330
+331
+331
+331
+331
+Done.
+
+It took 1 secs to assemble 5294 reads.
+
+
+>>>>>	Processing file pair F3D9_S197_L001_R1_001.fastq - F3D9_S197_L001_R2_001.fastq (files 19 of 20)	<<<<<
+Making contigs...
+441
+442
+442
+441
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+442
+Done.
+
+It took 1 secs to assemble 7070 reads.
+
+
+>>>>>	Processing file pair Mock_S280_L001_R1_001.fastq - Mock_S280_L001_R2_001.fastq (files 20 of 20)	<<<<<
+Making contigs...
+298
+298
+299
+298
+298
+299
+299
+299
+299
+299
+298
+299
+299
+299
+299
+299
+Done.
+
+It took 1 secs to assemble 4779 reads.
+
+
+Group count: 
+F3D0	6638
+F3D1	4968
+F3D141	5075
+F3D142	2670
+F3D143	2672
+F3D144	3875
+F3D145	6114
+F3D146	4301
+F3D147	14170
+F3D148	10524
+F3D149	11091
+F3D150	4605
+F3D2	16792
+F3D3	5678
+F3D5	3715
+F3D6	6838
+F3D7	4365
+F3D8	4522
+F3D9	6119
+Mock	4133
+
+Total of all groups is 128865
+
+It took 30 secs to process 152360 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table, maxambig=0, maxlength=275, maxhomop=8)
+
+Using 16 processors.
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+2000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+3000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+4000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+5000
+6000
+6000
+5000
+5000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+6000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+7000
+8000
+8000
+7000
+8048
+8000
+8042
+8052
+7000
+8000
+8053
+8000
+8000
+8054
+8000
+8052
+8054
+8000
+8000
+8000
+8000
+8059
+8063
+8056
+8054
+8000
+8000
+8055
+8057
+8000
+8060
+8000
+8050
+8000
+8056
+
+It took 1 secs to screen 128865 sequences, removed 0.
+
+[NOTE]: no sequences were bad, removing stability.trim.contigs.bad.accnos
+
+
+Output File Names:
+stability.trim.contigs.good.fasta
+
+
+It took 2 secs to screen 128865 sequences.
+
+mothur > summary.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table)
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	250	250	0	3	1
+2.5%-tile:	1	252	252	0	3	3222
+25%-tile:	1	252	252	0	4	32217
+Median: 	1	252	252	0	4	64433
+75%-tile:	1	253	253	0	5	96649
+97.5%-tile:	1	253	253	0	6	125644
+Maximum:	1	270	270	0	8	128865
+Mean:	1	252	252	0	4
+# of unique seqs:	128865
+total # of seqs:	128865
+
+It took 2 secs to summarize 128865 sequences.
+
+Output File Names:
+stability.trim.contigs.summary
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.fasta, count=stability.contigs.count_table)
+1000	348
+2000	583
+3000	805
+4000	1012
+5000	1201
+6000	1410
+7000	1608
+8000	1781
+9000	1943
+10000	2105
+11000	2267
+12000	2432
+13000	2602
+14000	2756
+15000	2922
+16000	3095
+17000	3262
+18000	3425
+19000	3563
+20000	3721
+21000	3858
+22000	4013
+23000	4155
+24000	4272
+25000	4405
+26000	4530
+27000	4661
+28000	4819
+29000	4978
+30000	5126
+31000	5277
+32000	5417
+33000	5569
+34000	5713
+35000	5833
+36000	5946
+37000	6078
+38000	6215
+39000	6328
+40000	6472
+41000	6613
+42000	6732
+43000	6861
+44000	7006
+45000	7157
+46000	7283
+47000	7408
+48000	7548
+49000	7653
+50000	7756
+51000	7871
+52000	8000
+53000	8124
+54000	8235
+55000	8358
+56000	8473
+57000	8614
+58000	8755
+59000	8858
+60000	8969
+61000	9093
+62000	9216
+63000	9347
+64000	9458
+65000	9568
+66000	9692
+67000	9819
+68000	9921
+69000	10063
+70000	10218
+71000	10357
+72000	10512
+73000	10663
+74000	10798
+75000	10958
+76000	11101
+77000	11226
+78000	11315
+79000	11410
+80000	11520
+81000	11628
+82000	11728
+83000	11832
+84000	11937
+85000	12046
+86000	12134
+87000	12252
+88000	12351
+89000	12442
+90000	12547
+91000	12645
+92000	12755
+93000	12856
+94000	12951
+95000	13031
+96000	13127
+97000	13213
+98000	13302
+99000	13375
+100000	13479
+101000	13594
+102000	13705
+103000	13813
+104000	13916
+105000	14027
+106000	14124
+107000	14223
+108000	14323
+109000	14406
+110000	14495
+111000	14572
+112000	14649
+113000	14731
+114000	14785
+115000	14891
+116000	14983
+117000	15086
+118000	15206
+119000	15306
+120000	15417
+121000	15518
+122000	15628
+123000	15730
+124000	15827
+125000	15965
+126000	16096
+127000	16206
+128000	16316
+128865	16421
+
+Output File Names: 
+stability.trim.contigs.unique.fasta
+stability.trim.contigs.count_table
+
+
+mothur > summary.seqs(count=stability.trim.contigs.count_table)
+Using stability.trim.contigs.unique.fasta as input file for the fasta parameter.
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	250	250	0	3	1
+2.5%-tile:	1	252	252	0	3	3222
+25%-tile:	1	252	252	0	4	32217
+Median: 	1	252	252	0	4	64433
+75%-tile:	1	253	253	0	5	96649
+97.5%-tile:	1	253	253	0	6	125644
+Maximum:	1	270	270	0	8	128865
+Mean:	1	252	252	0	4
+# of unique seqs:	16421
+total # of seqs:	128865
+
+It took 0 secs to summarize 128865 sequences.
+
+Output File Names:
+stability.trim.contigs.unique.summary
+
+
+mothur > pcr.seqs(fasta=silva.bacteria.fasta, start=11894, end=25319, keepdots=F)
+
+Using 16 processors.
+935
+935
+935
+935
+935
+934
+935
+935
+935
+934
+935
+934
+934
+935
+935
+935
+[NOTE]: no sequences were bad, removing silva.bacteria.bad.accnos
+
+It took 7 secs to screen 14956 sequences.
+
+Output File Names: 
+silva.bacteria.pcr.fasta
+
+
+
+mothur > rename.file(input=silva.bacteria.pcr.fasta, new=silva.v4.fasta)
+
+Current files saved by mothur:
+fasta=silva.bacteria.pcr.fasta
+contigsreport=stability.contigs_report
+count=stability.trim.contigs.count_table
+processors=16
+summary=stability.trim.contigs.unique.summary
+
+mothur > summary.seqs(fasta=silva.v4.fasta)
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	2	13425	270	0	3	1
+2.5%-tile:	2	13426	292	0	4	374
+25%-tile:	2	13426	293	0	4	3740
+Median: 	2	13426	293	0	4	7479
+75%-tile:	2	13426	293	0	5	11218
+97.5%-tile:	2	13426	294	1	6	14583
+Maximum:	4	13426	351	5	9	14956
+Mean:	2	13425	292	0	4
+# of Seqs:	14956
+
+It took 1 secs to summarize 14956 sequences.
+
+Output File Names:
+silva.v4.summary
+
+
+mothur > align.seqs(fasta=stability.trim.contigs.unique.fasta, reference=silva.v4.fasta)
+
+Using 16 processors.
+
+Reading in the silva.v4.fasta template sequences...	DONE.
+It took 4 to read  14956 sequences.
+
+Aligning sequences from stability.trim.contigs.unique.fasta ...
+1000
+1000
+1000
+1000
+1000
+1000
+1027
+1000
+1000
+1000
+1000
+1000
+1028
+1026
+1000
+1000
+1028
+1026
+1000
+1026
+1027
+1026
+1026
+1000
+1026
+1025
+1026
+1027
+1026
+1026
+1000
+1025
+It took 6 secs to align 16421 sequences.
+
+
+It took 6 seconds to align 16421 sequences.
+
+Output File Names: 
+stability.trim.contigs.unique.align
+stability.trim.contigs.unique.align_report
+
+
+mothur > summary.seqs(fasta=stability.trim.contigs.unique.align, count=stability.trim.contigs.count_table)
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1251	10694	250	0	3	1
+2.5%-tile:	1969	11551	252	0	3	3222
+25%-tile:	1969	11551	252	0	4	32217
+Median: 	1969	11551	252	0	4	64433
+75%-tile:	1969	11551	253	0	5	96649
+97.5%-tile:	1969	11551	253	0	6	125644
+Maximum:	1983	13401	270	0	8	128865
+Mean:	1968	11551	252	0	4
+# of unique seqs:	16421
+total # of seqs:	128865
+
+It took 1 secs to summarize 128865 sequences.
+
+Output File Names:
+stability.trim.contigs.unique.summary
+
+
+mothur > screen.seqs(fasta=stability.trim.contigs.unique.align, count=stability.trim.contigs.count_table, start=1969, end=11551)
+
+Using 16 processors.
+1000
+1000
+1027
+1000
+1000
+1026
+1000
+1000
+1000
+1000
+1000
+1026
+1027
+1000
+1026
+1026
+1027
+1026
+1027
+1000
+1027
+1000
+1000
+1026
+1000
+1000
+1026
+1026
+1026
+1000
+1026
+1026
+
+It took 3 secs to screen 16421 sequences, removed 122.
+
+/******************************************/
+Running command: remove.seqs(accnos=stability.trim.contigs.unique.bad.accnos.temp, count=stability.trim.contigs.count_table)
+Removed 209 sequences from stability.trim.contigs.count_table.
+
+Output File Names:
+stability.trim.contigs.pick.count_table
+
+/******************************************/
+
+Output File Names:
+stability.trim.contigs.unique.good.align
+stability.trim.contigs.unique.bad.accnos
+stability.trim.contigs.good.count_table
+
+
+It took 3 secs to screen 16421 sequences.
+
+mothur > summary.seqs(fasta=current, count=current)
+Using stability.trim.contigs.good.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.align as input file for the fasta parameter.
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1966	11551	250	0	3	1
+2.5%-tile:	1969	11551	252	0	3	3217
+25%-tile:	1969	11551	252	0	4	32165
+Median: 	1969	11551	252	0	4	64329
+75%-tile:	1969	11551	253	0	5	96493
+97.5%-tile:	1969	11551	253	0	6	125440
+Maximum:	1969	13401	270	0	8	128656
+Mean:	1968	11551	252	0	4
+# of unique seqs:	16299
+total # of seqs:	128656
+
+It took 1 secs to summarize 128656 sequences.
+
+Output File Names:
+stability.trim.contigs.unique.good.summary
+
+
+mothur > filter.seqs(fasta=stability.trim.contigs.unique.good.align, vertical=T, trump=.)
+
+Using 16 processors.
+Creating Filter...
+1000
+1019
+1000
+1019
+1000
+1000
+1019
+1018
+1000
+1019
+1000
+1000
+1018
+1019
+1000
+1000
+1000
+1000
+1000
+1000
+1019
+1000
+1000
+1000
+1019
+1018
+1019
+1019
+1019
+1019
+1018
+1018
+It took 2 secs to create filter for 16299 sequences.
+
+
+Running Filter...
+1000
+1019
+1000
+1000
+1000
+1000
+1019
+1019
+1000
+1019
+1000
+1000
+1000
+1000
+1018
+1000
+1019
+1019
+1018
+1018
+1000
+1000
+1019
+1000
+1000
+1019
+1019
+1019
+1018
+1018
+1000
+1019
+It took 1 secs to filter 16299 sequences.
+
+
+
+Length of filtered alignment: 375
+Number of columns removed: 13051
+Length of the original alignment: 13426
+Number of sequences used to construct filter: 16299
+
+Output File Names: 
+stability.filter
+stability.trim.contigs.unique.good.filter.fasta
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.unique.good.filter.fasta, count=stability.trim.contigs.good.count_table)
+1000	1000
+2000	2000
+3000	3000
+4000	4000
+5000	4999
+6000	5998
+7000	6998
+8000	7998
+9000	8998
+10000	9998
+11000	10998
+12000	11998
+13000	12998
+14000	13998
+15000	14997
+16000	15997
+16299	16296
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.fasta
+stability.trim.contigs.unique.good.filter.count_table
+
+
+mothur > pre.cluster(fasta=stability.trim.contigs.unique.good.filter.unique.fasta, count=stability.trim.contigs.unique.good.filter.count_table, diffs=2)
+
+Using 16 processors.
+
+/******************************************/
+Running command: split.groups(groups=F3D0-F3D1-F3D141-F3D142-F3D143-F3D144-F3D145-F3D146-F3D147-F3D148-F3D149-F3D150-F3D2-F3D3-F3D5-F3D6-F3D7-F3D8-F3D9-Mock, fasta=stability.trim.contigs.unique.good.filter.unique.fasta, count=stability.trim.contigs.unique.good.filter.count_table)
+
+Using 16 processors.
+/******************************************/
+Selecting sequences for group F3D143
+
+/******************************************/
+Selecting sequences for group F3D142
+
+/******************************************/
+Selecting sequences for group F3D1
+
+/******************************************/
+Selecting sequences for group F3D148
+
+/******************************************/
+Selecting sequences for group F3D7
+
+/******************************************/
+Selecting sequences for group F3D5
+
+/******************************************/
+Selecting sequences for group F3D149
+
+/******************************************/
+Selecting sequences for group F3D144
+
+/******************************************/
+Selecting sequences for group F3D146
+
+/******************************************/
+Selecting sequences for group F3D141
+
+/******************************************/
+Selecting sequences for group F3D9
+
+/******************************************/
+Selecting sequences for group F3D150
+
+/******************************************/
+Selecting sequences for group F3D145
+
+/******************************************/
+Selecting sequences for group F3D2
+
+/******************************************/
+Selecting sequences for group F3D0
+
+/******************************************/
+Selecting sequences for group F3D147
+
+Selected 723 sequences from stability.trim.contigs.unique.good.filter.unique.fasta3_4.
+/******************************************/
+
+Selected 734 sequences from stability.trim.contigs.unique.good.filter.unique.fasta4_5.
+/******************************************/
+
+Selected 1195 sequences from stability.trim.contigs.unique.good.filter.unique.fasta1_2.
+/******************************************/
+
+Selected 2154 sequences from stability.trim.contigs.unique.good.filter.unique.fasta9_10.
+/******************************************/
+
+Selected 870 sequences from stability.trim.contigs.unique.good.filter.unique.fasta16_18.
+Selected 907 sequences from stability.trim.contigs.unique.good.filter.unique.fasta14_16.
+/******************************************/
+
+/******************************************/
+
+/******************************************/
+Selecting sequences for group F3D8
+
+/******************************************/
+Selecting sequences for group F3D6
+
+Selected 1350 sequences from stability.trim.contigs.unique.good.filter.unique.fasta6_7.
+Selected 951 sequences from stability.trim.contigs.unique.good.filter.unique.fasta5_6.
+/******************************************/
+
+/******************************************/
+
+Selected 1115 sequences from stability.trim.contigs.unique.good.filter.unique.fasta2_3.
+/******************************************/
+
+Selected 1125 sequences from stability.trim.contigs.unique.good.filter.unique.fasta7_8.
+/******************************************/
+
+Selected 1245 sequences from stability.trim.contigs.unique.good.filter.unique.fasta11_12.
+/******************************************/
+
+Selected 1295 sequences from stability.trim.contigs.unique.good.filter.unique.fasta18_20.
+/******************************************/
+
+/******************************************/
+Selecting sequences for group Mock
+
+Selected 1523 sequences from stability.trim.contigs.unique.good.filter.unique.fasta0_1.
+/******************************************/
+
+Selected 2266 sequences from stability.trim.contigs.unique.good.filter.unique.fasta10_11.
+/******************************************/
+
+Selected 2747 sequences from stability.trim.contigs.unique.good.filter.unique.fasta12_14.
+/******************************************/
+
+Selected 2840 sequences from stability.trim.contigs.unique.good.filter.unique.fasta8_9.
+/******************************************/
+
+/******************************************/
+Selecting sequences for group F3D3
+
+Selected 1004 sequences from stability.trim.contigs.unique.good.filter.unique.fasta16_18.
+/******************************************/
+
+Selected 531 sequences from stability.trim.contigs.unique.good.filter.unique.fasta18_20.
+/******************************************/
+
+Selected 1378 sequences from stability.trim.contigs.unique.good.filter.unique.fasta14_16.
+/******************************************/
+
+Selected 1078 sequences from stability.trim.contigs.unique.good.filter.unique.fasta12_14.
+/******************************************/
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.F3D0.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D0.fasta
+stability.trim.contigs.unique.good.filter.F3D1.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D1.fasta
+stability.trim.contigs.unique.good.filter.F3D141.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D141.fasta
+stability.trim.contigs.unique.good.filter.F3D142.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D142.fasta
+stability.trim.contigs.unique.good.filter.F3D143.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D143.fasta
+stability.trim.contigs.unique.good.filter.F3D144.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D144.fasta
+stability.trim.contigs.unique.good.filter.F3D145.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D145.fasta
+stability.trim.contigs.unique.good.filter.F3D146.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D146.fasta
+stability.trim.contigs.unique.good.filter.F3D147.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D147.fasta
+stability.trim.contigs.unique.good.filter.F3D148.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D148.fasta
+stability.trim.contigs.unique.good.filter.F3D149.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D149.fasta
+stability.trim.contigs.unique.good.filter.F3D150.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D150.fasta
+stability.trim.contigs.unique.good.filter.F3D2.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D2.fasta
+stability.trim.contigs.unique.good.filter.F3D3.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D3.fasta
+stability.trim.contigs.unique.good.filter.F3D5.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D5.fasta
+stability.trim.contigs.unique.good.filter.F3D6.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D6.fasta
+stability.trim.contigs.unique.good.filter.F3D7.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D7.fasta
+stability.trim.contigs.unique.good.filter.F3D8.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D8.fasta
+stability.trim.contigs.unique.good.filter.F3D9.count_table
+stability.trim.contigs.unique.good.filter.unique.F3D9.fasta
+stability.trim.contigs.unique.good.filter.Mock.count_table
+stability.trim.contigs.unique.good.filter.unique.Mock.fasta
+
+/******************************************/
+
+Processing group F3D1:
+
+Processing group F3D141:
+
+Processing group F3D142:
+
+Processing group F3D143:
+
+Processing group F3D144:
+F3D142	0	700	23
+
+Processing group F3D145:
+F3D1	0	1151	44
+F3D141	0	1067	48
+F3D143	0	713	21
+F3D142	100	384	339
+
+Processing group F3D146:
+F3D142	200	367	356
+F3D142	300	367	356
+F3D142	400	367	356
+F3D142	500	367	356
+F3D142	600	367	356
+F3D142	700	367	356
+F3D142	723	367	356
+Total number of sequences before pre.cluster was 723.
+pre.cluster removed 356 sequences.
+
+It took 0 secs to cluster 723 sequences.
+F3D143	100	402	332
+
+Processing group F3D147:
+F3D143	200	382	352
+F3D143	300	382	352
+F3D143	400	382	352
+F3D143	500	382	352
+F3D143	600	382	352
+F3D143	700	382	352
+F3D143	734	382	352
+Total number of sequences before pre.cluster was 734.
+pre.cluster removed 352 sequences.
+
+It took 0 secs to cluster 734 sequences.
+F3D144	0	910	41
+
+Processing group F3D148:
+F3D1	100	581	614
+F3D141	100	538	577
+
+Processing group F3D149:
+
+Processing group F3D150:
+F3D144	100	502	449
+F3D1	200	520	675
+F3D141	200	495	620
+F3D146	0	1094	31
+F3D1	300	507	688
+F3D1	400	507	688
+F3D141	300	486	629
+F3D1	500	507	688
+F3D141	400	486	629
+F3D1	600	507	688
+F3D141	500	486	629
+F3D1	700	507	688
+F3D141	600	486	629
+F3D1	800	507	688
+F3D141	700	486	629
+F3D1	900	507	688
+F3D1	1000	507	688
+F3D141	800	486	629
+F3D1	1100	507	688
+F3D141	900	486	629
+F3D1	1195	507	688
+F3D141	1000	486	629
+F3D141	1100	486	629
+F3D141	1115	486	629
+Total number of sequences before pre.cluster was 1195.
+pre.cluster removed 688 sequences.
+
+Total number of sequences before pre.cluster was 1115.
+pre.cluster removed 629 sequences.
+
+It took 0 secs to cluster 1195 sequences.
+F3D145	0	1281	69
+It took 0 secs to cluster 1115 sequences.
+F3D144	200	452	499
+F3D144	300	452	499
+F3D144	400	452	499
+F3D144	500	452	499
+F3D144	600	452	499
+F3D144	700	452	499
+F3D144	800	452	499
+F3D144	900	452	499
+F3D144	951	452	499
+Total number of sequences before pre.cluster was 951.
+pre.cluster removed 499 sequences.
+
+It took 0 secs to cluster 951 sequences.
+
+Processing group F3D2:
+
+Processing group F3D5:
+F3D146	100	651	474
+F3D145	100	642	708
+F3D150	0	1196	49
+
+Processing group F3D7:
+F3D146	200	584	541
+
+Processing group F3D9:
+F3D145	200	587	763
+F3D5	0	872	35
+
+Processing group F3D0:
+F3D145	300	567	783
+F3D145	400	567	783
+F3D145	500	567	783
+F3D145	600	567	783
+F3D145	700	567	783
+F3D145	800	567	783
+F3D145	900	567	783
+F3D145	1000	567	783
+F3D145	1100	567	783
+F3D145	1200	567	783
+F3D145	1300	567	783
+F3D145	1350	567	783
+F3D146	300	557	568
+Total number of sequences before pre.cluster was 1350.
+pre.cluster removed 783 sequences.
+
+It took 0 secs to cluster 1350 sequences.
+F3D7	0	816	54
+F3D146	400	557	568
+F3D146	500	557	568
+F3D146	600	557	568
+F3D146	700	557	568
+F3D146	800	557	568
+F3D146	900	557	568
+F3D146	1000	557	568
+F3D146	1100	557	568
+F3D146	1125	557	568
+Total number of sequences before pre.cluster was 1125.
+pre.cluster removed 568 sequences.
+
+It took 0 secs to cluster 1125 sequences.
+F3D148	0	2039	115
+F3D150	100	667	578
+F3D5	100	473	434
+F3D149	0	2179	87
+F3D147	0	2709	131
+F3D7	100	395	475
+F3D5	200	433	474
+F3D5	300	433	474
+F3D5	400	433	474
+F3D5	500	433	474
+F3D5	600	433	474
+F3D5	700	433	474
+F3D9	0	1234	61
+F3D5	800	433	474
+F3D5	900	433	474
+F3D5	907	433	474
+Total number of sequences before pre.cluster was 907.
+pre.cluster removed 474 sequences.
+
+It took 0 secs to cluster 907 sequences.
+
+Processing group F3D6:
+F3D7	200	370	500
+F3D7	300	370	500
+F3D7	400	370	500
+F3D7	500	370	500
+F3D7	600	370	500
+F3D7	700	370	500
+F3D7	800	370	500
+F3D7	870	370	500
+Total number of sequences before pre.cluster was 870.
+pre.cluster removed 500 sequences.
+
+It took 0 secs to cluster 870 sequences.
+
+Processing group F3D8:
+F3D150	200	587	658
+F3D150	300	573	672
+F3D150	400	573	672
+F3D150	500	573	672
+F3D150	600	573	672
+F3D150	700	573	672
+F3D150	800	573	672
+F3D150	900	573	672
+F3D150	1000	573	672
+F3D150	1100	573	672
+F3D150	1200	573	672
+F3D150	1245	573	672
+Total number of sequences before pre.cluster was 1245.
+pre.cluster removed 672 sequences.
+
+It took 0 secs to cluster 1245 sequences.
+F3D2	0	2524	223
+F3D9	100	653	642
+F3D8	0	955	49
+F3D0	0	1474	49
+F3D148	100	995	1159
+F3D9	200	571	724
+F3D6	0	1293	85
+F3D9	300	559	736
+F3D9	400	559	736
+F3D9	500	559	736
+F3D9	600	559	736
+F3D9	700	559	736
+F3D9	800	559	736
+F3D9	900	559	736
+F3D9	1000	559	736
+F3D149	100	1098	1168
+F3D9	1100	559	736
+F3D9	1200	559	736
+F3D9	1295	559	736
+Total number of sequences before pre.cluster was 1295.
+pre.cluster removed 736 sequences.
+
+It took 0 secs to cluster 1295 sequences.
+
+Processing group Mock:
+F3D8	100	500	504
+F3D8	200	452	552
+F3D147	100	1311	1529
+F3D8	300	442	562
+F3D8	400	442	562
+F3D8	500	442	562
+F3D8	600	442	562
+F3D8	700	442	562
+F3D8	800	442	562
+Mock	0	476	55
+F3D8	900	442	562
+F3D148	200	875	1279
+F3D8	1000	442	562
+F3D8	1004	442	562
+Total number of sequences before pre.cluster was 1004.
+pre.cluster removed 562 sequences.
+
+It took 0 secs to cluster 1004 sequences.
+F3D0	100	715	808
+Mock	100	132	399
+Mock	200	132	399
+Mock	300	132	399
+Mock	400	132	399
+Mock	500	132	399
+Mock	531	132	399
+Total number of sequences before pre.cluster was 531.
+pre.cluster removed 399 sequences.
+
+It took 0 secs to cluster 531 sequences.
+F3D6	100	636	742
+F3D148	300	824	1330
+F3D149	200	960	1306
+F3D2	100	1153	1594
+F3D0	200	653	870
+F3D6	200	574	804
+F3D6	300	548	830
+F3D6	400	548	830
+F3D6	500	548	830
+F3D6	600	548	830
+F3D6	700	548	830
+F3D6	800	548	830
+F3D6	900	548	830
+F3D6	1000	548	830
+F3D6	1100	548	830
+F3D6	1200	548	830
+F3D6	1300	548	830
+F3D6	1378	548	830
+F3D148	400	800	1354
+Total number of sequences before pre.cluster was 1378.
+pre.cluster removed 830 sequences.
+
+F3D0	300	617	906
+F3D0	400	617	906
+F3D0	500	617	906
+F3D0	600	617	906
+It took 0 secs to cluster 1378 sequences.
+F3D0	700	617	906
+F3D0	800	617	906
+F3D0	900	617	906
+F3D0	1000	617	906
+F3D0	1100	617	906
+F3D0	1200	617	906
+F3D0	1300	617	906
+F3D0	1400	617	906
+F3D0	1500	617	906
+F3D0	1523	617	906
+Total number of sequences before pre.cluster was 1523.
+pre.cluster removed 906 sequences.
+
+F3D148	500	790	1364
+F3D148	600	790	1364
+F3D148	700	790	1364
+F3D148	800	790	1364
+F3D147	200	1177	1663
+F3D148	900	790	1364
+F3D148	1000	790	1364
+It took 0 secs to cluster 1523 sequences.
+F3D148	1100	790	1364
+F3D148	1200	790	1364
+F3D148	1300	790	1364
+F3D148	1400	790	1364
+F3D148	1500	790	1364
+F3D148	1600	790	1364
+F3D148	1700	790	1364
+F3D148	1800	790	1364
+F3D148	1900	790	1364
+F3D148	2000	790	1364
+F3D148	2100	790	1364
+F3D148	2154	790	1364
+F3D149	300	918	1348
+Total number of sequences before pre.cluster was 2154.
+pre.cluster removed 1364 sequences.
+
+It took 0 secs to cluster 2154 sequences.
+F3D149	400	889	1377
+F3D2	200	1054	1693
+F3D149	500	884	1382
+F3D149	600	884	1382
+F3D149	700	884	1382
+F3D149	800	884	1382
+F3D149	900	884	1382
+F3D149	1000	884	1382
+F3D149	1100	884	1382
+F3D149	1200	884	1382
+F3D149	1300	884	1382
+F3D149	1400	884	1382
+F3D149	1500	884	1382
+F3D149	1600	884	1382
+F3D149	1700	884	1382
+F3D149	1800	884	1382
+F3D149	1900	884	1382
+F3D149	2000	884	1382
+F3D149	2100	884	1382
+F3D149	2200	884	1382
+F3D149	2266	884	1382
+Total number of sequences before pre.cluster was 2266.
+pre.cluster removed 1382 sequences.
+
+It took 0 secs to cluster 2266 sequences.
+F3D147	300	1103	1737
+F3D2	300	971	1776
+F3D147	400	1076	1764
+F3D2	400	949	1798
+F3D2	500	929	1818
+F3D147	500	1042	1798
+F3D2	600	915	1832
+F3D2	700	915	1832
+F3D2	800	915	1832
+F3D2	900	915	1832
+F3D2	1000	915	1832
+F3D2	1100	915	1832
+F3D2	1200	915	1832
+F3D2	1300	915	1832
+F3D2	1400	915	1832
+F3D2	1500	915	1832
+F3D2	1600	915	1832
+F3D2	1700	915	1832
+F3D2	1800	915	1832
+F3D2	1900	915	1832
+F3D2	2000	915	1832
+F3D2	2100	915	1832
+F3D2	2200	915	1832
+F3D2	2300	915	1832
+F3D2	2400	915	1832
+F3D2	2500	915	1832
+F3D2	2600	915	1832
+F3D2	2700	915	1832
+F3D2	2747	915	1832
+Total number of sequences before pre.cluster was 2747.
+pre.cluster removed 1832 sequences.
+
+F3D147	600	1008	1832
+It took 1 secs to cluster 2747 sequences.
+
+Processing group F3D3:
+F3D147	700	1008	1832
+F3D147	800	1008	1832
+F3D147	900	1008	1832
+F3D147	1000	1008	1832
+F3D147	1100	1008	1832
+F3D147	1200	1008	1832
+F3D147	1300	1008	1832
+F3D147	1400	1008	1832
+F3D147	1500	1008	1832
+F3D147	1600	1008	1832
+F3D147	1700	1008	1832
+F3D147	1800	1008	1832
+F3D147	1900	1008	1832
+F3D147	2000	1008	1832
+F3D147	2100	1008	1832
+F3D147	2200	1008	1832
+F3D147	2300	1008	1832
+F3D147	2400	1008	1832
+F3D147	2500	1008	1832
+F3D147	2600	1008	1832
+F3D147	2700	1008	1832
+F3D147	2800	1008	1832
+F3D147	2840	1008	1832
+Total number of sequences before pre.cluster was 2840.
+pre.cluster removed 1832 sequences.
+
+It took 1 secs to cluster 2840 sequences.
+F3D3	0	1000	78
+F3D3	100	482	596
+F3D3	200	453	625
+F3D3	300	444	634
+F3D3	400	444	634
+F3D3	500	444	634
+F3D3	600	444	634
+F3D3	700	444	634
+F3D3	800	444	634
+F3D3	900	444	634
+F3D3	1000	444	634
+F3D3	1078	444	634
+Total number of sequences before pre.cluster was 1078.
+pre.cluster removed 634 sequences.
+
+It took 0 secs to cluster 1078 sequences.
+
+Deconvoluting count table results...
+1000
+2000
+3000
+4000
+5000
+6000
+7000
+8000
+9000
+10000
+11000
+11033
+It took 0 secs to merge 11033 sequences group data.
+/******************************************/
+Running command: get.seqs(fasta=stability.trim.contigs.unique.good.filter.unique.fasta, accnos=stability.trim.contigs.unique.good.filter.unique.precluster.count_table.temp)
+Selected 6085 sequences from stability.trim.contigs.unique.good.filter.unique.fasta.
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.pick.fasta
+
+/******************************************/
+It took 3 secs to run pre.cluster.
+
+Using 16 processors.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D0.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D1.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D141.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D142.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D143.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D144.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D145.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D146.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D147.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D148.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D149.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D150.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D2.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D3.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D5.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D6.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D7.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D8.map
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D9.map
+stability.trim.contigs.unique.good.filter.unique.precluster.Mock.map
+
+
+mothur > chimera.vsearch(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.count_table, dereplicate=t)
+
+Using 16 processors.
+Using vsearch version v2.16.0.
+Checking sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta ...
+
+/******************************************/
+Running command: split.groups(groups=F3D0-F3D1-F3D141-F3D142-F3D143-F3D144-F3D145-F3D146-F3D147-F3D148-F3D149-F3D150-F3D2-F3D3-F3D5-F3D6-F3D7-F3D8-F3D9-Mock, fasta=stability.trim.contigs.unique.good.filter.unique.precluster.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.count_table)
+
+Using 16 processors.
+/******************************************/
+Selecting sequences for group F3D142
+
+/******************************************/
+Selecting sequences for group F3D5
+
+/******************************************/
+Selecting sequences for group F3D150
+
+/******************************************/
+Selecting sequences for group F3D141
+
+/******************************************/
+Selecting sequences for group F3D0
+
+/******************************************/
+Selecting sequences for group F3D148
+
+/******************************************/
+Selecting sequences for group F3D149
+
+/******************************************/
+Selecting sequences for group F3D2
+
+/******************************************/
+Selecting sequences for group F3D146
+
+/******************************************/
+Selecting sequences for group F3D143
+
+/******************************************/
+Selecting sequences for group F3D1
+
+/******************************************/
+Selecting sequences for group F3D9
+
+/******************************************/
+Selecting sequences for group F3D144
+
+/******************************************/
+Selecting sequences for group F3D145
+
+/******************************************/
+Selecting sequences for group F3D147
+
+/******************************************/
+Selecting sequences for group F3D7
+
+Selected 367 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta3_4.
+/******************************************/
+
+Selected 486 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta2_3.
+/******************************************/
+
+Selected 433 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta14_16.
+/******************************************/
+
+Selected 790 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta9_10.
+/******************************************/
+
+Selected 617 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta0_1.
+Selected 573 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta11_12.
+/******************************************/
+
+/******************************************/
+
+Selected 557 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta7_8.
+/******************************************/
+Selecting sequences for group F3D6
+
+/******************************************/
+
+Selected 370 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta16_18.
+/******************************************/
+
+Selected 559 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta18_20.
+/******************************************/
+
+Selected 452 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta5_6.
+Selected 884 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta10_11.
+/******************************************/
+
+/******************************************/
+
+/******************************************/
+Selecting sequences for group Mock
+
+Selected 915 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta12_14.
+/******************************************/
+Selecting sequences for group F3D8
+
+/******************************************/
+
+Selected 382 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta4_5.
+/******************************************/
+
+Selected 507 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta1_2.
+/******************************************/
+
+Selected 567 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta6_7.
+/******************************************/
+Selecting sequences for group F3D3
+
+/******************************************/
+
+Selected 1008 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta8_9.
+/******************************************/
+
+Selected 548 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta14_16.
+/******************************************/
+
+Selected 132 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta18_20.
+/******************************************/
+
+Selected 442 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta16_18.
+/******************************************/
+
+Selected 444 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta12_14.
+/******************************************/
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D0.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D0.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D1.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D1.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D141.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D141.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D142.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D142.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D143.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D143.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D144.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D144.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D145.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D145.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D146.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D146.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D147.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D147.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D148.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D148.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D149.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D149.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D150.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D150.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D2.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D2.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D3.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D3.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D5.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D5.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D6.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D6.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D7.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D7.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D8.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D8.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D9.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.F3D9.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.Mock.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.Mock.fasta
+
+/******************************************/
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp4.temp 100%  
+96515 nt in 382 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 165 (43.2%) chimeras, 212 (55.5%) non-chimeras,
+and 5 (1.3%) borderline sequences in 382 unique sequences.
+Taking abundance information into account, this corresponds to
+265 (9.9%) chimeras, 2398 (89.9%) non-chimeras,
+and 5 (0.2%) borderline sequences in 2668 total sequences.
+
+It took 1 secs to check 382 sequences from group F3D143.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp14.temp 100%  
+93496 nt in 370 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 150 (40.5%) chimeras, 212 (57.3%) non-chimeras,
+and 8 (2.2%) borderline sequences in 370 unique sequences.
+Taking abundance information into account, this corresponds to
+292 (6.7%) chimeras, 4058 (93.1%) non-chimeras,
+and 8 (0.2%) borderline sequences in 4358 total sequences.
+
+It took 0 secs to check 370 sequences from group F3D7.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp3.temp 100%  
+92735 nt in 367 seqs, min 252, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 149 (40.6%) chimeras, 214 (58.3%) non-chimeras,
+and 4 (1.1%) borderline sequences in 367 unique sequences.
+Taking abundance information into account, this corresponds to
+240 (9.0%) chimeras, 2424 (90.9%) non-chimeras,
+and 4 (0.1%) borderline sequences in 2668 total sequences.
+
+It took 1 secs to check 367 sequences from group F3D142.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp5.temp 100%  
+114166 nt in 452 seqs, min 249, max 256, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 185 (40.9%) chimeras, 262 (58.0%) non-chimeras,
+and 5 (1.1%) borderline sequences in 452 unique sequences.
+Taking abundance information into account, this corresponds to
+419 (10.8%) chimeras, 3447 (89.0%) non-chimeras,
+and 5 (0.1%) borderline sequences in 3871 total sequences.
+
+It took 2 secs to check 452 sequences from group F3D144.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp2.temp 100%  
+122779 nt in 486 seqs, min 249, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 247 (50.8%) chimeras, 229 (47.1%) non-chimeras,
+and 10 (2.1%) borderline sequences in 486 unique sequences.
+Taking abundance information into account, this corresponds to
+415 (8.2%) chimeras, 4644 (91.6%) non-chimeras,
+and 12 (0.2%) borderline sequences in 5071 total sequences.
+
+It took 2 secs to check 486 sequences from group F3D141.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp1.temp 100%  
+128170 nt in 507 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 233 (46.0%) chimeras, 261 (51.5%) non-chimeras,
+and 13 (2.6%) borderline sequences in 507 unique sequences.
+Taking abundance information into account, this corresponds to
+296 (6.0%) chimeras, 4644 (93.8%) non-chimeras,
+and 13 (0.3%) borderline sequences in 4953 total sequences.
+
+It took 3 secs to check 507 sequences from group F3D1.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp13.temp 100%  
+109451 nt in 433 seqs, min 252, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 182 (42.0%) chimeras, 244 (56.4%) non-chimeras,
+and 7 (1.6%) borderline sequences in 433 unique sequences.
+Taking abundance information into account, this corresponds to
+238 (6.4%) chimeras, 3461 (93.4%) non-chimeras,
+and 8 (0.2%) borderline sequences in 3707 total sequences.
+
+It took 2 secs to check 433 sequences from group F3D5.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp6.temp 100%  
+143203 nt in 567 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 248 (43.7%) chimeras, 312 (55.0%) non-chimeras,
+and 7 (1.2%) borderline sequences in 567 unique sequences.
+Taking abundance information into account, this corresponds to
+577 (9.4%) chimeras, 5525 (90.4%) non-chimeras,
+and 8 (0.1%) borderline sequences in 6110 total sequences.
+
+It took 3 secs to check 567 sequences from group F3D145.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp7.temp 100%  
+140776 nt in 557 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 264 (47.4%) chimeras, 282 (50.6%) non-chimeras,
+and 11 (2.0%) borderline sequences in 557 unique sequences.
+Taking abundance information into account, this corresponds to
+454 (10.6%) chimeras, 3817 (89.1%) non-chimeras,
+and 11 (0.3%) borderline sequences in 4282 total sequences.
+
+It took 4 secs to check 557 sequences from group F3D146.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp 100%  
+155915 nt in 617 seqs, min 250, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 304 (49.3%) chimeras, 299 (48.5%) non-chimeras,
+and 14 (2.3%) borderline sequences in 617 unique sequences.
+Taking abundance information into account, this corresponds to
+432 (6.5%) chimeras, 6182 (93.3%) non-chimeras,
+and 14 (0.2%) borderline sequences in 6628 total sequences.
+
+It took 4 secs to check 617 sequences from group F3D0.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp15.temp 100%  
+141294 nt in 559 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 263 (47.0%) chimeras, 283 (50.6%) non-chimeras,
+and 13 (2.3%) borderline sequences in 559 unique sequences.
+Taking abundance information into account, this corresponds to
+344 (5.6%) chimeras, 5741 (94.1%) non-chimeras,
+and 18 (0.3%) borderline sequences in 6103 total sequences.
+
+It took 4 secs to check 559 sequences from group F3D9.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp11.temp 100%  
+144784 nt in 573 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 293 (51.1%) chimeras, 269 (46.9%) non-chimeras,
+and 11 (1.9%) borderline sequences in 573 unique sequences.
+Taking abundance information into account, this corresponds to
+471 (10.2%) chimeras, 4113 (89.5%) non-chimeras,
+and 13 (0.3%) borderline sequences in 4597 total sequences.
+
+It took 4 secs to check 573 sequences from group F3D150.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp9.temp 100%  
+199562 nt in 790 seqs, min 250, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 411 (52.0%) chimeras, 363 (45.9%) non-chimeras,
+and 16 (2.0%) borderline sequences in 790 unique sequences.
+Taking abundance information into account, this corresponds to
+1039 (9.9%) chimeras, 9443 (89.9%) non-chimeras,
+and 27 (0.3%) borderline sequences in 10509 total sequences.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp12.temp 100%  
+231223 nt in 915 seqs, min 250, max 255, avg 253
+Masking 6%  
+It took 5 secs to check 790 sequences from group F3D148.
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 520 (56.8%) chimeras, 374 (40.9%) non-chimeras,
+and 21 (2.3%) borderline sequences in 915 unique sequences.
+Taking abundance information into account, this corresponds to
+1043 (6.2%) chimeras, 15676 (93.5%) non-chimeras,
+and 45 (0.3%) borderline sequences in 16764 total sequences.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp8.temp 100%  
+254596 nt in 1008 seqs, min 249, max 255, avg 253
+Masking 2%  
+It took 5 secs to check 915 sequences from group F3D2.
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 546 (54.2%) chimeras, 444 (44.0%) non-chimeras,
+and 18 (1.8%) borderline sequences in 1008 unique sequences.
+Taking abundance information into account, this corresponds to
+1712 (12.1%) chimeras, 12416 (87.8%) non-chimeras,
+and 18 (0.1%) borderline sequences in 14146 total sequences.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp10.temp 100%  
+223381 nt in 884 seqs, min 249, max 255, avg 253
+Masking 5%  
+It took 7 secs to check 1008 sequences from group F3D147.
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 528 (59.7%) chimeras, 347 (39.3%) non-chimeras,
+and 9 (1.0%) borderline sequences in 884 unique sequences.
+Taking abundance information into account, this corresponds to
+1064 (9.6%) chimeras, 9994 (90.2%) non-chimeras,
+and 20 (0.2%) borderline sequences in 11078 total sequences.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp14.temp 100%  
+111722 nt in 442 seqs, min 250, max 255, avg 253
+Masking 12%  
+It took 7 secs to check 884 sequences from group F3D149.
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 164 (37.1%) chimeras, 268 (60.6%) non-chimeras,
+and 10 (2.3%) borderline sequences in 442 unique sequences.
+Taking abundance information into account, this corresponds to
+222 (4.9%) chimeras, 4279 (94.8%) non-chimeras,
+and 12 (0.3%) borderline sequences in 4513 total sequences.
+
+It took 7 secs to check 442 sequences from group F3D8.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp13.temp 100%  
+138467 nt in 548 seqs, min 250, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 269 (49.1%) chimeras, 270 (49.3%) non-chimeras,
+and 9 (1.6%) borderline sequences in 548 unique sequences.
+Taking abundance information into account, this corresponds to
+415 (6.1%) chimeras, 6408 (93.8%) non-chimeras,
+and 10 (0.1%) borderline sequences in 6833 total sequences.
+
+It took 6 secs to check 548 sequences from group F3D6.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp15.temp 100%  
+33379 nt in 132 seqs, min 252, max 254, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 68 (51.5%) chimeras, 62 (47.0%) non-chimeras,
+and 2 (1.5%) borderline sequences in 132 unique sequences.
+Taking abundance information into account, this corresponds to
+76 (1.8%) chimeras, 4046 (98.1%) non-chimeras,
+and 2 (0.0%) borderline sequences in 4124 total sequences.
+
+It took 4 secs to check 132 sequences from group Mock.
+vsearch v2.16.0_macos_x86_64, 8.0GB RAM, 8 cores
+https://github.com/torognes/vsearch
+
+Reading file stability.trim.contigs.unique.good.filter.unique.precluster.temp12.temp 100%  
+112173 nt in 444 seqs, min 251, max 255, avg 253
+Masking 100% 
+Sorting by abundance 100%
+Counting k-mers 100% 
+Detecting chimeras 100%  
+Found 206 (46.4%) chimeras, 226 (50.9%) non-chimeras,
+and 12 (2.7%) borderline sequences in 444 unique sequences.
+Taking abundance information into account, this corresponds to
+468 (8.2%) chimeras, 5191 (91.5%) non-chimeras,
+and 14 (0.2%) borderline sequences in 5673 total sequences.
+
+It took 3 secs to check 444 sequences from group F3D3.
+It took 9 secs to check 11033 sequences.
+
+
+Removing chimeras from your input files:
+/******************************************/
+Running command: remove.seqs(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.fasta, accnos=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.accnos)
+Removed 3598 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.fasta.
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.precluster.pick.fasta
+
+/******************************************/
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.chimeras
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.accnos
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta
+
+
+mothur > summary.seqs(fasta=current, count=current)
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta as input file for the fasta parameter.
+
+Using 16 processors.
+
+		Start	End	NBases	Ambigs	Polymer	NumSeqs
+Minimum:	1	375	249	0	3	1
+2.5%-tile:	1	375	252	0	3	2955
+25%-tile:	1	375	252	0	4	29544
+Median: 	1	375	252	0	4	59088
+75%-tile:	1	375	253	0	5	88631
+97.5%-tile:	1	375	253	0	6	115220
+Maximum:	1	375	256	0	8	118174
+Mean:	1	375	252	0	4
+# of unique seqs:	2487
+total # of seqs:	118174
+
+It took 0 secs to summarize 118174 sequences.
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.summary
+
+
+mothur > classify.seqs(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table, reference=trainset9_032012.pds.asta, taxonomy=trainset9_032012.pds.tax)
+
+Using 16 processors.
+Unable to open trainset9_032012.pds.fasta. Trying MOTHUR_FILES directory mothur/trainset9_032012.pds.fasta.
+Unable to open mothur/trainset9_032012.pds.fasta. Trying mothur's executable directory mothur/trainset9_032012.pds.fasta.
+Unable to open mothur/trainset9_032012.pds.fasta.
+Unable to open trainset9_032012.pds.fasta
+Unable to open trainset9_032012.pds.tax. Trying MOTHUR_FILES directory mothur/trainset9_032012.pds.tax.
+Unable to open mothur/trainset9_032012.pds.tax. Trying mothur's executable directory mothur/trainset9_032012.pds.tax.
+Unable to open mothur/trainset9_032012.pds.tax.
+Unable to open trainset9_032012.pds.tax
+[ERROR]: did not complete classify.seqs.
+
+mothur > 
+[ERROR]: You are missing (
+[ERROR]: Invalid.
+                                                                                                                                                                                                    
+[ERROR]: You are missing )
+[ERROR]: Invalid.
+
+mothur > classify.seqs(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table, reference=trainset9_032012.pds.asta, taxonomy=trainset9_032012.pds.tax)
+
+Using 16 processors.
+Unable to open trainset9_032012.pds.fasta. Trying MOTHUR_FILES directory mothur/trainset9_032012.pds.fasta.
+Unable to open mothur/trainset9_032012.pds.fasta. Trying mothur's executable directory mothur/trainset9_032012.pds.fasta.
+Unable to open mothur/trainset9_032012.pds.fasta.
+Unable to open trainset9_032012.pds.fasta
+Unable to open trainset9_032012.pds.tax. Trying MOTHUR_FILES directory mothur/trainset9_032012.pds.tax.
+Unable to open mothur/trainset9_032012.pds.tax. Trying mothur's executable directory mothur/trainset9_032012.pds.tax.
+Unable to open mothur/trainset9_032012.pds.tax.
+Unable to open trainset9_032012.pds.tax
+[ERROR]: did not complete classify.seqs.
+
+asta, taxonomy=trainset9_032012.pds.tax)rim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table, reference=trainset9_032012.pds.f 
+
+Using 16 processors.
+Generating search database...    DONE.
+It took 7 seconds generate search database.
+
+Reading in the trainset9_032012.pds.tax taxonomy...	DONE.
+Calculating template taxonomy tree...     DONE.
+Calculating template probabilities...     DONE.
+It took 15 seconds get probabilities.
+Classifying sequences from stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta ...
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+100
+155
+155
+155
+155
+155
+156
+156
+156
+156
+155
+155
+156
+155
+156
+155
+156
+
+It took 6 secs to classify 2487 sequences.
+
+
+It took 0 secs to create the summary file for 2487 sequences.
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.taxonomy
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.tax.summary
+
+
+mothur > remove.lineage(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table, taxonomy=stability.trim.contig.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.taxonomy, taxon=Chloroplast-Mitochondria-unknown-Archaea-Eukaryota)
+
+/******************************************/
+Running command: remove.seqs(accnos=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.accnos, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table, fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta)
+Removed 20 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.fasta.
+Removed 162 sequences from stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.count_table.
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.count_table
+
+/******************************************/
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.pick.taxonomy
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.accnos
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.fasta
+
+
+mothur > summary.tax(taxonomy=current, count=current)
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.pick.taxonomy as input file for the taxonomy parameter.
+
+It took 0 secs to create the summary file for 118012 sequences.
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.pick.tax.summary
+
+
+mothur > get.groups(count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.count_table, fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.fasta, groups=Mock)
+Selected 4048 sequences from your count file.
+Selected 64 sequences from your fasta file.
+
+Output File names:
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta
+
+
+mothur > eq.error(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table, reference=HMP_MOK.v35.fasta, aligned=F)
+[ERROR]: Invalid command.
+Valid commands are: align.check, align.seqs, amova, anosim, bin.seqs, biom.info, chimera.bellerophon, chimera.ccode, chimera.check, chimera.perseus, chimera.pintail, chimera.slayer, chimera.uchime, chimera.vsearch, chop.seqs, classify.otu, classify.seqs, classify.svm, classify.tree, clearcut, cluster, cluster.classic, cluster.fit, cluster.fragments, cluster.split, collect.shared, collect.single, consensus.seqs, cooccurrence, corr.axes, count.groups, count.seqs, create.database, degap.seqs, deunique.seqs, deunique.tree, dist.seqs, dist.shared, estimator.single, fastq.info, filter.seqs, filter.shared, get.communitytype, get.coremicrobiome, get.current, get.dists, get.group, get.groups, get.label, get.lineage, get.mimarkspackage, get.otulabels, get.otulist, get.oturep, get.otus, get.rabund, get.relabund, get.sabund, get.seqs, get.sharedseqs, heatmap.bin, heatmap.sim, help, homova, indicator, kruskal.wallis, lefse, libshuff, list.otulabels, list.otus, list.seqs, make.biom, make.clr, make.contigs, make.fastq, make.file, make.group, make.lefse, make.lookup, make.shared, make.sra, make.table, mantel, merge.count, merge.files, merge.groups, merge.otus, merge.sfffiles, merge.taxsummary, metastats, mgcluster, mimarks.attributes, nmds, normalize.shared, otu.association, otu.hierarchy, pairwise.seqs, parsimony, pca, pcoa, pcr.seqs, phylo.diversity, phylotype, pre.cluster, primer.design, quit, rarefaction.shared, rarefaction.single, remove.dists, remove.groups, remove.lineage, remove.otulabels, remove.otus, remove.rare, remove.seqs, rename.file, rename.seqs, reverse.seqs, screen.seqs, sens.spec, seq.error, set.current, set.dir, set.logfile, set.seed, sff.multiple, sffinfo, shhh.flows, shhh.seqs, sort.seqs, sparcc, split.abund, split.groups, sra.info, sub.sample, summary.qual, summary.seqs, summary.shared, summary.single, summary.tax, system, tree.shared, trim.flows, trim.seqs, unifrac.unweighted, unifrac.weighted, unique.seqs, venn.
+[ERROR]: did not complete eq.error.
+                                                                                                                                                                                                                                             CK.v35.fasta, aligned=F)=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table, reference=HMP_MOC 
+[ERROR]: Invalid command.
+Valid commands are: align.check, align.seqs, amova, anosim, bin.seqs, biom.info, chimera.bellerophon, chimera.ccode, chimera.check, chimera.perseus, chimera.pintail, chimera.slayer, chimera.uchime, chimera.vsearch, chop.seqs, classify.otu, classify.seqs, classify.svm, classify.tree, clearcut, cluster, cluster.classic, cluster.fit, cluster.fragments, cluster.split, collect.shared, collect.single, consensus.seqs, cooccurrence, corr.axes, count.groups, count.seqs, create.database, degap.seqs, deunique.seqs, deunique.tree, dist.seqs, dist.shared, estimator.single, fastq.info, filter.seqs, filter.shared, get.communitytype, get.coremicrobiome, get.current, get.dists, get.group, get.groups, get.label, get.lineage, get.mimarkspackage, get.otulabels, get.otulist, get.oturep, get.otus, get.rabund, get.relabund, get.sabund, get.seqs, get.sharedseqs, heatmap.bin, heatmap.sim, help, homova, indicator, kruskal.wallis, lefse, libshuff, list.otulabels, list.otus, list.seqs, make.biom, make.clr, make.contigs, make.fastq, make.file, make.group, make.lefse, make.lookup, make.shared, make.sra, make.table, mantel, merge.count, merge.files, merge.groups, merge.otus, merge.sfffiles, merge.taxsummary, metastats, mgcluster, mimarks.attributes, nmds, normalize.shared, otu.association, otu.hierarchy, pairwise.seqs, parsimony, pca, pcoa, pcr.seqs, phylo.diversity, phylotype, pre.cluster, primer.design, quit, rarefaction.shared, rarefaction.single, remove.dists, remove.groups, remove.lineage, remove.otulabels, remove.otus, remove.rare, remove.seqs, rename.file, rename.seqs, reverse.seqs, screen.seqs, sens.spec, seq.error, set.current, set.dir, set.logfile, set.seed, sff.multiple, sffinfo, shhh.flows, shhh.seqs, sort.seqs, sparcc, split.abund, split.groups, sra.info, sub.sample, summary.qual, summary.seqs, summary.shared, summary.single, summary.tax, system, tree.shared, trim.flows, trim.seqs, unifrac.unweighted, unifrac.weighted, unique.seqs, venn.
+[ERROR]: did not complete eq.error.
+
+mothur > seq.error(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table, reference=HMP_MCK.v35.fasta, aligned=F)
+
+64
+
+Multiply error rate by 100 to obtain the percent sequencing errors.
+Overall error rate:	6.5108e-05
+Errors	Sequences
+0	3998
+1	3
+2	0
+3	2
+4	1
+5	0
+6	0
+7	0
+8	0
+9	0
+10	0
+11	2
+12	0
+13	0
+14	0
+15	0
+16	0
+17	0
+18	0
+19	0
+20	0
+21	0
+22	0
+23	0
+24	0
+25	0
+26	0
+27	0
+28	0
+29	0
+30	0
+31	1
+It took 3 secs to check 64 sequences.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.summary
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.seq
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.chimera
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.seq.forward
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.seq.reverse
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.count
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.matrix
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.error.ref
+
+
+mothur > 
+[ERROR]: You are missing (
+[ERROR]: Invalid.
+
+mothur > dist.seqs(fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta, cutoff=0.03)
+
+Using 16 processors.
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+49	0	5
+56	0	6
+58	0	4
+54	0	1
+52	0	1
+26	0	2
+15	0	1
+44	0	2
+21	0	3
+31	0	1
+34	0	3
+63	0	2
+60	0	7
+41	0	7
+38	0	6
+47	0	11
+
+It took 0 secs to find distances for 64 sequences. 62 distances below cutoff 0.03.
+
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.dist
+
+
+mothur > cluster(column=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.dist, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table)
+
+Using 16 processors.
+
+You did not set a cutoff, using 0.03.
+
+Clustering stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.dist
+
+
+iter	time	label	num_otus	cutoff	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+
+0.03
+0	0	0.03	64	0.03	0	1954	0	62	0	1	0	0.969246	1	0.969246	0	0	
+1	0	0.03	36	0.03	52	1952	2	10	0.83871	0.998976	0.962963	0.994903	0.962963	0.994048	0.895763	0.896552	
+2	0	0.03	35	0.03	55	1950	4	7	0.887097	0.997953	0.932203	0.996423	0.932203	0.994544	0.906576	0.909091	
+3	0	0.03	35	0.03	55	1950	4	7	0.887097	0.997953	0.932203	0.996423	0.932203	0.994544	0.906576	0.909091	
+
+
+It took 0 seconds to cluster
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.list
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.steps
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.sensspec
+
+
+mothur > make.shared(list=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.list, count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table, label=.03)
+0.03
+
+Output File Names:
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.shared
+
+
+mothur > rarefaction.single(shared=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.shared)
+
+Using 16 processors.
+0.03
+
+It took 0 secs to run rarefaction.single.
+
+Output File Names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.groups.rarefaction
+
+
+mothur > remove.groups(count=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.count_table, fasta=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.fasta, taxonomy=stability.trm.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.pick.taxonomy, groups=Mock)
+Removed 4048 sequences from your count file.
+Removed 41 sequences from your fasta file.
+Removed 41 sequences from your taxonomy file.
+
+Output File names: 
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta
+stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.pick.pick.taxonomy
+
+
+mothur > rename.file(fasta=current, count=current, taxonomy=current, prefix=final)
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.count_table as input file for the count parameter.
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.fasta as input file for the fasta parameter.
+Using stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.pick.pick.taxonomy as input file for the taxonomy parameter.
+
+Current files saved by mothur:
+accnos=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pds.wang.accnos
+column=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.dist
+fasta=final.fasta
+list=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.list
+shared=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.pick.pick.opti_mcc.shared
+taxonomy=final.taxonomy
+contigsreport=stability.contigs_report
+count=final.count_table
+processors=16
+summary=stability.trim.contigs.unique.good.filter.unique.precluster.denovo.vsearch.summary
+
+mothur > dist.seqs(fasta=final.fasta, cutoff=0.03)
+
+Using 16 processors.
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+2100	0	15
+100	0	45
+200	0	179
+1500	0	240
+2200	0	198
+900	0	294
+300	0	374
+1100	0	468
+700	1	586
+1400	1	633
+2300	1	460
+400	1	732
+1300	1	968
+500	1	1157
+2400	2	1164
+1000	2	1053
+800	2	1326
+1800	2	1414
+1900	2	1596
+1700	2	1126
+2000	2	1444
+1200	2	1406
+600	2	1666
+1600	2	1889
+605	2	1692
+856	2	1778
+1603	2	1950
+2099	2	1480
+1212	2	1557
+1818	2	1708
+1714	2	1359
+1484	2	1488
+2010	2	1549
+2185	2	1919
+1049	2	1556
+2347	2	1668
+1355	2	1681
+1916	2	1860
+2268	2	1375
+2425	2	1448
+
+It took 2 secs to find distances for 2426 sequences. 26068 distances below cutoff 0.03.
+
+
+Output File Names: 
+final.dist
+
+
+mothur > cluster(column=final.dist, count=final.count_table)
+
+Using 16 processors.
+
+You did not set a cutoff, using 0.03.
+
+Clustering final.dist
+
+
+iter	time	label	num_otus	cutoff	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+
+0.03
+0	0	0.03	2426	0.03	0	2.91546e+06	0	26068	0	1	0	0.991138	1	0.991138	0	0	
+1	0	0.03	525	0.03	21690	2.9138e+06	1659	4378	0.832055	0.999431	0.928948	0.9985	0.928948	0.997948	0.878157	0.877836	
+2	0	0.03	482	0.03	22575	2.9136e+06	1855	3493	0.866004	0.999364	0.924069	0.998803	0.924069	0.998182	0.893657	0.894095	
+3	0	0.03	482	0.03	22597	2.9136e+06	1859	3471	0.866848	0.999362	0.923986	0.99881	0.923986	0.998188	0.894056	0.894506	
+4	0	0.03	483	0.03	22593	2.9136e+06	1853	3475	0.866695	0.999364	0.9242	0.998809	0.9242	0.998189	0.894081	0.894524	
+
+
+It took 0 seconds to cluster
+
+Output File Names: 
+final.opti_mcc.list
+final.opti_mcc.steps
+final.opti_mcc.sensspec
+
+
+mothur > cluster.split(fasta=final.fasta, count=final.count_table, taxonomy=final.taxonomy, taxlevel=4, cutoff=0.03)
+
+Using 16 processors.
+Splitting the file...
+/******************************************/
+Selecting sequences for group Clostridiales (1 of 19)
+Number of unique sequences: 1312
+
+Selected 30155 sequences from final.count_table.
+
+Calculating distances for group Clostridiales (1 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+100	0	43
+1000	0	133
+1100	0	104
+500	0	102
+600	0	104
+200	0	142
+1200	1	242
+400	1	241
+900	1	257
+700	1	220
+300	1	315
+1300	1	255
+1036	1	359
+800	1	395
+462	1	408
+866	1	452
+327	1	381
+1086	1	302
+567	1	378
+1181	1	473
+732	1	432
+802	1	419
+926	1	427
+1269	1	311
+655	1	377
+1226	1	459
+1135	1	349
+983	1	383
+1311	1	334
+
+It took 1 secs to find distances for 1312 sequences. 6244 distances below cutoff 0.03.
+
+
+Output File Names:
+final.0.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group "Bacteroidales" (2 of 19)
+Number of unique sequences: 860
+
+Selected 73389 sequences from final.count_table.
+
+Calculating distances for group "Bacteroidales" (2 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+500	0	543
+400	0	541
+0	0	0
+700	0	748
+100	0	227
+600	0	1028
+300	0	1150
+525	0	1209
+303	0	1185
+371	0	1202
+567	0	1204
+429	0	1063
+479	0	1217
+800	0	713
+607	0	1252
+644	0	1364
+678	0	1257
+743	0	1176
+831	0	1123
+803	0	860
+712	0	1190
+774	0	1291
+859	0	1163
+200	0	978
+214	0	1156
+
+It took 0 secs to find distances for 860 sequences. 18912 distances below cutoff 0.03.
+
+
+Output File Names:
+final.1.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Lactobacillales (3 of 19)
+Number of unique sequences: 55
+
+Selected 5929 sequences from final.count_table.
+
+Calculating distances for group Lactobacillales (3 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+18	0	15
+22	0	23
+29	0	11
+26	0	13
+32	0	18
+35	0	20
+37	0	19
+42	0	16
+44	0	17
+46	0	17
+40	0	34
+48	0	19
+0	0	0
+12	0	11
+50	0	26
+52	0	23
+54	0	24
+
+It took 0 secs to find distances for 55 sequences. 306 distances below cutoff 0.03.
+
+
+Output File Names:
+final.2.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Firmicutes_unclassified (4 of 19)
+Number of unique sequences: 38
+
+Selected 1330 sequences from final.count_table.
+
+Calculating distances for group Firmicutes_unclassified (4 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+12	0	2
+15	0	4
+20	0	1
+22	0	3
+18	0	2
+25	0	1
+24	0	4
+30	0	0
+27	0	5
+31	0	0
+29	0	4
+0	0	0
+34	0	4
+35	0	1
+33	0	0
+8	0	2
+37	0	0
+
+It took 0 secs to find distances for 38 sequences. 33 distances below cutoff 0.03.
+
+
+Output File Names:
+final.3.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Bacteria_unclassified (5 of 19)
+Number of unique sequences: 47
+
+Selected 715 sequences from final.count_table.
+
+Calculating distances for group Bacteria_unclassified (5 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+15	0	6
+27	0	5
+22	0	4
+19	0	3
+25	0	2
+30	0	1
+32	0	7
+34	0	1
+37	0	4
+0	0	0
+42	0	3
+36	0	5
+39	0	4
+41	0	2
+44	0	4
+46	0	6
+10	0	2
+
+It took 0 secs to find distances for 47 sequences. 59 distances below cutoff 0.03.
+
+
+Output File Names:
+final.4.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Clostridia_unclassified (6 of 19)
+Number of unique sequences: 10
+
+Selected 147 sequences from final.count_table.
+
+Calculating distances for group Clostridia_unclassified (6 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+2	0	0
+3	0	0
+4	0	0
+4	0	1
+5	0	0
+6	0	0
+5	0	2
+6	0	3
+6	0	0
+7	0	0
+7	0	0
+8	0	0
+8	0	0
+0	0	0
+8	0	4
+1	0	0
+9	0	0
+
+It took 0 secs to find distances for 10 sequences. 10 distances below cutoff 0.03.
+
+
+Output File Names:
+final.5.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Erysipelotrichales (7 of 19)
+Number of unique sequences: 15
+
+Selected 1310 sequences from final.count_table.
+
+Calculating distances for group Erysipelotrichales (7 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+5	0	0
+4	0	7
+8	0	0
+6	0	0
+7	0	1
+8	0	4
+10	0	0
+9	0	0
+10	0	6
+11	0	7
+11	0	0
+13	0	0
+13	0	8
+0	0	0
+12	0	7
+2	0	3
+14	0	2
+
+It took 0 secs to find distances for 15 sequences. 45 distances below cutoff 0.03.
+
+
+Output File Names:
+final.6.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group "Bacteroidetes"_unclassified (8 of 19)
+Number of unique sequences: 11
+
+Selected 14 sequences from final.count_table.
+
+Calculating distances for group "Bacteroidetes"_unclassified (8 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+2	0	1
+3	0	1
+6	0	0
+4	0	0
+7	0	1
+0	0	0
+1	0	0
+8	0	0
+8	0	0
+8	0	0
+5	0	0
+5	0	0
+7	0	0
+6	0	2
+9	0	0
+9	0	0
+10	0	2
+
+It took 0 secs to find distances for 11 sequences. 7 distances below cutoff 0.03.
+
+
+Output File Names:
+final.7.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Coriobacteriales (9 of 19)
+Number of unique sequences: 24
+
+Selected 131 sequences from final.count_table.
+
+Calculating distances for group Coriobacteriales (9 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+7	0	1
+9	0	1
+11	0	2
+0	0	0
+13	0	0
+17	0	0
+14	0	3
+5	0	1
+17	0	6
+12	0	1
+15	0	5
+18	0	2
+20	0	3
+19	0	3
+21	0	7
+22	0	0
+23	0	7
+
+It took 0 secs to find distances for 24 sequences. 42 distances below cutoff 0.03.
+
+
+Output File Names:
+final.8.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Pseudomonadales (10 of 19)
+Number of unique sequences: 8
+
+Selected 63 sequences from final.count_table.
+
+Calculating distances for group Pseudomonadales (10 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+1	0	0
+3	0	0
+2	0	0
+3	0	2
+3	0	0
+4	0	0
+5	0	3
+5	0	0
+5	0	0
+4	0	0
+0	0	0
+5	0	0
+1	0	1
+6	0	0
+6	0	0
+6	0	0
+7	0	3
+
+It took 0 secs to find distances for 8 sequences. 9 distances below cutoff 0.03.
+
+
+Output File Names:
+final.9.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Anaeroplasmatales (11 of 19)
+Number of unique sequences: 3
+
+Selected 284 sequences from final.count_table.
+
+Calculating distances for group Anaeroplasmatales (11 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+1	0	1
+2	0	2
+
+It took 0 secs to find distances for 3 sequences. 3 distances below cutoff 0.03.
+
+
+Output File Names:
+final.10.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group TM7_order_incertae_sedis (12 of 19)
+Number of unique sequences: 10
+
+Selected 173 sequences from final.count_table.
+
+Calculating distances for group TM7_order_incertae_sedis (12 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+4	0	0
+2	0	2
+3	0	3
+4	0	4
+5	0	0
+6	0	0
+5	0	5
+0	0	0
+1	0	1
+6	0	0
+7	0	0
+6	0	0
+8	0	0
+8	0	7
+7	0	6
+8	0	0
+9	0	8
+
+It took 0 secs to find distances for 10 sequences. 36 distances below cutoff 0.03.
+
+
+Output File Names:
+final.11.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Bacillales (13 of 19)
+Number of unique sequences: 8
+
+Selected 9 sequences from final.count_table.
+
+Calculating distances for group Bacillales (13 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+1	0	0
+2	0	1
+3	0	0
+3	0	0
+3	0	0
+4	0	0
+4	0	1
+5	0	0
+5	0	0
+5	0	3
+5	0	0
+6	0	0
+6	0	0
+0	0	0
+6	0	0
+1	0	1
+7	0	0
+
+It took 0 secs to find distances for 8 sequences. 6 distances below cutoff 0.03.
+
+
+Output File Names:
+final.12.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Bifidobacteriales (14 of 19)
+Number of unique sequences: 3
+
+Selected 237 sequences from final.count_table.
+
+Calculating distances for group Bifidobacteriales (14 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+1	0	1
+2	0	2
+
+It took 0 secs to find distances for 3 sequences. 3 distances below cutoff 0.03.
+
+
+Output File Names:
+final.13.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group "Enterobacteriales" (15 of 19)
+Number of unique sequences: 7
+
+Selected 39 sequences from final.count_table.
+
+Calculating distances for group "Enterobacteriales" (15 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+1	0	1
+2	0	0
+3	0	0
+3	0	3
+3	0	0
+2	0	2
+4	0	4
+4	0	0
+2	0	0
+0	0	0
+4	0	0
+5	0	0
+5	0	0
+5	0	5
+5	0	0
+6	0	6
+
+It took 0 secs to find distances for 7 sequences. 21 distances below cutoff 0.03.
+
+
+Output File Names:
+final.14.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Actinomycetales (16 of 19)
+Number of unique sequences: 3
+
+Selected 3 sequences from final.count_table.
+
+Calculating distances for group Actinomycetales (16 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+2	0	1
+1	0	0
+
+It took 0 secs to find distances for 3 sequences. 1 distances below cutoff 0.03.
+
+
+Output File Names:
+final.15.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Deinococcales (17 of 19)
+Number of unique sequences: 3
+
+Selected 6 sequences from final.count_table.
+
+Calculating distances for group Deinococcales (17 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+1	0	1
+2	0	2
+
+It took 0 secs to find distances for 3 sequences. 3 distances below cutoff 0.03.
+
+
+Output File Names:
+final.16.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group Bacilli_unclassified (18 of 19)
+Number of unique sequences: 2
+
+Selected 2 sequences from final.count_table.
+
+Calculating distances for group Bacilli_unclassified (18 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+1	0	0
+
+It took 0 secs to find distances for 2 sequences. 0 distances below cutoff 0.03.
+
+
+Output File Names:
+final.17.dist
+
+/******************************************/
+/******************************************/
+Selecting sequences for group "Flavobacteriales" (19 of 19)
+Number of unique sequences: 2
+
+Selected 2 sequences from final.count_table.
+
+Calculating distances for group "Flavobacteriales" (19 of 19):
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+1	0	0
+
+It took 0 secs to find distances for 2 sequences. 0 distances below cutoff 0.03.
+
+
+Output File Names:
+final.18.dist
+
+/******************************************/
+/******************************************/
+Finding singletons (ignore 'Removing group' messages):
+
+Running command: remove.seqs()
+Removed 113934 sequences from final.count_table.
+/******************************************/
+It took 2 seconds to split the distance file.
+final.0.disttemp
+
+Clustering final.9.disttemp
+
+Clustering final.11.disttemp
+
+Clustering final.6.disttemp
+
+Clustering final.8.disttemp
+
+Clustering final.12.disttemp
+
+Clustering final.7.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+6	19	0	3	0.666667	1	1	0.863636	1	0.892857	0.758787	0.8	
+
+
+Clustering final.13.disttemp
+
+Clustering final.10.disttemp
+
+Clustering final.16.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+33	234	0	9	0.785714	1	1	0.962963	1	0.967391	0.869835	0.88	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	0	0	3	0	0	0	0	1	0	0	0	
+
+
+Clustering final.5.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	0	0	3	0	0	0	0	1	0	0	0	
+
+
+Clustering final.14.disttemp
+
+Clustering final.3.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	35	0	10	0	1	0	0.777778	1	0.777778	0	0	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0	0	0	21	0	0	0	0	1	0	0	0	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+
+Clustering final.4.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+6	48	0	1	0.857143	1	1	0.979592	1	0.981818	0.916324	0.923077	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+45	57	3	0	1	0.95	0.9375	1	0.9375	
+Clustering final.2.disttemp
+6	21	1	0	0	9	0	36	0	1	0	0.2	1	0.2	0	0	
+
+0.971429	0.943729	0.967742	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+1	0.954545	0.857143	1	0.857143	0.964286	0.904534	0.923077	
+
+0	0	0	3	0	0	0	0	1	0	0	0	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+33	669	1	0	1	0.998507	0.970588	1	0.970588	0.998578	0.984449	0.985075	
+
+
+Clustering final.15.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+54	1016	6	5	0.915254	0.994129	0.9	0.995103	0.9	0.989824	0.902215	0.907563	
+
+0	2	0	1	0	1	0	0.666667	1	0.666667	0	0	
+
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+306	1157	22	0	1	0.98134	0.932927	1	0.932927	0.985185	0.956827	0.9653	
+
+
+Clustering final.0.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+5388	853129	643	856	0.862908	0.999247	0.893384	0.998998	0.893384	0.998257	0.877138	0.877882	
+
+
+Clustering final.1.disttemp
+
+tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+16495	349175	1283	2417	0.872198	0.996339	0.927832	0.993126	0.927832	0.989983	0.894363	0.899155	
+
+It took 0 seconds to cluster
+Merging the clustered files...
+It took 0 seconds to merge.
+/******************************************/
+Running command: sens.spec(cutoff=0.03, list=final.opti_mcc.list, column=final.dist, count=final.count_table)
+
+NOTE: sens.spec assumes that only unique sequences were used to generate the distance matrix.
+
+label	cutoff	numotus	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0.03
+0.03	0.03	531	22372	2.91383e+06	1959	3368	0.869153	0.999328	0.919485	0.998845	0.919485	0.998189	0.893058	0.893611
+
+It took 0 to run sens.spec.
+
+Output File Names: 
+final.opti_mcc.sensspec
+
+/******************************************/
+Done.
+
+
+label	cutoff	numotus	tp	tn	fp	fn	sensitivity	specificity	ppv	npv	fdr	accuracy	mcc	f1score
+0.03	0.03	531	22372	2.91383e+06	1959	3368	0.8692	0.9993	0.9195	0.9988	0.9195	0.9982	0.8931	0.8936
+
+Output File Names: 
+final.dist
+final.opti_mcc.list
+final.opti_mcc.sensspec
+
+
+mothur > make.shared(list=final.opti_mcc.list, count=final.count_table, label=0.03)
+0.03
+
+Output File Names:
+final.opti_mcc.shared
+
+
+mothur > classify.otu(list=final.opti_mcc.list, count=final.count_table, taxonomy=final.taxonomy, label=0.03)
+0.03
+
+Output File Names: 
+final.opti_mcc.0.03.cons.taxonomy
+final.opti_mcc.0.03.cons.tax.summary
+
+
+mothur > make.shared(count=final.count_table)
+ASV
+
+Output File Names:
+final.asv.list
+final.asv.shared
+
+
+mothur > classify.otu(list=final.asv.list, count=final.count_table, taxonomy=final.taxonomy, label=ASV)
+ASV
+
+Output File Names: 
+final.asv.ASV.cons.taxonomy
+final.asv.ASV.cons.tax.summary
+
+
+mothur > phylotype(taxonomy=final.taxonomy)
+1
+2
+3
+4
+5
+6
+
+Output File Names: 
+final.tx.sabund
+final.tx.rabund
+final.tx.list
+
+
+mothur > make.shared(list=final.tx.list, count=final.count_table, label=1)
+1
+
+Output File Names:
+final.tx.shared
+
+
+mothur > classify.otu(list=final.tx.list, count=final.count_table, taxonomy=final.taxonomy, label=1)
+1
+
+Output File Names: 
+final.tx.1.cons.taxonomy
+final.tx.1.cons.tax.summary
+final.tx.2.cons.taxonomy
+final.tx.2.cons.tax.summary
+final.tx.3.cons.taxonomy
+final.tx.3.cons.tax.summary
+final.tx.4.cons.taxonomy
+final.tx.4.cons.tax.summary
+final.tx.5.cons.taxonomy
+final.tx.5.cons.tax.summary
+final.tx.6.cons.taxonomy
+final.tx.6.cons.tax.summary
+
+
+mothur > dist.seqs(fasta=final.fasta, output=lt)
+
+Using 16 processors.
+
+Sequence	Time	Num_Dists_Below_Cutoff
+0	0	0
+2100	0	2100
+100	0	5050
+200	0	20100
+1500	0	23880
+2200	0	32895
+900	1	38654
+300	1	45150
+1100	1	54825
+700	1	62035
+1400	1	62010
+2300	1	73104
+400	2	80200
+1300	2	110572
+500	3	125250
+2400	3	125822
+1000	3	133704
+800	3	137085
+1800	3	151145
+1900	3	152479
+1700	3	160244
+2000	3	164514
+1200	4	169875
+600	4	180300
+1049	4	183929
+1818	4	183716
+1600	4	178930
+605	4	183315
+856	4	183481
+1355	4	183612
+2347	4	182332
+1484	4	183180
+1212	4	184353
+2099	4	182895
+1916	4	183015
+2268	4	184841
+2425	4	186147
+1603	4	183736
+1714	4	184149
+2010	4	184569
+2185	4	184255
+
+It took 4 secs to find distances for 2426 sequences. 2941525 distances below cutoff 1.
+
+
+Output File Names: 
+final.phylip.dist
+
+
+mothur > clearcut(phylip=final.phylip.dist)
+
+Output File Names:
+final.phylip.tre
+
+
+mothur > count.groups(shared=final.opti_mcc.shared)
+F3D0 contains 6191.
+F3D1 contains 4652.
+F3D141 contains 4656.
+F3D142 contains 2423.
+F3D143 contains 2403.
+F3D144 contains 3452.
+F3D145 contains 5532.
+F3D146 contains 3828.
+F3D147 contains 12431.
+F3D148 contains 9465.
+F3D149 contains 10014.
+F3D150 contains 4126.
+F3D2 contains 15686.
+F3D3 contains 5199.
+F3D5 contains 3469.
+F3D6 contains 6394.
+F3D7 contains 4055.
+F3D8 contains 4253.
+F3D9 contains 5735.
+
+Size of smallest group: 2403.
+
+Total seqs: 113964.
+
+Output File Names: 
+final.opti_mcc.count.summary
+
+
+mothur > sub.sample(shared=final.opti_mcc.shared, size=2403)
+0.03 
+Sampling 2403 from each group.
+
+Output File Names: 
+final.opti_mcc.0.03.subsample.shared
+
+
+mothur > rarefaction.single(shared=final.opti_mcc.shared, calc=sobs, freq=100)
+
+Using 16 processors.
+
+Processing group F3D0
+
+0.03
+
+Processing group F3D1
+
+0.03
+
+Processing group F3D141
+
+0.03
+
+Processing group F3D142
+
+0.03
+
+Processing group F3D143
+
+0.03
+
+Processing group F3D144
+
+0.03
+
+Processing group F3D145
+
+0.03
+
+Processing group F3D146
+
+0.03
+
+Processing group F3D147
+
+0.03
+
+Processing group F3D148
+
+0.03
+
+Processing group F3D149
+
+0.03
+
+Processing group F3D150
+
+0.03
+
+Processing group F3D2
+
+0.03
+
+Processing group F3D3
+
+0.03
+
+Processing group F3D5
+
+0.03
+
+Processing group F3D6
+
+0.03
+
+Processing group F3D7
+
+0.03
+
+Processing group F3D8
+
+0.03
+
+Processing group F3D9
+
+0.03
+
+It took 3 secs to run rarefaction.single.
+
+Output File Names: 
+final.opti_mcc.groups.rarefaction
+
+
+mothur > summary.single(shared=final.opti_mcc.shared, calc=nseqs-coverage-sobs-invsimpson, subsample=T)
+
+Setting subsample size to 2403.
+
+Processing group F3D0
+
+0.03
+
+Processing group F3D1
+
+0.03
+
+Processing group F3D141
+
+0.03
+
+Processing group F3D142
+
+0.03
+
+Processing group F3D143
+
+0.03
+
+Processing group F3D144
+
+0.03
+
+Processing group F3D145
+
+0.03
+
+Processing group F3D146
+
+0.03
+
+Processing group F3D147
+
+0.03
+
+Processing group F3D148
+
+0.03
+
+Processing group F3D149
+
+0.03
+
+Processing group F3D150
+
+0.03
+
+Processing group F3D2
+
+0.03
+
+Processing group F3D3
+
+0.03
+
+Processing group F3D5
+
+0.03
+
+Processing group F3D6
+
+0.03
+
+Processing group F3D7
+
+0.03
+
+Processing group F3D8
+
+0.03
+
+Processing group F3D9
+
+0.03
+
+Output File Names: 
+final.opti_mcc.groups.ave-std.summary
+
+
+mothur > dist.shared(shared=final.opti_mcc.shared, calc=thetayc-jclass, subsample=t)
+
+Using 16 processors.
+0.03 
+
+Setting sample size to 2403.
+
+62
+62
+62
+62
+62
+62
+62
+62
+62
+62
+62
+62
+62
+62
+62
+70
+
+It took 2 seconds to run dist.shared.
+
+Output File Names: 
+final.opti_mcc.thetayc.0.03.lt.ave.dist
+final.opti_mcc.thetayc.0.03.lt.std.dist
+final.opti_mcc.jclass.0.03.lt.ave.dist
+final.opti_mcc.jclass.0.03.lt.std.dist
+
+
+mothur > pcoa(phylip=final.opti_mcc.thetayc.0.03.lt.ave.dist)
+
+Processing...
+Rsq 1 axis: 0.73551
+Rsq 2 axis: 0.886567
+Rsq 3 axis: 0.977969
+
+Output File Names: 
+final.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes
+final.opti_mcc.thetayc.0.03.lt.ave.pcoa.loadings
+
+
+mothur > nmds(phylip=final.opti_mcc.thetayc.0.03.lt.ave.dist)
+Processing Dimension: 2
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Number of dimensions:	2
+Lowest stress :	0.112668
+R-squared for configuration:	0.948921
+
+Output File Names: 
+final.opti_mcc.thetayc.0.03.lt.ave.nmds.iters
+final.opti_mcc.thetayc.0.03.lt.ave.nmds.stress
+final.opti_mcc.thetayc.0.03.lt.ave.nmds.axes
+
+
+mothur > nmds(phylip=final.opti_mcc.thetayc.0.03.lt.ave.dist, mindim=3, maxdim=3)
+Processing Dimension: 3
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Number of dimensions:	3
+Lowest stress :	0.0459652
+R-squared for configuration:	0.989968
+
+Output File Names: 
+final.opti_mcc.thetayc.0.03.lt.ave.nmds.iters
+final.opti_mcc.thetayc.0.03.lt.ave.nmds.stress
+final.opti_mcc.thetayc.0.03.lt.ave.nmds.axes
+
+
+mothur > amova(phylip=final.opti_mcc.thetayc.0.03.lt.ave.dist, design=mouse.time.design)
+Early-Late	Among	Within	Total
+SS	0.628628	0.552949	1.18158
+df	1	17	18
+MS	0.628628	0.0325264
+
+Fs:	19.3267
+p-value: 0.001*
+
+Experiment-wise error rate: 0.05
+If you have borderline P-values, you should try increasing the number of iterations
+
+Output File Names: 
+final.opti_mcc.thetayc.0.03.lt.ave.amova
+
+
+mothur > homova(phylip=stability.opti_mcc.thetayc.0.03.lt.ave.dist, design=mouse.time.design)
+Unable to open stability.opti_mcc.thetayc.0.03.lt.ave.dist. Trying MOTHUR_FILES directory mothur/stability.opti_mcc.thetayc.0.03.lt.ave.dist.
+Unable to open mothur/stability.opti_mcc.thetayc.0.03.lt.ave.dist. Trying mothur's executable directory mothur/stability.opti_mcc.thetayc.0.03.lt.ave.dist.
+Unable to open mothur/stability.opti_mcc.thetayc.0.03.lt.ave.dist.
+Unable to open stability.opti_mcc.thetayc.0.03.lt.ave.dist
+[ERROR]: did not complete homova.
+
+mothur > corr.axes(axes=stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes, shared=stability.opti_mcc.0.03.subsample.shared, method=spearman, numaxes=3)
+Unable to open stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes. Trying MOTHUR_FILES directory mothur/stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes.
+Unable to open mothur/stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes. Trying mothur's executable directory mothur/stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes.
+Unable to open mothur/stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes.
+Unable to open stability.opti_mcc.thetayc.0.03.lt.ave.pcoa.axes
+Unable to open stability.opti_mcc.0.03.subsample.shared. Trying MOTHUR_FILES directory mothur/stability.opti_mcc.0.03.subsample.shared.
+Unable to open mothur/stability.opti_mcc.0.03.subsample.shared. Trying mothur's executable directory mothur/stability.opti_mcc.0.03.subsample.shared.
+Unable to open mothur/stability.opti_mcc.0.03.subsample.shared.
+Unable to open stability.opti_mcc.0.03.subsample.shared
+You did not provide a label, I will use the first label in your inputfile.
+[ERROR]: did not complete corr.axes.
+
+mothur > get.communitytype(shared=final.opti_mcc.0.03.subsample.shared)
+0.03 
+K	NLE		logDet	BIC		AIC		Laplace
+1	11182.64	600.51	11795.08	11598.64	11100.61
+2	11389.28	395.84	12615.64	12222.28	10821.72
+3	12273.93	81.76	14114.20	13523.93	11166.13
+4	13160.04	-313.83	15614.23	14827.04	11471.26
+5	14151.54	-800.15	17219.65	16235.54	11836.40
+
+Output File Names: 
+final.opti_mcc.0.03.subsample.0.03.dmm.mix.fit
+final.opti_mcc.0.03.subsample.0.03.dmm.1.mix.posterior
+final.opti_mcc.0.03.subsample.0.03.dmm.1.mix.relabund
+final.opti_mcc.0.03.subsample.0.03.dmm.2.mix.posterior
+final.opti_mcc.0.03.subsample.0.03.dmm.2.mix.relabund
+final.opti_mcc.0.03.subsample.0.03.dmm.3.mix.posterior
+final.opti_mcc.0.03.subsample.0.03.dmm.3.mix.relabund
+final.opti_mcc.0.03.subsample.0.03.dmm.4.mix.posterior
+final.opti_mcc.0.03.subsample.0.03.dmm.4.mix.relabund
+final.opti_mcc.0.03.subsample.0.03.dmm.5.mix.posterior
+final.opti_mcc.0.03.subsample.0.03.dmm.5.mix.relabund
+final.opti_mcc.0.03.subsample.0.03.dmm.mix.design
+final.opti_mcc.0.03.subsample.0.03.dmm.mix.parameters
+final.opti_mcc.0.03.subsample.0.03.dmm.mix.summary
+
+
+mothur > metastats(shared=final.opti_mcc.0.03.subsample.shared, design=mouse.time.design)
+
+Using 16 processors.
+0.03 
+
+Comparing Late and Early...
+
+
+Output File Names: 
+final.opti_mcc.0.03.subsample.0.03.Late_Early.metastats
+
+
+mothur > lefse(shared=final.opti_mcc.0.03.subsample.shared, design=mouse.time.design)
+
+You did not provide a class, using time.
+
+
+Comparing Late-Early:
+0.03
+
+Number of significantly discriminative features: 79 ( 83 ) before internal wilcoxon.
+mothur(36591,0x10f350600) malloc: Heap corruption detected, free list is damaged at 0x60000a1f7360
+*** Incorrect guard value: 0
+mothur(36591,0x10f350600) malloc: *** set a breakpoint in malloc_error_break to debug
+Abort trap: 6
+(base) Natalies-MacBook-Pro:MiSeq_SOP natalieburkhard$ phylo.diversity(tree=final.phylip.tre, count=final.count_table, rarefy=T)
+-bash: syntax error near unexpected token `tree=final.phylip.tre,'
+(base) Natalies-MacBook-Pro:MiSeq_SOP natalieburkhard$ 

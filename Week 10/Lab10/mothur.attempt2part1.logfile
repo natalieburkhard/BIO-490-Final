@@ -1,0 +1,87 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > make.contigs(file=stability.files)
+
+Using 8 processors.
+Unable to open F3D144_S120_L001_R1_001.fastq. Trying MOTHUR_FILES directory mothur/F3D144_S120_L001_R1_001.fastq.
+Unable to open mothur/F3D144_S120_L001_R1_001.fastq. Trying mothur's executable directory mothur/F3D144_S120_L001_R1_001.fastq.
+Unable to open mothur/F3D144_S120_L001_R1_001.fastq.
+[WARNING]: can't find mothur/F3D144_S120_L001_R1_001.fastq, ignoring pair.
+
+>>>>>	Processing file pair F3D0_S188_L001_R1_001.fastq - F3D0_S188_L001_R2_001.fastq (files 1 of 3)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 7793 reads.
+
+
+>>>>>	Processing file pair F3D7_S195_L001_R1_001.fastq - F3D7_S195_L001_R2_001.fastq (files 2 of 3)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 5129 reads.
+
+
+>>>>>	Processing file pair Mock_S280_L001_R1_001.fastq - Mock_S280_L001_R2_001.fastq (files 3 of 3)	<<<<<
+Making contigs...
+Done.
+
+It took 1 secs to assemble 4779 reads.
+
+
+Group count: 
+F3D0	7793
+F3D7	5129
+mock	4779
+
+Total of all groups is 17701
+
+It took 3 secs to process 17701 sequences.
+
+Output File Names: 
+stability.trim.contigs.fasta
+stability.scrap.contigs.fasta
+stability.contigs_report
+stability.contigs.count_table
+
+
+mothur > quit
+Logfile : mothur.1647428475.logfile
+
+
+
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Detected 1 [WARNING] messages, please review.
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<^>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

@@ -1,0 +1,49 @@
+Mac version
+
+Using ReadLine,Boost,HDF5,GSL
+mothur v.1.47.0
+Last updated: 1/21/22
+by
+Patrick D. Schloss
+
+Department of Microbiology & Immunology
+
+University of Michigan
+http://www.mothur.org
+
+When using, please cite:
+Schloss, P.D., et al., Introducing mothur: Open-source, platform-independent, community-supported software for describing and comparing microbial communities. Appl Environ Microbiol, 2009. 75(23):7537-41.
+
+Distributed under the GNU General Public License
+
+Type 'help()' for information on the commands that are available
+
+For questions and analysis support, please visit our forum at https://forum.mothur.org
+
+Type 'quit()' to exit program
+
+[NOTE]: Setting random seed to 19760620.
+
+Interactive Mode
+
+
+
+mothur > unique.seqs(fasta=stability.trim.contigs.good.unique.good.filter.fasta, count=stability.trim.contigs.good.good.count_table)
+Unable to open stability.trim.contigs.good.good.count_table. Trying MOTHUR_FILES directory mothur/stability.trim.contigs.good.good.count_table.
+Unable to open mothur/stability.trim.contigs.good.good.count_table. Trying mothur's executable directory mothur/stability.trim.contigs.good.good.count_table.
+Unable to open mothur/stability.trim.contigs.good.good.count_table.
+Unable to open stability.trim.contigs.good.good.count_table
+[ERROR]: did not complete unique.seqs.
+
+mothur > quit
+Logfile : mothur.1647436381.logfile
+
+
+
+************************************************************
+************************************************************
+************************************************************
+Detected 1 [ERROR] messages, please review.
+************************************************************
+************************************************************
+************************************************************
