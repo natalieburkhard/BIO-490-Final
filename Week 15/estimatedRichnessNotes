@@ -1,0 +1,3 @@
+Rarefaction is controversial.
+One suggested alternative is to use the estimated species richneess becuase it is (idealy) independent of the number of sequences in each sample
+To do this we will generate a null model of the communities in order to sub sample it and create other communities with the same number of sequences (they should have the same richenss regardless of sample size.) (rarefaction dhowed this)
